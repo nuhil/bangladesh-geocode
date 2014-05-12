@@ -5,9 +5,11 @@ Division, District and Upazila level fully mapped MySQL Database. Import all thr
 
 > All information, content and spelling has been taken from wikipedia.org 
 
-Feel free to find and contact me at: [Nuhil.net](https://nuhil.net "Go To My Blog")
+Feel free to find and contact me at [Nuhil.net](http://nuhil.net "Go To My Blog")
 
 ###### Upcoming columns
-* Latitude and Longtitude
+* Bangla
+* Latitude
+* Longtitude
 * Area
 * Population
