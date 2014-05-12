@@ -8,14 +8,12 @@ Division, District and Upazila level fully mapped MySQL Database. Import all thr
 ###### Currently has following columns
 * division name english
 * division name bangla
-
 * district name mapped with division
 * district name english
 * district name bangla
 * district commissioner's (DC) office - latitude (3 meter accuracy)
 * district commissioner's (DC )office - longitude (3 meter accuracy)
 * district's government verified website address
-
 * upazila name mapped with district
 * upazila name english
 
