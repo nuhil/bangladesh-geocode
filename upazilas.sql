@@ -384,7 +384,7 @@ INSERT INTO `upazilas` (`id`, `district_id`, `name`, `bn_name`) VALUES
 (349, 20, 'Niamatpur Upazila', 'নিয়ামতপুর'),
 (350, 20, 'Atrai Upazila', 'আত্রাই'),
 (351, 20, 'Raninagar Upazila', 'রাণীনগর'),
-(352, 20, 'Patnitala Upazila', 'পেত্নিতলা'),
+(352, 20, 'Patnitala Upazila', 'পত্নীতলা'),
 (353, 20, 'Dhamoirhat Upazila', 'ধামইরহাট '),
 (354, 20, 'Sapahar Upazila', 'সাপাহার'),
 (355, 20, 'Porsha Upazila', 'পরশা'),
