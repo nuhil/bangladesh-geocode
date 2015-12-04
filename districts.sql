@@ -28,7 +28,10 @@ CREATE TABLE `districts` (
   `lat` double NOT NULL,
   `lon` double NOT NULL,
   `website` varchar(100) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`division_id`) REFERENCES `divisions` (`id`) 
+  ON DELETE CASCADE 
+  ON UPDATE CASCADE
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=65 ;
 
 --
