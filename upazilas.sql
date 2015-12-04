@@ -25,7 +25,10 @@ CREATE TABLE `upazilas` (
   `district_id` int(2) unsigned NOT NULL,
   `name` varchar(30) NOT NULL,
   `bn_name` varchar(50) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`district_id`) REFERENCES `districts` (`id`) 
+  ON DELETE CASCADE 
+  ON UPDATE CASCADE
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=493 ;
 
 --
