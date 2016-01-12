@@ -23,8 +23,10 @@ Division, District and Upazila level fully mapped MySQL Database. Import all thr
 * population
 
 ###### Division to Unions bangla name only. No GEO Code at this part. 
+
 > All in one Table. Relation using same table ParentID. and Label for show all data by label
 > Labels are assign like. 1 = Division, 2 = District, 3 = Upazila & 4 = Union
+
 * Divisions
 * Districts
 * Upazillas
