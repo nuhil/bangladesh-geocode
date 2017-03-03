@@ -17,6 +17,8 @@ Division, District and Upazila level fully mapped MySQL Database. Import all thr
 * upazila name mapped with district
 * upazila name english
 * upazila name bangla
+* union name mapped with upazila
+* union name bangla
 
 ###### Upcoming columns
 * area
