@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HowToCode Contributions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(e) {
+              var getUrlParameter = function getUrlParameter(sParam) {
+                  var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                      sURLVariables = sPageURL.split('&'),
+                      sParameterName,
+                      i;
+              
+                  for (i = 0; i < sURLVariables.length; i++) {
+                      sParameterName = sURLVariables[i].split('=');
+              
+                      if (sParameterName[0] === sParam) {
+                          return sParameterName[1] === undefined ? true : sParameterName[1];
+                      }
+                  }
+              };              
+              
+              var parent = getUrlParameter('parent_id');
+              console.log(parent);
+              
+      });      
+    </script>
+  </body>
+</html>
