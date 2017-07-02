@@ -134,7 +134,6 @@ INSERT INTO `upazilas` (`id`, `district_id`, `name`, `bn_name`) VALUES
 (96, 44, 'Comilla Sadar South Upazila', 'কুমিল্লা সদর দক্ষিণ'),
 (97, 44, 'Titas Upazila', 'তিতাস'),
 (98, 45, 'Chakaria Upazila', 'চকরিয়া'),
-(99, 45, 'Chakaria Upazila', 'চকরিয়া'),
 (100, 45, 'Cox''s Bazar Sadar Upazila', 'কক্স বাজার সদর'),
 (101, 45, 'Kutubdia Upazila', 'কুতুবদিয়া'),
 (102, 45, 'Maheshkhali Upazila', 'মহেশখালী'),
