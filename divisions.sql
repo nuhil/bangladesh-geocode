@@ -38,4 +38,5 @@ INSERT INTO `divisions` (`id`, `name`, `bn_name`) VALUES
 (4, 'Khulna', 'খুলনা'),
 (5, 'Rajshahi', 'রাজশাহী'),
 (6, 'Rangpur', 'রংপুর'),
-(7, 'Sylhet', 'সিলেট');
+(7, 'Sylhet', 'সিলেট'),
+(8, 'Mymensingh', 'ময়মনসিংহ');
