@@ -24,6 +24,13 @@ Bangladesh GeoCode
 * Union name in Bangla
 * Union's government verified website address
 
+###### Available Format
+* SQL
+* CSV
+* JSON
+* PHP Array
+* XML
+
 ###### Upcoming columns
 * Postal Code
 * Area
