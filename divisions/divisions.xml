@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.5
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Nov 24, 2019 at 09:43 AM
+- Server version: 5.7.26-0ubuntu0.18.04.1
+- PHP Version: 7.2.19-0ubuntu0.18.04.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="bd_geo_code" collation="utf8_bin" charset="utf8">
+            <pma:table name="divisions">
+                CREATE TABLE `divisions` (
+                  `id` int(1) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(25) NOT NULL,
+                  `bn_name` varchar(25) NOT NULL,
+                  `url` varchar(50) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'bd_geo_code'
+    -->
+    <database name="bd_geo_code">
+        <!-- Table divisions -->
+        <table name="divisions">
+            <column name="id">1</column>
+            <column name="name">Chattagram</column>
+            <column name="bn_name">চট্টগ্রাম</column>
+            <column name="url">www.chittagongdiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">2</column>
+            <column name="name">Rajshahi</column>
+            <column name="bn_name">রাজশাহী</column>
+            <column name="url">www.rajshahidiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">3</column>
+            <column name="name">Khulna</column>
+            <column name="bn_name">খুলনা</column>
+            <column name="url">www.khulnadiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">4</column>
+            <column name="name">Barisal</column>
+            <column name="bn_name">বরিশাল</column>
+            <column name="url">www.barisaldiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">5</column>
+            <column name="name">Sylhet</column>
+            <column name="bn_name">সিলেট</column>
+            <column name="url">www.sylhetdiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">6</column>
+            <column name="name">Dhaka</column>
+            <column name="bn_name">ঢাকা</column>
+            <column name="url">www.dhakadiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">7</column>
+            <column name="name">Rangpur</column>
+            <column name="bn_name">রংপুর</column>
+            <column name="url">www.rangpurdiv.gov.bd</column>
+        </table>
+        <table name="divisions">
+            <column name="id">8</column>
+            <column name="name">Mymensingh</column>
+            <column name="bn_name">ময়মনসিংহ</column>
+            <column name="url">www.mymensinghdiv.gov.bd</column>
+        </table>
+    </database>
+</pma_xml_export>
