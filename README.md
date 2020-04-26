@@ -36,6 +36,9 @@ Bangladesh GeoCode
 * Area
 * Population   
 
+#### New Features
+* GeoJSON data for every districts is available
+
 > Please, create a pull request to add, update, or delete any records!   
 
 #### Now Accepting - 
