@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.5
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Nov 24, 2019 at 09:45 AM
+- Server version: 5.7.26-0ubuntu0.18.04.1
+- PHP Version: 7.2.19-0ubuntu0.18.04.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="bd_geo_code" collation="utf8_bin" charset="utf8">
+            <pma:table name="districts">
+                CREATE TABLE `districts` (
+                  `id` int(2) NOT NULL AUTO_INCREMENT,
+                  `division_id` int(1) NOT NULL,
+                  `name` varchar(25) NOT NULL,
+                  `bn_name` varchar(25) NOT NULL,
+                  `lat` varchar(15) DEFAULT NULL,
+                  `lon` varchar(15) DEFAULT NULL,
+                  `url` varchar(50) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `division_id` (`division_id`),
+                  CONSTRAINT `districts_ibfk_2` FOREIGN KEY (`division_id`) REFERENCES `divisions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'bd_geo_code'
+    -->
+    <database name="bd_geo_code">
+        <!-- Table districts -->
+        <table name="districts">
+            <column name="id">1</column>
+            <column name="division_id">1</column>
+            <column name="name">Comilla</column>
+            <column name="bn_name">কুমিল্লা</column>
+            <column name="lat">23.4682747</column>
+            <column name="lon">91.1788135</column>
+            <column name="url">www.comilla.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">2</column>
+            <column name="division_id">1</column>
+            <column name="name">Feni</column>
+            <column name="bn_name">ফেনী</column>
+            <column name="lat">23.023231</column>
+            <column name="lon">91.3840844</column>
+            <column name="url">www.feni.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">3</column>
+            <column name="division_id">1</column>
+            <column name="name">Brahmanbaria</column>
+            <column name="bn_name">ব্রাহ্মণবাড়িয়া</column>
+            <column name="lat">23.9570904</column>
+            <column name="lon">91.1119286</column>
+            <column name="url">www.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">4</column>
+            <column name="division_id">1</column>
+            <column name="name">Rangamati</column>
+            <column name="bn_name">রাঙ্গামাটি</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.rangamati.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">5</column>
+            <column name="division_id">1</column>
+            <column name="name">Noakhali</column>
+            <column name="bn_name">নোয়াখালী</column>
+            <column name="lat">22.869563</column>
+            <column name="lon">91.099398</column>
+            <column name="url">www.noakhali.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">6</column>
+            <column name="division_id">1</column>
+            <column name="name">Chandpur</column>
+            <column name="bn_name">চাঁদপুর</column>
+            <column name="lat">23.2332585</column>
+            <column name="lon">90.6712912</column>
+            <column name="url">www.chandpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">7</column>
+            <column name="division_id">1</column>
+            <column name="name">Lakshmipur</column>
+            <column name="bn_name">লক্ষ্মীপুর</column>
+            <column name="lat">22.942477</column>
+            <column name="lon">90.841184</column>
+            <column name="url">www.lakshmipur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">8</column>
+            <column name="division_id">1</column>
+            <column name="name">Chattogram</column>
+            <column name="bn_name">চট্টগ্রাম</column>
+            <column name="lat">22.335109</column>
+            <column name="lon">91.834073</column>
+            <column name="url">www.chittagong.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">9</column>
+            <column name="division_id">1</column>
+            <column name="name">Coxsbazar</column>
+            <column name="bn_name">কক্সবাজার</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.coxsbazar.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">10</column>
+            <column name="division_id">1</column>
+            <column name="name">Khagrachhari</column>
+            <column name="bn_name">খাগড়াছড়ি</column>
+            <column name="lat">23.119285</column>
+            <column name="lon">91.984663</column>
+            <column name="url">www.khagrachhari.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">11</column>
+            <column name="division_id">1</column>
+            <column name="name">Bandarban</column>
+            <column name="bn_name">বান্দরবান</column>
+            <column name="lat">22.1953275</column>
+            <column name="lon">92.2183773</column>
+            <column name="url">www.bandarban.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">12</column>
+            <column name="division_id">2</column>
+            <column name="name">Sirajganj</column>
+            <column name="bn_name">সিরাজগঞ্জ</column>
+            <column name="lat">24.4533978</column>
+            <column name="lon">89.7006815</column>
+            <column name="url">www.sirajganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">13</column>
+            <column name="division_id">2</column>
+            <column name="name">Pabna</column>
+            <column name="bn_name">পাবনা</column>
+            <column name="lat">23.998524</column>
+            <column name="lon">89.233645</column>
+            <column name="url">www.pabna.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">14</column>
+            <column name="division_id">2</column>
+            <column name="name">Bogura</column>
+            <column name="bn_name">বগুড়া</column>
+            <column name="lat">24.8465228</column>
+            <column name="lon">89.377755</column>
+            <column name="url">www.bogra.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">15</column>
+            <column name="division_id">2</column>
+            <column name="name">Rajshahi</column>
+            <column name="bn_name">রাজশাহী</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.rajshahi.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">16</column>
+            <column name="division_id">2</column>
+            <column name="name">Natore</column>
+            <column name="bn_name">নাটোর</column>
+            <column name="lat">24.420556</column>
+            <column name="lon">89.000282</column>
+            <column name="url">www.natore.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">17</column>
+            <column name="division_id">2</column>
+            <column name="name">Joypurhat</column>
+            <column name="bn_name">জয়পুরহাট</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.joypurhat.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">18</column>
+            <column name="division_id">2</column>
+            <column name="name">Chapainawabganj</column>
+            <column name="bn_name">চাঁপাইনবাবগঞ্জ</column>
+            <column name="lat">24.5965034</column>
+            <column name="lon">88.2775122</column>
+            <column name="url">www.chapainawabganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">19</column>
+            <column name="division_id">2</column>
+            <column name="name">Naogaon</column>
+            <column name="bn_name">নওগাঁ</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.naogaon.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">20</column>
+            <column name="division_id">3</column>
+            <column name="name">Jashore</column>
+            <column name="bn_name">যশোর</column>
+            <column name="lat">23.16643</column>
+            <column name="lon">89.2081126</column>
+            <column name="url">www.jessore.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">21</column>
+            <column name="division_id">3</column>
+            <column name="name">Satkhira</column>
+            <column name="bn_name">সাতক্ষীরা</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.satkhira.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">22</column>
+            <column name="division_id">3</column>
+            <column name="name">Meherpur</column>
+            <column name="bn_name">মেহেরপুর</column>
+            <column name="lat">23.762213</column>
+            <column name="lon">88.631821</column>
+            <column name="url">www.meherpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">23</column>
+            <column name="division_id">3</column>
+            <column name="name">Narail</column>
+            <column name="bn_name">নড়াইল</column>
+            <column name="lat">23.172534</column>
+            <column name="lon">89.512672</column>
+            <column name="url">www.narail.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">24</column>
+            <column name="division_id">3</column>
+            <column name="name">Chuadanga</column>
+            <column name="bn_name">চুয়াডাঙ্গা</column>
+            <column name="lat">23.6401961</column>
+            <column name="lon">88.841841</column>
+            <column name="url">www.chuadanga.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">25</column>
+            <column name="division_id">3</column>
+            <column name="name">Kushtia</column>
+            <column name="bn_name">কুষ্টিয়া</column>
+            <column name="lat">23.901258</column>
+            <column name="lon">89.120482</column>
+            <column name="url">www.kushtia.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">26</column>
+            <column name="division_id">3</column>
+            <column name="name">Magura</column>
+            <column name="bn_name">মাগুরা</column>
+            <column name="lat">23.487337</column>
+            <column name="lon">89.419956</column>
+            <column name="url">www.magura.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">27</column>
+            <column name="division_id">3</column>
+            <column name="name">Khulna</column>
+            <column name="bn_name">খুলনা</column>
+            <column name="lat">22.815774</column>
+            <column name="lon">89.568679</column>
+            <column name="url">www.khulna.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">28</column>
+            <column name="division_id">3</column>
+            <column name="name">Bagerhat</column>
+            <column name="bn_name">বাগেরহাট</column>
+            <column name="lat">22.651568</column>
+            <column name="lon">89.785938</column>
+            <column name="url">www.bagerhat.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">29</column>
+            <column name="division_id">3</column>
+            <column name="name">Jhenaidah</column>
+            <column name="bn_name">ঝিনাইদহ</column>
+            <column name="lat">23.5448176</column>
+            <column name="lon">89.1539213</column>
+            <column name="url">www.jhenaidah.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">30</column>
+            <column name="division_id">4</column>
+            <column name="name">Jhalakathi</column>
+            <column name="bn_name">ঝালকাঠি</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.jhalakathi.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">31</column>
+            <column name="division_id">4</column>
+            <column name="name">Patuakhali</column>
+            <column name="bn_name">পটুয়াখালী</column>
+            <column name="lat">22.3596316</column>
+            <column name="lon">90.3298712</column>
+            <column name="url">www.patuakhali.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">32</column>
+            <column name="division_id">4</column>
+            <column name="name">Pirojpur</column>
+            <column name="bn_name">পিরোজপুর</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.pirojpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">33</column>
+            <column name="division_id">4</column>
+            <column name="name">Barisal</column>
+            <column name="bn_name">বরিশাল</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.barisal.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">34</column>
+            <column name="division_id">4</column>
+            <column name="name">Bhola</column>
+            <column name="bn_name">ভোলা</column>
+            <column name="lat">22.685923</column>
+            <column name="lon">90.648179</column>
+            <column name="url">www.bhola.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">35</column>
+            <column name="division_id">4</column>
+            <column name="name">Barguna</column>
+            <column name="bn_name">বরগুনা</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.barguna.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">36</column>
+            <column name="division_id">5</column>
+            <column name="name">Sylhet</column>
+            <column name="bn_name">সিলেট</column>
+            <column name="lat">24.8897956</column>
+            <column name="lon">91.8697894</column>
+            <column name="url">www.sylhet.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">37</column>
+            <column name="division_id">5</column>
+            <column name="name">Moulvibazar</column>
+            <column name="bn_name">মৌলভীবাজার</column>
+            <column name="lat">24.482934</column>
+            <column name="lon">91.777417</column>
+            <column name="url">www.moulvibazar.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">38</column>
+            <column name="division_id">5</column>
+            <column name="name">Habiganj</column>
+            <column name="bn_name">হবিগঞ্জ</column>
+            <column name="lat">24.374945</column>
+            <column name="lon">91.41553</column>
+            <column name="url">www.habiganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">39</column>
+            <column name="division_id">5</column>
+            <column name="name">Sunamganj</column>
+            <column name="bn_name">সুনামগঞ্জ</column>
+            <column name="lat">25.0658042</column>
+            <column name="lon">91.3950115</column>
+            <column name="url">www.sunamganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">40</column>
+            <column name="division_id">6</column>
+            <column name="name">Narsingdi</column>
+            <column name="bn_name">নরসিংদী</column>
+            <column name="lat">23.932233</column>
+            <column name="lon">90.71541</column>
+            <column name="url">www.narsingdi.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">41</column>
+            <column name="division_id">6</column>
+            <column name="name">Gazipur</column>
+            <column name="bn_name">গাজীপুর</column>
+            <column name="lat">24.0022858</column>
+            <column name="lon">90.4264283</column>
+            <column name="url">www.gazipur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">42</column>
+            <column name="division_id">6</column>
+            <column name="name">Shariatpur</column>
+            <column name="bn_name">শরীয়তপুর</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.shariatpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">43</column>
+            <column name="division_id">6</column>
+            <column name="name">Narayanganj</column>
+            <column name="bn_name">নারায়ণগঞ্জ</column>
+            <column name="lat">23.63366</column>
+            <column name="lon">90.496482</column>
+            <column name="url">www.narayanganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">44</column>
+            <column name="division_id">6</column>
+            <column name="name">Tangail</column>
+            <column name="bn_name">টাঙ্গাইল</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.tangail.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">45</column>
+            <column name="division_id">6</column>
+            <column name="name">Kishoreganj</column>
+            <column name="bn_name">কিশোরগঞ্জ</column>
+            <column name="lat">24.444937</column>
+            <column name="lon">90.776575</column>
+            <column name="url">www.kishoreganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">46</column>
+            <column name="division_id">6</column>
+            <column name="name">Manikganj</column>
+            <column name="bn_name">মানিকগঞ্জ</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.manikganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">47</column>
+            <column name="division_id">6</column>
+            <column name="name">Dhaka</column>
+            <column name="bn_name">ঢাকা</column>
+            <column name="lat">23.7115253</column>
+            <column name="lon">90.4111451</column>
+            <column name="url">www.dhaka.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">48</column>
+            <column name="division_id">6</column>
+            <column name="name">Munshiganj</column>
+            <column name="bn_name">মুন্সিগঞ্জ</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.munshiganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">49</column>
+            <column name="division_id">6</column>
+            <column name="name">Rajbari</column>
+            <column name="bn_name">রাজবাড়ী</column>
+            <column name="lat">23.7574305</column>
+            <column name="lon">89.6444665</column>
+            <column name="url">www.rajbari.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">50</column>
+            <column name="division_id">6</column>
+            <column name="name">Madaripur</column>
+            <column name="bn_name">মাদারীপুর</column>
+            <column name="lat">23.164102</column>
+            <column name="lon">90.1896805</column>
+            <column name="url">www.madaripur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">51</column>
+            <column name="division_id">6</column>
+            <column name="name">Gopalganj</column>
+            <column name="bn_name">গোপালগঞ্জ</column>
+            <column name="lat">23.0050857</column>
+            <column name="lon">89.8266059</column>
+            <column name="url">www.gopalganj.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">52</column>
+            <column name="division_id">6</column>
+            <column name="name">Faridpur</column>
+            <column name="bn_name">ফরিদপুর</column>
+            <column name="lat">23.6070822</column>
+            <column name="lon">89.8429406</column>
+            <column name="url">www.faridpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">53</column>
+            <column name="division_id">7</column>
+            <column name="name">Panchagarh</column>
+            <column name="bn_name">পঞ্চগড়</column>
+            <column name="lat">26.3411</column>
+            <column name="lon">88.5541606</column>
+            <column name="url">www.panchagarh.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">54</column>
+            <column name="division_id">7</column>
+            <column name="name">Dinajpur</column>
+            <column name="bn_name">দিনাজপুর</column>
+            <column name="lat">25.6217061</column>
+            <column name="lon">88.6354504</column>
+            <column name="url">www.dinajpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">55</column>
+            <column name="division_id">7</column>
+            <column name="name">Lalmonirhat</column>
+            <column name="bn_name">লালমনিরহাট</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.lalmonirhat.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">56</column>
+            <column name="division_id">7</column>
+            <column name="name">Nilphamari</column>
+            <column name="bn_name">নীলফামারী</column>
+            <column name="lat">25.931794</column>
+            <column name="lon">88.856006</column>
+            <column name="url">www.nilphamari.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">57</column>
+            <column name="division_id">7</column>
+            <column name="name">Gaibandha</column>
+            <column name="bn_name">গাইবান্ধা</column>
+            <column name="lat">25.328751</column>
+            <column name="lon">89.528088</column>
+            <column name="url">www.gaibandha.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">58</column>
+            <column name="division_id">7</column>
+            <column name="name">Thakurgaon</column>
+            <column name="bn_name">ঠাকুরগাঁও</column>
+            <column name="lat">26.0336945</column>
+            <column name="lon">88.4616834</column>
+            <column name="url">www.thakurgaon.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">59</column>
+            <column name="division_id">7</column>
+            <column name="name">Rangpur</column>
+            <column name="bn_name">রংপুর</column>
+            <column name="lat">25.7558096</column>
+            <column name="lon">89.244462</column>
+            <column name="url">www.rangpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">60</column>
+            <column name="division_id">7</column>
+            <column name="name">Kurigram</column>
+            <column name="bn_name">কুড়িগ্রাম</column>
+            <column name="lat">25.805445</column>
+            <column name="lon">89.636174</column>
+            <column name="url">www.kurigram.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">61</column>
+            <column name="division_id">8</column>
+            <column name="name">Sherpur</column>
+            <column name="bn_name">শেরপুর</column>
+            <column name="lat">25.0204933</column>
+            <column name="lon">90.0152966</column>
+            <column name="url">www.sherpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">62</column>
+            <column name="division_id">8</column>
+            <column name="name">Mymensingh</column>
+            <column name="bn_name">ময়মনসিংহ</column>
+            <column name="lat">NULL</column>
+            <column name="lon">NULL</column>
+            <column name="url">www.mymensingh.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">63</column>
+            <column name="division_id">8</column>
+            <column name="name">Jamalpur</column>
+            <column name="bn_name">জামালপুর</column>
+            <column name="lat">24.937533</column>
+            <column name="lon">89.937775</column>
+            <column name="url">www.jamalpur.gov.bd</column>
+        </table>
+        <table name="districts">
+            <column name="id">64</column>
+            <column name="division_id">8</column>
+            <column name="name">Netrokona</column>
+            <column name="bn_name">নেত্রকোণা</column>
+            <column name="lat">24.870955</column>
+            <column name="lon">90.727887</column>
+            <column name="url">www.netrokona.gov.bd</column>
+        </table>
+    </database>
+</pma_xml_export>

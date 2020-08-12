@@ -1,0 +1,3477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.5
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Nov 24, 2019 at 09:46 AM
+- Server version: 5.7.26-0ubuntu0.18.04.1
+- PHP Version: 7.2.19-0ubuntu0.18.04.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="bd_geo_code" collation="utf8_bin" charset="utf8">
+            <pma:table name="upazilas">
+                CREATE TABLE `upazilas` (
+                  `id` int(3) NOT NULL AUTO_INCREMENT,
+                  `district_id` int(2) NOT NULL,
+                  `name` varchar(25) NOT NULL,
+                  `bn_name` varchar(25) NOT NULL,
+                  `url` varchar(50) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `district_id` (`district_id`),
+                  CONSTRAINT `upazilas_ibfk_2` FOREIGN KEY (`district_id`) REFERENCES `districts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=492 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'bd_geo_code'
+    -->
+    <database name="bd_geo_code">
+        <!-- Table upazilas -->
+        <table name="upazilas">
+            <column name="id">1</column>
+            <column name="district_id">1</column>
+            <column name="name">Debidwar</column>
+            <column name="bn_name">দেবিদ্বার</column>
+            <column name="url">debidwar.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">2</column>
+            <column name="district_id">1</column>
+            <column name="name">Barura</column>
+            <column name="bn_name">বরুড়া</column>
+            <column name="url">barura.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">3</column>
+            <column name="district_id">1</column>
+            <column name="name">Brahmanpara</column>
+            <column name="bn_name">ব্রাহ্মণপাড়া</column>
+            <column name="url">brahmanpara.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">4</column>
+            <column name="district_id">1</column>
+            <column name="name">Chandina</column>
+            <column name="bn_name">চান্দিনা</column>
+            <column name="url">chandina.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">5</column>
+            <column name="district_id">1</column>
+            <column name="name">Chauddagram</column>
+            <column name="bn_name">চৌদ্দগ্রাম</column>
+            <column name="url">chauddagram.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">6</column>
+            <column name="district_id">1</column>
+            <column name="name">Daudkandi</column>
+            <column name="bn_name">দাউদকান্দি</column>
+            <column name="url">daudkandi.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">7</column>
+            <column name="district_id">1</column>
+            <column name="name">Homna</column>
+            <column name="bn_name">হোমনা</column>
+            <column name="url">homna.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">8</column>
+            <column name="district_id">1</column>
+            <column name="name">Laksam</column>
+            <column name="bn_name">লাকসাম</column>
+            <column name="url">laksam.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">9</column>
+            <column name="district_id">1</column>
+            <column name="name">Muradnagar</column>
+            <column name="bn_name">মুরাদনগর</column>
+            <column name="url">muradnagar.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">10</column>
+            <column name="district_id">1</column>
+            <column name="name">Nangalkot</column>
+            <column name="bn_name">নাঙ্গলকোট</column>
+            <column name="url">nangalkot.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">11</column>
+            <column name="district_id">1</column>
+            <column name="name">Comilla Sadar</column>
+            <column name="bn_name">কুমিল্লা সদর</column>
+            <column name="url">comillasadar.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">12</column>
+            <column name="district_id">1</column>
+            <column name="name">Meghna</column>
+            <column name="bn_name">মেঘনা</column>
+            <column name="url">meghna.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">13</column>
+            <column name="district_id">1</column>
+            <column name="name">Monohargonj</column>
+            <column name="bn_name">মনোহরগঞ্জ</column>
+            <column name="url">monohargonj.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">14</column>
+            <column name="district_id">1</column>
+            <column name="name">Sadarsouth</column>
+            <column name="bn_name">সদর দক্ষিণ</column>
+            <column name="url">sadarsouth.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">15</column>
+            <column name="district_id">1</column>
+            <column name="name">Titas</column>
+            <column name="bn_name">তিতাস</column>
+            <column name="url">titas.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">16</column>
+            <column name="district_id">1</column>
+            <column name="name">Burichang</column>
+            <column name="bn_name">বুড়িচং</column>
+            <column name="url">burichang.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">17</column>
+            <column name="district_id">1</column>
+            <column name="name">Lalmai</column>
+            <column name="bn_name">লালমাই</column>
+            <column name="url">lalmai.comilla.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">18</column>
+            <column name="district_id">2</column>
+            <column name="name">Chhagalnaiya</column>
+            <column name="bn_name">ছাগলনাইয়া</column>
+            <column name="url">chhagalnaiya.feni.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">19</column>
+            <column name="district_id">2</column>
+            <column name="name">Feni Sadar</column>
+            <column name="bn_name">ফেনী সদর</column>
+            <column name="url">sadar.feni.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">20</column>
+            <column name="district_id">2</column>
+            <column name="name">Sonagazi</column>
+            <column name="bn_name">সোনাগাজী</column>
+            <column name="url">sonagazi.feni.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">21</column>
+            <column name="district_id">2</column>
+            <column name="name">Fulgazi</column>
+            <column name="bn_name">ফুলগাজী</column>
+            <column name="url">fulgazi.feni.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">22</column>
+            <column name="district_id">2</column>
+            <column name="name">Parshuram</column>
+            <column name="bn_name">পরশুরাম</column>
+            <column name="url">parshuram.feni.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">23</column>
+            <column name="district_id">2</column>
+            <column name="name">Daganbhuiyan</column>
+            <column name="bn_name">দাগনভূঞা</column>
+            <column name="url">daganbhuiyan.feni.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">24</column>
+            <column name="district_id">3</column>
+            <column name="name">Brahmanbaria Sadar</column>
+            <column name="bn_name">ব্রাহ্মণবাড়িয়া সদর</column>
+            <column name="url">sadar.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">25</column>
+            <column name="district_id">3</column>
+            <column name="name">Kasba</column>
+            <column name="bn_name">কসবা</column>
+            <column name="url">kasba.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">26</column>
+            <column name="district_id">3</column>
+            <column name="name">Nasirnagar</column>
+            <column name="bn_name">নাসিরনগর</column>
+            <column name="url">nasirnagar.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">27</column>
+            <column name="district_id">3</column>
+            <column name="name">Sarail</column>
+            <column name="bn_name">সরাইল</column>
+            <column name="url">sarail.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">28</column>
+            <column name="district_id">3</column>
+            <column name="name">Ashuganj</column>
+            <column name="bn_name">আশুগঞ্জ</column>
+            <column name="url">ashuganj.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">29</column>
+            <column name="district_id">3</column>
+            <column name="name">Akhaura</column>
+            <column name="bn_name">আখাউড়া</column>
+            <column name="url">akhaura.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">30</column>
+            <column name="district_id">3</column>
+            <column name="name">Nabinagar</column>
+            <column name="bn_name">নবীনগর</column>
+            <column name="url">nabinagar.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">31</column>
+            <column name="district_id">3</column>
+            <column name="name">Bancharampur</column>
+            <column name="bn_name">বাঞ্ছারামপুর</column>
+            <column name="url">bancharampur.brahmanbaria.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">32</column>
+            <column name="district_id">3</column>
+            <column name="name">Bijoynagar</column>
+            <column name="bn_name">বিজয়নগর</column>
+            <column name="url">bijoynagar.brahmanbaria.gov.bd    </column>
+        </table>
+        <table name="upazilas">
+            <column name="id">33</column>
+            <column name="district_id">4</column>
+            <column name="name">Rangamati Sadar</column>
+            <column name="bn_name">রাঙ্গামাটি সদর</column>
+            <column name="url">sadar.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">34</column>
+            <column name="district_id">4</column>
+            <column name="name">Kaptai</column>
+            <column name="bn_name">কাপ্তাই</column>
+            <column name="url">kaptai.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">35</column>
+            <column name="district_id">4</column>
+            <column name="name">Kawkhali</column>
+            <column name="bn_name">কাউখালী</column>
+            <column name="url">kawkhali.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">36</column>
+            <column name="district_id">4</column>
+            <column name="name">Baghaichari</column>
+            <column name="bn_name">বাঘাইছড়ি</column>
+            <column name="url">baghaichari.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">37</column>
+            <column name="district_id">4</column>
+            <column name="name">Barkal</column>
+            <column name="bn_name">বরকল</column>
+            <column name="url">barkal.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">38</column>
+            <column name="district_id">4</column>
+            <column name="name">Langadu</column>
+            <column name="bn_name">লংগদু</column>
+            <column name="url">langadu.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">39</column>
+            <column name="district_id">4</column>
+            <column name="name">Rajasthali</column>
+            <column name="bn_name">রাজস্থলী</column>
+            <column name="url">rajasthali.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">40</column>
+            <column name="district_id">4</column>
+            <column name="name">Belaichari</column>
+            <column name="bn_name">বিলাইছড়ি</column>
+            <column name="url">belaichari.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">41</column>
+            <column name="district_id">4</column>
+            <column name="name">Juraichari</column>
+            <column name="bn_name">জুরাছড়ি</column>
+            <column name="url">juraichari.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">42</column>
+            <column name="district_id">4</column>
+            <column name="name">Naniarchar</column>
+            <column name="bn_name">নানিয়ারচর</column>
+            <column name="url">naniarchar.rangamati.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">43</column>
+            <column name="district_id">5</column>
+            <column name="name">Noakhali Sadar</column>
+            <column name="bn_name">নোয়াখালী সদর</column>
+            <column name="url">sadar.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">44</column>
+            <column name="district_id">5</column>
+            <column name="name">Companiganj</column>
+            <column name="bn_name">কোম্পানীগঞ্জ</column>
+            <column name="url">companiganj.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">45</column>
+            <column name="district_id">5</column>
+            <column name="name">Begumganj</column>
+            <column name="bn_name">বেগমগঞ্জ</column>
+            <column name="url">begumganj.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">46</column>
+            <column name="district_id">5</column>
+            <column name="name">Hatia</column>
+            <column name="bn_name">হাতিয়া</column>
+            <column name="url">hatia.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">47</column>
+            <column name="district_id">5</column>
+            <column name="name">Subarnachar</column>
+            <column name="bn_name">সুবর্ণচর</column>
+            <column name="url">subarnachar.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">48</column>
+            <column name="district_id">5</column>
+            <column name="name">Kabirhat</column>
+            <column name="bn_name">কবিরহাট</column>
+            <column name="url">kabirhat.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">49</column>
+            <column name="district_id">5</column>
+            <column name="name">Senbug</column>
+            <column name="bn_name">সেনবাগ</column>
+            <column name="url">senbug.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">50</column>
+            <column name="district_id">5</column>
+            <column name="name">Chatkhil</column>
+            <column name="bn_name">চাটখিল</column>
+            <column name="url">chatkhil.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">51</column>
+            <column name="district_id">5</column>
+            <column name="name">Sonaimori</column>
+            <column name="bn_name">সোনাইমুড়ী</column>
+            <column name="url">sonaimori.noakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">52</column>
+            <column name="district_id">6</column>
+            <column name="name">Haimchar</column>
+            <column name="bn_name">হাইমচর</column>
+            <column name="url">haimchar.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">53</column>
+            <column name="district_id">6</column>
+            <column name="name">Kachua</column>
+            <column name="bn_name">কচুয়া</column>
+            <column name="url">kachua.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">54</column>
+            <column name="district_id">6</column>
+            <column name="name">Shahrasti</column>
+            <column name="bn_name">শাহরাস্তি	</column>
+            <column name="url">shahrasti.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">55</column>
+            <column name="district_id">6</column>
+            <column name="name">Chandpur Sadar</column>
+            <column name="bn_name">চাঁদপুর সদর</column>
+            <column name="url">sadar.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">56</column>
+            <column name="district_id">6</column>
+            <column name="name">Matlab South</column>
+            <column name="bn_name">মতলব দক্ষিণ</column>
+            <column name="url">matlabsouth.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">57</column>
+            <column name="district_id">6</column>
+            <column name="name">Hajiganj</column>
+            <column name="bn_name">হাজীগঞ্জ</column>
+            <column name="url">hajiganj.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">58</column>
+            <column name="district_id">6</column>
+            <column name="name">Matlab North</column>
+            <column name="bn_name">মতলব উত্তর</column>
+            <column name="url">matlabnorth.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">59</column>
+            <column name="district_id">6</column>
+            <column name="name">Faridgonj</column>
+            <column name="bn_name">ফরিদগঞ্জ</column>
+            <column name="url">faridgonj.chandpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">60</column>
+            <column name="district_id">7</column>
+            <column name="name">Lakshmipur Sadar</column>
+            <column name="bn_name">লক্ষ্মীপুর সদর</column>
+            <column name="url">sadar.lakshmipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">61</column>
+            <column name="district_id">7</column>
+            <column name="name">Kamalnagar</column>
+            <column name="bn_name">কমলনগর</column>
+            <column name="url">kamalnagar.lakshmipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">62</column>
+            <column name="district_id">7</column>
+            <column name="name">Raipur</column>
+            <column name="bn_name">রায়পুর</column>
+            <column name="url">raipur.lakshmipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">63</column>
+            <column name="district_id">7</column>
+            <column name="name">Ramgati</column>
+            <column name="bn_name">রামগতি</column>
+            <column name="url">ramgati.lakshmipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">64</column>
+            <column name="district_id">7</column>
+            <column name="name">Ramganj</column>
+            <column name="bn_name">রামগঞ্জ</column>
+            <column name="url">ramganj.lakshmipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">65</column>
+            <column name="district_id">8</column>
+            <column name="name">Rangunia</column>
+            <column name="bn_name">রাঙ্গুনিয়া</column>
+            <column name="url">rangunia.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">66</column>
+            <column name="district_id">8</column>
+            <column name="name">Sitakunda</column>
+            <column name="bn_name">সীতাকুন্ড</column>
+            <column name="url">sitakunda.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">67</column>
+            <column name="district_id">8</column>
+            <column name="name">Mirsharai</column>
+            <column name="bn_name">মীরসরাই</column>
+            <column name="url">mirsharai.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">68</column>
+            <column name="district_id">8</column>
+            <column name="name">Patiya</column>
+            <column name="bn_name">পটিয়া</column>
+            <column name="url">patiya.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">69</column>
+            <column name="district_id">8</column>
+            <column name="name">Sandwip</column>
+            <column name="bn_name">সন্দ্বীপ</column>
+            <column name="url">sandwip.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">70</column>
+            <column name="district_id">8</column>
+            <column name="name">Banshkhali</column>
+            <column name="bn_name">বাঁশখালী</column>
+            <column name="url">banshkhali.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">71</column>
+            <column name="district_id">8</column>
+            <column name="name">Boalkhali</column>
+            <column name="bn_name">বোয়ালখালী</column>
+            <column name="url">boalkhali.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">72</column>
+            <column name="district_id">8</column>
+            <column name="name">Anwara</column>
+            <column name="bn_name">আনোয়ারা</column>
+            <column name="url">anwara.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">73</column>
+            <column name="district_id">8</column>
+            <column name="name">Chandanaish</column>
+            <column name="bn_name">চন্দনাইশ</column>
+            <column name="url">chandanaish.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">74</column>
+            <column name="district_id">8</column>
+            <column name="name">Satkania</column>
+            <column name="bn_name">সাতকানিয়া</column>
+            <column name="url">satkania.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">75</column>
+            <column name="district_id">8</column>
+            <column name="name">Lohagara</column>
+            <column name="bn_name">লোহাগাড়া</column>
+            <column name="url">lohagara.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">76</column>
+            <column name="district_id">8</column>
+            <column name="name">Hathazari</column>
+            <column name="bn_name">হাটহাজারী</column>
+            <column name="url">hathazari.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">77</column>
+            <column name="district_id">8</column>
+            <column name="name">Fatikchhari</column>
+            <column name="bn_name">ফটিকছড়ি</column>
+            <column name="url">fatikchhari.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">78</column>
+            <column name="district_id">8</column>
+            <column name="name">Raozan</column>
+            <column name="bn_name">রাউজান</column>
+            <column name="url">raozan.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">79</column>
+            <column name="district_id">8</column>
+            <column name="name">Karnafuli</column>
+            <column name="bn_name">কর্ণফুলী</column>
+            <column name="url">karnafuli.chittagong.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">80</column>
+            <column name="district_id">9</column>
+            <column name="name">Coxsbazar Sadar</column>
+            <column name="bn_name">কক্সবাজার সদর</column>
+            <column name="url">sadar.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">81</column>
+            <column name="district_id">9</column>
+            <column name="name">Chakaria</column>
+            <column name="bn_name">চকরিয়া</column>
+            <column name="url">chakaria.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">82</column>
+            <column name="district_id">9</column>
+            <column name="name">Kutubdia</column>
+            <column name="bn_name">কুতুবদিয়া</column>
+            <column name="url">kutubdia.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">83</column>
+            <column name="district_id">9</column>
+            <column name="name">Ukhiya</column>
+            <column name="bn_name">উখিয়া</column>
+            <column name="url">ukhiya.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">84</column>
+            <column name="district_id">9</column>
+            <column name="name">Moheshkhali</column>
+            <column name="bn_name">মহেশখালী</column>
+            <column name="url">moheshkhali.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">85</column>
+            <column name="district_id">9</column>
+            <column name="name">Pekua</column>
+            <column name="bn_name">পেকুয়া</column>
+            <column name="url">pekua.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">86</column>
+            <column name="district_id">9</column>
+            <column name="name">Ramu</column>
+            <column name="bn_name">রামু</column>
+            <column name="url">ramu.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">87</column>
+            <column name="district_id">9</column>
+            <column name="name">Teknaf</column>
+            <column name="bn_name">টেকনাফ</column>
+            <column name="url">teknaf.coxsbazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">88</column>
+            <column name="district_id">10</column>
+            <column name="name">Khagrachhari Sadar</column>
+            <column name="bn_name">খাগড়াছড়ি সদর</column>
+            <column name="url">sadar.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">89</column>
+            <column name="district_id">10</column>
+            <column name="name">Dighinala</column>
+            <column name="bn_name">দিঘীনালা</column>
+            <column name="url">dighinala.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">90</column>
+            <column name="district_id">10</column>
+            <column name="name">Panchari</column>
+            <column name="bn_name">পানছড়ি</column>
+            <column name="url">panchari.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">91</column>
+            <column name="district_id">10</column>
+            <column name="name">Laxmichhari</column>
+            <column name="bn_name">লক্ষীছড়ি</column>
+            <column name="url">laxmichhari.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">92</column>
+            <column name="district_id">10</column>
+            <column name="name">Mohalchari</column>
+            <column name="bn_name">মহালছড়ি</column>
+            <column name="url">mohalchari.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">93</column>
+            <column name="district_id">10</column>
+            <column name="name">Manikchari</column>
+            <column name="bn_name">মানিকছড়ি</column>
+            <column name="url">manikchari.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">94</column>
+            <column name="district_id">10</column>
+            <column name="name">Ramgarh</column>
+            <column name="bn_name">রামগড়</column>
+            <column name="url">ramgarh.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">95</column>
+            <column name="district_id">10</column>
+            <column name="name">Matiranga</column>
+            <column name="bn_name">মাটিরাঙ্গা</column>
+            <column name="url">matiranga.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">96</column>
+            <column name="district_id">10</column>
+            <column name="name">Guimara</column>
+            <column name="bn_name">গুইমারা</column>
+            <column name="url">guimara.khagrachhari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">97</column>
+            <column name="district_id">11</column>
+            <column name="name">Bandarban Sadar</column>
+            <column name="bn_name">বান্দরবান সদর</column>
+            <column name="url">sadar.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">98</column>
+            <column name="district_id">11</column>
+            <column name="name">Alikadam</column>
+            <column name="bn_name">আলীকদম</column>
+            <column name="url">alikadam.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">99</column>
+            <column name="district_id">11</column>
+            <column name="name">Naikhongchhari</column>
+            <column name="bn_name">নাইক্ষ্যংছড়ি</column>
+            <column name="url">naikhongchhari.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">100</column>
+            <column name="district_id">11</column>
+            <column name="name">Rowangchhari</column>
+            <column name="bn_name">রোয়াংছড়ি</column>
+            <column name="url">rowangchhari.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">101</column>
+            <column name="district_id">11</column>
+            <column name="name">Lama</column>
+            <column name="bn_name">লামা</column>
+            <column name="url">lama.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">102</column>
+            <column name="district_id">11</column>
+            <column name="name">Ruma</column>
+            <column name="bn_name">রুমা</column>
+            <column name="url">ruma.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">103</column>
+            <column name="district_id">11</column>
+            <column name="name">Thanchi</column>
+            <column name="bn_name">থানচি</column>
+            <column name="url">thanchi.bandarban.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">104</column>
+            <column name="district_id">12</column>
+            <column name="name">Belkuchi</column>
+            <column name="bn_name">বেলকুচি</column>
+            <column name="url">belkuchi.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">105</column>
+            <column name="district_id">12</column>
+            <column name="name">Chauhali</column>
+            <column name="bn_name">চৌহালি</column>
+            <column name="url">chauhali.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">106</column>
+            <column name="district_id">12</column>
+            <column name="name">Kamarkhand</column>
+            <column name="bn_name">কামারখন্দ</column>
+            <column name="url">kamarkhand.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">107</column>
+            <column name="district_id">12</column>
+            <column name="name">Kazipur</column>
+            <column name="bn_name">কাজীপুর</column>
+            <column name="url">kazipur.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">108</column>
+            <column name="district_id">12</column>
+            <column name="name">Raigonj</column>
+            <column name="bn_name">রায়গঞ্জ</column>
+            <column name="url">raigonj.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">109</column>
+            <column name="district_id">12</column>
+            <column name="name">Shahjadpur</column>
+            <column name="bn_name">শাহজাদপুর</column>
+            <column name="url">shahjadpur.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">110</column>
+            <column name="district_id">12</column>
+            <column name="name">Sirajganj Sadar</column>
+            <column name="bn_name">সিরাজগঞ্জ সদর</column>
+            <column name="url">sirajganjsadar.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">111</column>
+            <column name="district_id">12</column>
+            <column name="name">Tarash</column>
+            <column name="bn_name">তাড়াশ</column>
+            <column name="url">tarash.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">112</column>
+            <column name="district_id">12</column>
+            <column name="name">Ullapara</column>
+            <column name="bn_name">উল্লাপাড়া</column>
+            <column name="url">ullapara.sirajganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">113</column>
+            <column name="district_id">13</column>
+            <column name="name">Sujanagar</column>
+            <column name="bn_name">সুজানগর</column>
+            <column name="url">sujanagar.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">114</column>
+            <column name="district_id">13</column>
+            <column name="name">Ishurdi</column>
+            <column name="bn_name">ঈশ্বরদী</column>
+            <column name="url">ishurdi.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">115</column>
+            <column name="district_id">13</column>
+            <column name="name">Bhangura</column>
+            <column name="bn_name">ভাঙ্গুড়া</column>
+            <column name="url">bhangura.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">116</column>
+            <column name="district_id">13</column>
+            <column name="name">Pabna Sadar</column>
+            <column name="bn_name">পাবনা সদর</column>
+            <column name="url">pabnasadar.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">117</column>
+            <column name="district_id">13</column>
+            <column name="name">Bera</column>
+            <column name="bn_name">বেড়া</column>
+            <column name="url">bera.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">118</column>
+            <column name="district_id">13</column>
+            <column name="name">Atghoria</column>
+            <column name="bn_name">আটঘরিয়া</column>
+            <column name="url">atghoria.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">119</column>
+            <column name="district_id">13</column>
+            <column name="name">Chatmohar</column>
+            <column name="bn_name">চাটমোহর</column>
+            <column name="url">chatmohar.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">120</column>
+            <column name="district_id">13</column>
+            <column name="name">Santhia</column>
+            <column name="bn_name">সাঁথিয়া</column>
+            <column name="url">santhia.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">121</column>
+            <column name="district_id">13</column>
+            <column name="name">Faridpur</column>
+            <column name="bn_name">ফরিদপুর</column>
+            <column name="url">faridpur.pabna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">122</column>
+            <column name="district_id">14</column>
+            <column name="name">Kahaloo</column>
+            <column name="bn_name">কাহালু</column>
+            <column name="url">kahaloo.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">123</column>
+            <column name="district_id">14</column>
+            <column name="name">Bogra Sadar</column>
+            <column name="bn_name">বগুড়া সদর</column>
+            <column name="url">sadar.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">124</column>
+            <column name="district_id">14</column>
+            <column name="name">Shariakandi</column>
+            <column name="bn_name">সারিয়াকান্দি</column>
+            <column name="url">shariakandi.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">125</column>
+            <column name="district_id">14</column>
+            <column name="name">Shajahanpur</column>
+            <column name="bn_name">শাজাহানপুর</column>
+            <column name="url">shajahanpur.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">126</column>
+            <column name="district_id">14</column>
+            <column name="name">Dupchanchia</column>
+            <column name="bn_name">দুপচাচিঁয়া</column>
+            <column name="url">dupchanchia.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">127</column>
+            <column name="district_id">14</column>
+            <column name="name">Adamdighi</column>
+            <column name="bn_name">আদমদিঘি</column>
+            <column name="url">adamdighi.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">128</column>
+            <column name="district_id">14</column>
+            <column name="name">Nondigram</column>
+            <column name="bn_name">নন্দিগ্রাম</column>
+            <column name="url">nondigram.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">129</column>
+            <column name="district_id">14</column>
+            <column name="name">Sonatala</column>
+            <column name="bn_name">সোনাতলা</column>
+            <column name="url">sonatala.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">130</column>
+            <column name="district_id">14</column>
+            <column name="name">Dhunot</column>
+            <column name="bn_name">ধুনট</column>
+            <column name="url">dhunot.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">131</column>
+            <column name="district_id">14</column>
+            <column name="name">Gabtali</column>
+            <column name="bn_name">গাবতলী</column>
+            <column name="url">gabtali.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">132</column>
+            <column name="district_id">14</column>
+            <column name="name">Sherpur</column>
+            <column name="bn_name">শেরপুর</column>
+            <column name="url">sherpur.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">133</column>
+            <column name="district_id">14</column>
+            <column name="name">Shibganj</column>
+            <column name="bn_name">শিবগঞ্জ</column>
+            <column name="url">shibganj.bogra.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">134</column>
+            <column name="district_id">15</column>
+            <column name="name">Paba</column>
+            <column name="bn_name">পবা</column>
+            <column name="url">paba.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">135</column>
+            <column name="district_id">15</column>
+            <column name="name">Durgapur</column>
+            <column name="bn_name">দুর্গাপুর</column>
+            <column name="url">durgapur.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">136</column>
+            <column name="district_id">15</column>
+            <column name="name">Mohonpur</column>
+            <column name="bn_name">মোহনপুর</column>
+            <column name="url">mohonpur.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">137</column>
+            <column name="district_id">15</column>
+            <column name="name">Charghat</column>
+            <column name="bn_name">চারঘাট</column>
+            <column name="url">charghat.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">138</column>
+            <column name="district_id">15</column>
+            <column name="name">Puthia</column>
+            <column name="bn_name">পুঠিয়া</column>
+            <column name="url">puthia.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">139</column>
+            <column name="district_id">15</column>
+            <column name="name">Bagha</column>
+            <column name="bn_name">বাঘা</column>
+            <column name="url">bagha.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">140</column>
+            <column name="district_id">15</column>
+            <column name="name">Godagari</column>
+            <column name="bn_name">গোদাগাড়ী</column>
+            <column name="url">godagari.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">141</column>
+            <column name="district_id">15</column>
+            <column name="name">Tanore</column>
+            <column name="bn_name">তানোর</column>
+            <column name="url">tanore.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">142</column>
+            <column name="district_id">15</column>
+            <column name="name">Bagmara</column>
+            <column name="bn_name">বাগমারা</column>
+            <column name="url">bagmara.rajshahi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">143</column>
+            <column name="district_id">16</column>
+            <column name="name">Natore Sadar</column>
+            <column name="bn_name">নাটোর সদর</column>
+            <column name="url">natoresadar.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">144</column>
+            <column name="district_id">16</column>
+            <column name="name">Singra</column>
+            <column name="bn_name">সিংড়া</column>
+            <column name="url">singra.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">145</column>
+            <column name="district_id">16</column>
+            <column name="name">Baraigram</column>
+            <column name="bn_name">বড়াইগ্রাম</column>
+            <column name="url">baraigram.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">146</column>
+            <column name="district_id">16</column>
+            <column name="name">Bagatipara</column>
+            <column name="bn_name">বাগাতিপাড়া</column>
+            <column name="url">bagatipara.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">147</column>
+            <column name="district_id">16</column>
+            <column name="name">Lalpur</column>
+            <column name="bn_name">লালপুর</column>
+            <column name="url">lalpur.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">148</column>
+            <column name="district_id">16</column>
+            <column name="name">Gurudaspur</column>
+            <column name="bn_name">গুরুদাসপুর</column>
+            <column name="url">gurudaspur.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">149</column>
+            <column name="district_id">16</column>
+            <column name="name">Naldanga</column>
+            <column name="bn_name">নলডাঙ্গা</column>
+            <column name="url">naldanga.natore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">150</column>
+            <column name="district_id">17</column>
+            <column name="name">Akkelpur</column>
+            <column name="bn_name">আক্কেলপুর</column>
+            <column name="url">akkelpur.joypurhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">151</column>
+            <column name="district_id">17</column>
+            <column name="name">Kalai</column>
+            <column name="bn_name">কালাই</column>
+            <column name="url">kalai.joypurhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">152</column>
+            <column name="district_id">17</column>
+            <column name="name">Khetlal</column>
+            <column name="bn_name">ক্ষেতলাল</column>
+            <column name="url">khetlal.joypurhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">153</column>
+            <column name="district_id">17</column>
+            <column name="name">Panchbibi</column>
+            <column name="bn_name">পাঁচবিবি</column>
+            <column name="url">panchbibi.joypurhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">154</column>
+            <column name="district_id">17</column>
+            <column name="name">Joypurhat Sadar</column>
+            <column name="bn_name">জয়পুরহাট সদর</column>
+            <column name="url">joypurhatsadar.joypurhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">155</column>
+            <column name="district_id">18</column>
+            <column name="name">Chapainawabganj Sadar</column>
+            <column name="bn_name">চাঁপাইনবাবগঞ্জ সদর</column>
+            <column name="url">chapainawabganjsadar.chapainawabganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">156</column>
+            <column name="district_id">18</column>
+            <column name="name">Gomostapur</column>
+            <column name="bn_name">গোমস্তাপুর</column>
+            <column name="url">gomostapur.chapainawabganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">157</column>
+            <column name="district_id">18</column>
+            <column name="name">Nachol</column>
+            <column name="bn_name">নাচোল</column>
+            <column name="url">nachol.chapainawabganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">158</column>
+            <column name="district_id">18</column>
+            <column name="name">Bholahat</column>
+            <column name="bn_name">ভোলাহাট</column>
+            <column name="url">bholahat.chapainawabganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">159</column>
+            <column name="district_id">18</column>
+            <column name="name">Shibganj</column>
+            <column name="bn_name">শিবগঞ্জ</column>
+            <column name="url">shibganj.chapainawabganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">160</column>
+            <column name="district_id">19</column>
+            <column name="name">Mohadevpur</column>
+            <column name="bn_name">মহাদেবপুর</column>
+            <column name="url">mohadevpur.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">161</column>
+            <column name="district_id">19</column>
+            <column name="name">Badalgachi</column>
+            <column name="bn_name">বদলগাছী</column>
+            <column name="url">badalgachi.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">162</column>
+            <column name="district_id">19</column>
+            <column name="name">Patnitala</column>
+            <column name="bn_name">পত্নিতলা</column>
+            <column name="url">patnitala.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">163</column>
+            <column name="district_id">19</column>
+            <column name="name">Dhamoirhat</column>
+            <column name="bn_name">ধামইরহাট</column>
+            <column name="url">dhamoirhat.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">164</column>
+            <column name="district_id">19</column>
+            <column name="name">Niamatpur</column>
+            <column name="bn_name">নিয়ামতপুর</column>
+            <column name="url">niamatpur.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">165</column>
+            <column name="district_id">19</column>
+            <column name="name">Manda</column>
+            <column name="bn_name">মান্দা</column>
+            <column name="url">manda.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">166</column>
+            <column name="district_id">19</column>
+            <column name="name">Atrai</column>
+            <column name="bn_name">আত্রাই</column>
+            <column name="url">atrai.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">167</column>
+            <column name="district_id">19</column>
+            <column name="name">Raninagar</column>
+            <column name="bn_name">রাণীনগর</column>
+            <column name="url">raninagar.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">168</column>
+            <column name="district_id">19</column>
+            <column name="name">Naogaon Sadar</column>
+            <column name="bn_name">নওগাঁ সদর</column>
+            <column name="url">naogaonsadar.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">169</column>
+            <column name="district_id">19</column>
+            <column name="name">Porsha</column>
+            <column name="bn_name">পোরশা</column>
+            <column name="url">porsha.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">170</column>
+            <column name="district_id">19</column>
+            <column name="name">Sapahar</column>
+            <column name="bn_name">সাপাহার</column>
+            <column name="url">sapahar.naogaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">171</column>
+            <column name="district_id">20</column>
+            <column name="name">Manirampur</column>
+            <column name="bn_name">মণিরামপুর</column>
+            <column name="url">manirampur.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">172</column>
+            <column name="district_id">20</column>
+            <column name="name">Abhaynagar</column>
+            <column name="bn_name">অভয়নগর</column>
+            <column name="url">abhaynagar.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">173</column>
+            <column name="district_id">20</column>
+            <column name="name">Bagherpara</column>
+            <column name="bn_name">বাঘারপাড়া</column>
+            <column name="url">bagherpara.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">174</column>
+            <column name="district_id">20</column>
+            <column name="name">Chougachha</column>
+            <column name="bn_name">চৌগাছা</column>
+            <column name="url">chougachha.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">175</column>
+            <column name="district_id">20</column>
+            <column name="name">Jhikargacha</column>
+            <column name="bn_name">ঝিকরগাছা</column>
+            <column name="url">jhikargacha.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">176</column>
+            <column name="district_id">20</column>
+            <column name="name">Keshabpur</column>
+            <column name="bn_name">কেশবপুর</column>
+            <column name="url">keshabpur.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">177</column>
+            <column name="district_id">20</column>
+            <column name="name">Jessore Sadar</column>
+            <column name="bn_name">যশোর সদর</column>
+            <column name="url">sadar.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">178</column>
+            <column name="district_id">20</column>
+            <column name="name">Sharsha</column>
+            <column name="bn_name">শার্শা</column>
+            <column name="url">sharsha.jessore.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">179</column>
+            <column name="district_id">21</column>
+            <column name="name">Assasuni</column>
+            <column name="bn_name">আশাশুনি</column>
+            <column name="url">assasuni.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">180</column>
+            <column name="district_id">21</column>
+            <column name="name">Debhata</column>
+            <column name="bn_name">দেবহাটা</column>
+            <column name="url">debhata.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">181</column>
+            <column name="district_id">21</column>
+            <column name="name">Kalaroa</column>
+            <column name="bn_name">কলারোয়া</column>
+            <column name="url">kalaroa.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">182</column>
+            <column name="district_id">21</column>
+            <column name="name">Satkhira Sadar</column>
+            <column name="bn_name">সাতক্ষীরা সদর</column>
+            <column name="url">satkhirasadar.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">183</column>
+            <column name="district_id">21</column>
+            <column name="name">Shyamnagar</column>
+            <column name="bn_name">শ্যামনগর</column>
+            <column name="url">shyamnagar.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">184</column>
+            <column name="district_id">21</column>
+            <column name="name">Tala</column>
+            <column name="bn_name">তালা</column>
+            <column name="url">tala.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">185</column>
+            <column name="district_id">21</column>
+            <column name="name">Kaliganj</column>
+            <column name="bn_name">কালিগঞ্জ</column>
+            <column name="url">kaliganj.satkhira.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">186</column>
+            <column name="district_id">22</column>
+            <column name="name">Mujibnagar</column>
+            <column name="bn_name">মুজিবনগর</column>
+            <column name="url">mujibnagar.meherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">187</column>
+            <column name="district_id">22</column>
+            <column name="name">Meherpur Sadar</column>
+            <column name="bn_name">মেহেরপুর সদর</column>
+            <column name="url">meherpursadar.meherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">188</column>
+            <column name="district_id">22</column>
+            <column name="name">Gangni</column>
+            <column name="bn_name">গাংনী</column>
+            <column name="url">gangni.meherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">189</column>
+            <column name="district_id">23</column>
+            <column name="name">Narail Sadar</column>
+            <column name="bn_name">নড়াইল সদর</column>
+            <column name="url">narailsadar.narail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">190</column>
+            <column name="district_id">23</column>
+            <column name="name">Lohagara</column>
+            <column name="bn_name">লোহাগড়া</column>
+            <column name="url">lohagara.narail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">191</column>
+            <column name="district_id">23</column>
+            <column name="name">Kalia</column>
+            <column name="bn_name">কালিয়া</column>
+            <column name="url">kalia.narail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">192</column>
+            <column name="district_id">24</column>
+            <column name="name">Chuadanga Sadar</column>
+            <column name="bn_name">চুয়াডাঙ্গা সদর</column>
+            <column name="url">chuadangasadar.chuadanga.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">193</column>
+            <column name="district_id">24</column>
+            <column name="name">Alamdanga</column>
+            <column name="bn_name">আলমডাঙ্গা</column>
+            <column name="url">alamdanga.chuadanga.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">194</column>
+            <column name="district_id">24</column>
+            <column name="name">Damurhuda</column>
+            <column name="bn_name">দামুড়হুদা</column>
+            <column name="url">damurhuda.chuadanga.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">195</column>
+            <column name="district_id">24</column>
+            <column name="name">Jibannagar</column>
+            <column name="bn_name">জীবননগর</column>
+            <column name="url">jibannagar.chuadanga.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">196</column>
+            <column name="district_id">25</column>
+            <column name="name">Kushtia Sadar</column>
+            <column name="bn_name">কুষ্টিয়া সদর</column>
+            <column name="url">kushtiasadar.kushtia.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">197</column>
+            <column name="district_id">25</column>
+            <column name="name">Kumarkhali</column>
+            <column name="bn_name">কুমারখালী</column>
+            <column name="url">kumarkhali.kushtia.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">198</column>
+            <column name="district_id">25</column>
+            <column name="name">Khoksa</column>
+            <column name="bn_name">খোকসা</column>
+            <column name="url">khoksa.kushtia.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">199</column>
+            <column name="district_id">25</column>
+            <column name="name">Mirpur</column>
+            <column name="bn_name">মিরপুর</column>
+            <column name="url">mirpurkushtia.kushtia.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">200</column>
+            <column name="district_id">25</column>
+            <column name="name">Daulatpur</column>
+            <column name="bn_name">দৌলতপুর</column>
+            <column name="url">daulatpur.kushtia.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">201</column>
+            <column name="district_id">25</column>
+            <column name="name">Bheramara</column>
+            <column name="bn_name">ভেড়ামারা</column>
+            <column name="url">bheramara.kushtia.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">202</column>
+            <column name="district_id">26</column>
+            <column name="name">Shalikha</column>
+            <column name="bn_name">শালিখা</column>
+            <column name="url">shalikha.magura.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">203</column>
+            <column name="district_id">26</column>
+            <column name="name">Sreepur</column>
+            <column name="bn_name">শ্রীপুর</column>
+            <column name="url">sreepur.magura.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">204</column>
+            <column name="district_id">26</column>
+            <column name="name">Magura Sadar</column>
+            <column name="bn_name">মাগুরা সদর</column>
+            <column name="url">magurasadar.magura.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">205</column>
+            <column name="district_id">26</column>
+            <column name="name">Mohammadpur</column>
+            <column name="bn_name">মহম্মদপুর</column>
+            <column name="url">mohammadpur.magura.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">206</column>
+            <column name="district_id">27</column>
+            <column name="name">Paikgasa</column>
+            <column name="bn_name">পাইকগাছা</column>
+            <column name="url">paikgasa.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">207</column>
+            <column name="district_id">27</column>
+            <column name="name">Fultola</column>
+            <column name="bn_name">ফুলতলা</column>
+            <column name="url">fultola.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">208</column>
+            <column name="district_id">27</column>
+            <column name="name">Digholia</column>
+            <column name="bn_name">দিঘলিয়া</column>
+            <column name="url">digholia.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">209</column>
+            <column name="district_id">27</column>
+            <column name="name">Rupsha</column>
+            <column name="bn_name">রূপসা</column>
+            <column name="url">rupsha.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">210</column>
+            <column name="district_id">27</column>
+            <column name="name">Terokhada</column>
+            <column name="bn_name">তেরখাদা</column>
+            <column name="url">terokhada.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">211</column>
+            <column name="district_id">27</column>
+            <column name="name">Dumuria</column>
+            <column name="bn_name">ডুমুরিয়া</column>
+            <column name="url">dumuria.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">212</column>
+            <column name="district_id">27</column>
+            <column name="name">Botiaghata</column>
+            <column name="bn_name">বটিয়াঘাটা</column>
+            <column name="url">botiaghata.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">213</column>
+            <column name="district_id">27</column>
+            <column name="name">Dakop</column>
+            <column name="bn_name">দাকোপ</column>
+            <column name="url">dakop.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">214</column>
+            <column name="district_id">27</column>
+            <column name="name">Koyra</column>
+            <column name="bn_name">কয়রা</column>
+            <column name="url">koyra.khulna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">215</column>
+            <column name="district_id">28</column>
+            <column name="name">Fakirhat</column>
+            <column name="bn_name">ফকিরহাট</column>
+            <column name="url">fakirhat.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">216</column>
+            <column name="district_id">28</column>
+            <column name="name">Bagerhat Sadar</column>
+            <column name="bn_name">বাগেরহাট সদর</column>
+            <column name="url">sadar.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">217</column>
+            <column name="district_id">28</column>
+            <column name="name">Mollahat</column>
+            <column name="bn_name">মোল্লাহাট</column>
+            <column name="url">mollahat.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">218</column>
+            <column name="district_id">28</column>
+            <column name="name">Sarankhola</column>
+            <column name="bn_name">শরণখোলা</column>
+            <column name="url">sarankhola.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">219</column>
+            <column name="district_id">28</column>
+            <column name="name">Rampal</column>
+            <column name="bn_name">রামপাল</column>
+            <column name="url">rampal.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">220</column>
+            <column name="district_id">28</column>
+            <column name="name">Morrelganj</column>
+            <column name="bn_name">মোড়েলগঞ্জ</column>
+            <column name="url">morrelganj.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">221</column>
+            <column name="district_id">28</column>
+            <column name="name">Kachua</column>
+            <column name="bn_name">কচুয়া</column>
+            <column name="url">kachua.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">222</column>
+            <column name="district_id">28</column>
+            <column name="name">Mongla</column>
+            <column name="bn_name">মোংলা</column>
+            <column name="url">mongla.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">223</column>
+            <column name="district_id">28</column>
+            <column name="name">Chitalmari</column>
+            <column name="bn_name">চিতলমারী</column>
+            <column name="url">chitalmari.bagerhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">224</column>
+            <column name="district_id">29</column>
+            <column name="name">Jhenaidah Sadar</column>
+            <column name="bn_name">ঝিনাইদহ সদর</column>
+            <column name="url">sadar.jhenaidah.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">225</column>
+            <column name="district_id">29</column>
+            <column name="name">Shailkupa</column>
+            <column name="bn_name">শৈলকুপা</column>
+            <column name="url">shailkupa.jhenaidah.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">226</column>
+            <column name="district_id">29</column>
+            <column name="name">Harinakundu</column>
+            <column name="bn_name">হরিণাকুন্ডু</column>
+            <column name="url">harinakundu.jhenaidah.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">227</column>
+            <column name="district_id">29</column>
+            <column name="name">Kaliganj</column>
+            <column name="bn_name">কালীগঞ্জ</column>
+            <column name="url">kaliganj.jhenaidah.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">228</column>
+            <column name="district_id">29</column>
+            <column name="name">Kotchandpur</column>
+            <column name="bn_name">কোটচাঁদপুর</column>
+            <column name="url">kotchandpur.jhenaidah.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">229</column>
+            <column name="district_id">29</column>
+            <column name="name">Moheshpur</column>
+            <column name="bn_name">মহেশপুর</column>
+            <column name="url">moheshpur.jhenaidah.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">230</column>
+            <column name="district_id">30</column>
+            <column name="name">Jhalakathi Sadar</column>
+            <column name="bn_name">ঝালকাঠি সদর</column>
+            <column name="url">sadar.jhalakathi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">231</column>
+            <column name="district_id">30</column>
+            <column name="name">Kathalia</column>
+            <column name="bn_name">কাঠালিয়া</column>
+            <column name="url">kathalia.jhalakathi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">232</column>
+            <column name="district_id">30</column>
+            <column name="name">Nalchity</column>
+            <column name="bn_name">নলছিটি</column>
+            <column name="url">nalchity.jhalakathi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">233</column>
+            <column name="district_id">30</column>
+            <column name="name">Rajapur</column>
+            <column name="bn_name">রাজাপুর</column>
+            <column name="url">rajapur.jhalakathi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">234</column>
+            <column name="district_id">31</column>
+            <column name="name">Bauphal</column>
+            <column name="bn_name">বাউফল</column>
+            <column name="url">bauphal.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">235</column>
+            <column name="district_id">31</column>
+            <column name="name">Patuakhali Sadar</column>
+            <column name="bn_name">পটুয়াখালী সদর</column>
+            <column name="url">sadar.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">236</column>
+            <column name="district_id">31</column>
+            <column name="name">Dumki</column>
+            <column name="bn_name">দুমকি</column>
+            <column name="url">dumki.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">237</column>
+            <column name="district_id">31</column>
+            <column name="name">Dashmina</column>
+            <column name="bn_name">দশমিনা</column>
+            <column name="url">dashmina.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">238</column>
+            <column name="district_id">31</column>
+            <column name="name">Kalapara</column>
+            <column name="bn_name">কলাপাড়া</column>
+            <column name="url">kalapara.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">239</column>
+            <column name="district_id">31</column>
+            <column name="name">Mirzaganj</column>
+            <column name="bn_name">মির্জাগঞ্জ</column>
+            <column name="url">mirzaganj.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">240</column>
+            <column name="district_id">31</column>
+            <column name="name">Galachipa</column>
+            <column name="bn_name">গলাচিপা</column>
+            <column name="url">galachipa.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">241</column>
+            <column name="district_id">31</column>
+            <column name="name">Rangabali</column>
+            <column name="bn_name">রাঙ্গাবালী</column>
+            <column name="url">rangabali.patuakhali.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">242</column>
+            <column name="district_id">32</column>
+            <column name="name">Pirojpur Sadar</column>
+            <column name="bn_name">পিরোজপুর সদর</column>
+            <column name="url">sadar.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">243</column>
+            <column name="district_id">32</column>
+            <column name="name">Nazirpur</column>
+            <column name="bn_name">নাজিরপুর</column>
+            <column name="url">nazirpur.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">244</column>
+            <column name="district_id">32</column>
+            <column name="name">Kawkhali</column>
+            <column name="bn_name">কাউখালী</column>
+            <column name="url">kawkhali.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">245</column>
+            <column name="district_id">32</column>
+            <column name="name">Zianagar</column>
+            <column name="bn_name">জিয়ানগর</column>
+            <column name="url">zianagar.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">246</column>
+            <column name="district_id">32</column>
+            <column name="name">Bhandaria</column>
+            <column name="bn_name">ভান্ডারিয়া</column>
+            <column name="url">bhandaria.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">247</column>
+            <column name="district_id">32</column>
+            <column name="name">Mathbaria</column>
+            <column name="bn_name">মঠবাড়ীয়া</column>
+            <column name="url">mathbaria.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">248</column>
+            <column name="district_id">32</column>
+            <column name="name">Nesarabad</column>
+            <column name="bn_name">নেছারাবাদ</column>
+            <column name="url">nesarabad.pirojpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">249</column>
+            <column name="district_id">33</column>
+            <column name="name">Barisal Sadar</column>
+            <column name="bn_name">বরিশাল সদর</column>
+            <column name="url">barisalsadar.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">250</column>
+            <column name="district_id">33</column>
+            <column name="name">Bakerganj</column>
+            <column name="bn_name">বাকেরগঞ্জ</column>
+            <column name="url">bakerganj.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">251</column>
+            <column name="district_id">33</column>
+            <column name="name">Babuganj</column>
+            <column name="bn_name">বাবুগঞ্জ</column>
+            <column name="url">babuganj.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">252</column>
+            <column name="district_id">33</column>
+            <column name="name">Wazirpur</column>
+            <column name="bn_name">উজিরপুর</column>
+            <column name="url">wazirpur.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">253</column>
+            <column name="district_id">33</column>
+            <column name="name">Banaripara</column>
+            <column name="bn_name">বানারীপাড়া</column>
+            <column name="url">banaripara.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">254</column>
+            <column name="district_id">33</column>
+            <column name="name">Gournadi</column>
+            <column name="bn_name">গৌরনদী</column>
+            <column name="url">gournadi.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">255</column>
+            <column name="district_id">33</column>
+            <column name="name">Agailjhara</column>
+            <column name="bn_name">আগৈলঝাড়া</column>
+            <column name="url">agailjhara.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">256</column>
+            <column name="district_id">33</column>
+            <column name="name">Mehendiganj</column>
+            <column name="bn_name">মেহেন্দিগঞ্জ</column>
+            <column name="url">mehendiganj.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">257</column>
+            <column name="district_id">33</column>
+            <column name="name">Muladi</column>
+            <column name="bn_name">মুলাদী</column>
+            <column name="url">muladi.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">258</column>
+            <column name="district_id">33</column>
+            <column name="name">Hizla</column>
+            <column name="bn_name">হিজলা</column>
+            <column name="url">hizla.barisal.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">259</column>
+            <column name="district_id">34</column>
+            <column name="name">Bhola Sadar</column>
+            <column name="bn_name">ভোলা সদর</column>
+            <column name="url">sadar.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">260</column>
+            <column name="district_id">34</column>
+            <column name="name">Borhan Sddin</column>
+            <column name="bn_name">বোরহান উদ্দিন</column>
+            <column name="url">borhanuddin.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">261</column>
+            <column name="district_id">34</column>
+            <column name="name">Charfesson</column>
+            <column name="bn_name">চরফ্যাশন</column>
+            <column name="url">charfesson.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">262</column>
+            <column name="district_id">34</column>
+            <column name="name">Doulatkhan</column>
+            <column name="bn_name">দৌলতখান</column>
+            <column name="url">doulatkhan.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">263</column>
+            <column name="district_id">34</column>
+            <column name="name">Monpura</column>
+            <column name="bn_name">মনপুরা</column>
+            <column name="url">monpura.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">264</column>
+            <column name="district_id">34</column>
+            <column name="name">Tazumuddin</column>
+            <column name="bn_name">তজুমদ্দিন</column>
+            <column name="url">tazumuddin.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">265</column>
+            <column name="district_id">34</column>
+            <column name="name">Lalmohan</column>
+            <column name="bn_name">লালমোহন</column>
+            <column name="url">lalmohan.bhola.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">266</column>
+            <column name="district_id">35</column>
+            <column name="name">Amtali</column>
+            <column name="bn_name">আমতলী</column>
+            <column name="url">amtali.barguna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">267</column>
+            <column name="district_id">35</column>
+            <column name="name">Barguna Sadar</column>
+            <column name="bn_name">বরগুনা সদর</column>
+            <column name="url">sadar.barguna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">268</column>
+            <column name="district_id">35</column>
+            <column name="name">Betagi</column>
+            <column name="bn_name">বেতাগী</column>
+            <column name="url">betagi.barguna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">269</column>
+            <column name="district_id">35</column>
+            <column name="name">Bamna</column>
+            <column name="bn_name">বামনা</column>
+            <column name="url">bamna.barguna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">270</column>
+            <column name="district_id">35</column>
+            <column name="name">Pathorghata</column>
+            <column name="bn_name">পাথরঘাটা</column>
+            <column name="url">pathorghata.barguna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">271</column>
+            <column name="district_id">35</column>
+            <column name="name">Taltali</column>
+            <column name="bn_name">তালতলি</column>
+            <column name="url">taltali.barguna.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">272</column>
+            <column name="district_id">36</column>
+            <column name="name">Balaganj</column>
+            <column name="bn_name">বালাগঞ্জ</column>
+            <column name="url">balaganj.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">273</column>
+            <column name="district_id">36</column>
+            <column name="name">Beanibazar</column>
+            <column name="bn_name">বিয়ানীবাজার</column>
+            <column name="url">beanibazar.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">274</column>
+            <column name="district_id">36</column>
+            <column name="name">Bishwanath</column>
+            <column name="bn_name">বিশ্বনাথ</column>
+            <column name="url">bishwanath.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">275</column>
+            <column name="district_id">36</column>
+            <column name="name">Companiganj</column>
+            <column name="bn_name">কোম্পানীগঞ্জ</column>
+            <column name="url">companiganj.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">276</column>
+            <column name="district_id">36</column>
+            <column name="name">Fenchuganj</column>
+            <column name="bn_name">ফেঞ্চুগঞ্জ</column>
+            <column name="url">fenchuganj.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">277</column>
+            <column name="district_id">36</column>
+            <column name="name">Golapganj</column>
+            <column name="bn_name">গোলাপগঞ্জ</column>
+            <column name="url">golapganj.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">278</column>
+            <column name="district_id">36</column>
+            <column name="name">Gowainghat</column>
+            <column name="bn_name">গোয়াইনঘাট</column>
+            <column name="url">gowainghat.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">279</column>
+            <column name="district_id">36</column>
+            <column name="name">Jaintiapur</column>
+            <column name="bn_name">জৈন্তাপুর</column>
+            <column name="url">jaintiapur.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">280</column>
+            <column name="district_id">36</column>
+            <column name="name">Kanaighat</column>
+            <column name="bn_name">কানাইঘাট</column>
+            <column name="url">kanaighat.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">281</column>
+            <column name="district_id">36</column>
+            <column name="name">Sylhet Sadar</column>
+            <column name="bn_name">সিলেট সদর</column>
+            <column name="url">sylhetsadar.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">282</column>
+            <column name="district_id">36</column>
+            <column name="name">Zakiganj</column>
+            <column name="bn_name">জকিগঞ্জ</column>
+            <column name="url">zakiganj.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">283</column>
+            <column name="district_id">36</column>
+            <column name="name">Dakshinsurma</column>
+            <column name="bn_name">দক্ষিণ সুরমা</column>
+            <column name="url">dakshinsurma.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">284</column>
+            <column name="district_id">36</column>
+            <column name="name">Osmaninagar</column>
+            <column name="bn_name">ওসমানী নগর</column>
+            <column name="url">osmaninagar.sylhet.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">285</column>
+            <column name="district_id">37</column>
+            <column name="name">Barlekha</column>
+            <column name="bn_name">বড়লেখা</column>
+            <column name="url">barlekha.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">286</column>
+            <column name="district_id">37</column>
+            <column name="name">Kamolganj</column>
+            <column name="bn_name">কমলগঞ্জ</column>
+            <column name="url">kamolganj.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">287</column>
+            <column name="district_id">37</column>
+            <column name="name">Kulaura</column>
+            <column name="bn_name">কুলাউড়া</column>
+            <column name="url">kulaura.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">288</column>
+            <column name="district_id">37</column>
+            <column name="name">Moulvibazar Sadar</column>
+            <column name="bn_name">মৌলভীবাজার সদর</column>
+            <column name="url">moulvibazarsadar.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">289</column>
+            <column name="district_id">37</column>
+            <column name="name">Rajnagar</column>
+            <column name="bn_name">রাজনগর</column>
+            <column name="url">rajnagar.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">290</column>
+            <column name="district_id">37</column>
+            <column name="name">Sreemangal</column>
+            <column name="bn_name">শ্রীমঙ্গল</column>
+            <column name="url">sreemangal.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">291</column>
+            <column name="district_id">37</column>
+            <column name="name">Juri</column>
+            <column name="bn_name">জুড়ী</column>
+            <column name="url">juri.moulvibazar.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">292</column>
+            <column name="district_id">38</column>
+            <column name="name">Nabiganj</column>
+            <column name="bn_name">নবীগঞ্জ</column>
+            <column name="url">nabiganj.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">293</column>
+            <column name="district_id">38</column>
+            <column name="name">Bahubal</column>
+            <column name="bn_name">বাহুবল</column>
+            <column name="url">bahubal.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">294</column>
+            <column name="district_id">38</column>
+            <column name="name">Ajmiriganj</column>
+            <column name="bn_name">আজমিরীগঞ্জ</column>
+            <column name="url">ajmiriganj.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">295</column>
+            <column name="district_id">38</column>
+            <column name="name">Baniachong</column>
+            <column name="bn_name">বানিয়াচং</column>
+            <column name="url">baniachong.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">296</column>
+            <column name="district_id">38</column>
+            <column name="name">Lakhai</column>
+            <column name="bn_name">লাখাই</column>
+            <column name="url">lakhai.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">297</column>
+            <column name="district_id">38</column>
+            <column name="name">Chunarughat</column>
+            <column name="bn_name">চুনারুঘাট</column>
+            <column name="url">chunarughat.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">298</column>
+            <column name="district_id">38</column>
+            <column name="name">Habiganj Sadar</column>
+            <column name="bn_name">হবিগঞ্জ সদর</column>
+            <column name="url">habiganjsadar.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">299</column>
+            <column name="district_id">38</column>
+            <column name="name">Madhabpur</column>
+            <column name="bn_name">মাধবপুর</column>
+            <column name="url">madhabpur.habiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">300</column>
+            <column name="district_id">39</column>
+            <column name="name">Sunamganj Sadar</column>
+            <column name="bn_name">সুনামগঞ্জ সদর</column>
+            <column name="url">sadar.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">301</column>
+            <column name="district_id">39</column>
+            <column name="name">South Sunamganj</column>
+            <column name="bn_name">দক্ষিণ সুনামগঞ্জ</column>
+            <column name="url">southsunamganj.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">302</column>
+            <column name="district_id">39</column>
+            <column name="name">Bishwambarpur</column>
+            <column name="bn_name">বিশ্বম্ভরপুর</column>
+            <column name="url">bishwambarpur.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">303</column>
+            <column name="district_id">39</column>
+            <column name="name">Chhatak</column>
+            <column name="bn_name">ছাতক</column>
+            <column name="url">chhatak.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">304</column>
+            <column name="district_id">39</column>
+            <column name="name">Jagannathpur</column>
+            <column name="bn_name">জগন্নাথপুর</column>
+            <column name="url">jagannathpur.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">305</column>
+            <column name="district_id">39</column>
+            <column name="name">Dowarabazar</column>
+            <column name="bn_name">দোয়ারাবাজার</column>
+            <column name="url">dowarabazar.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">306</column>
+            <column name="district_id">39</column>
+            <column name="name">Tahirpur</column>
+            <column name="bn_name">তাহিরপুর</column>
+            <column name="url">tahirpur.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">307</column>
+            <column name="district_id">39</column>
+            <column name="name">Dharmapasha</column>
+            <column name="bn_name">ধর্মপাশা</column>
+            <column name="url">dharmapasha.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">308</column>
+            <column name="district_id">39</column>
+            <column name="name">Jamalganj</column>
+            <column name="bn_name">জামালগঞ্জ</column>
+            <column name="url">jamalganj.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">309</column>
+            <column name="district_id">39</column>
+            <column name="name">Shalla</column>
+            <column name="bn_name">শাল্লা</column>
+            <column name="url">shalla.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">310</column>
+            <column name="district_id">39</column>
+            <column name="name">Derai</column>
+            <column name="bn_name">দিরাই</column>
+            <column name="url">derai.sunamganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">311</column>
+            <column name="district_id">40</column>
+            <column name="name">Belabo</column>
+            <column name="bn_name">বেলাবো</column>
+            <column name="url">belabo.narsingdi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">312</column>
+            <column name="district_id">40</column>
+            <column name="name">Monohardi</column>
+            <column name="bn_name">মনোহরদী</column>
+            <column name="url">monohardi.narsingdi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">313</column>
+            <column name="district_id">40</column>
+            <column name="name">Narsingdi Sadar</column>
+            <column name="bn_name">নরসিংদী সদর</column>
+            <column name="url">narsingdisadar.narsingdi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">314</column>
+            <column name="district_id">40</column>
+            <column name="name">Palash</column>
+            <column name="bn_name">পলাশ</column>
+            <column name="url">palash.narsingdi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">315</column>
+            <column name="district_id">40</column>
+            <column name="name">Raipura</column>
+            <column name="bn_name">রায়পুরা</column>
+            <column name="url">raipura.narsingdi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">316</column>
+            <column name="district_id">40</column>
+            <column name="name">Shibpur</column>
+            <column name="bn_name">শিবপুর</column>
+            <column name="url">shibpur.narsingdi.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">317</column>
+            <column name="district_id">41</column>
+            <column name="name">Kaliganj</column>
+            <column name="bn_name">কালীগঞ্জ</column>
+            <column name="url">kaliganj.gazipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">318</column>
+            <column name="district_id">41</column>
+            <column name="name">Kaliakair</column>
+            <column name="bn_name">কালিয়াকৈর</column>
+            <column name="url">kaliakair.gazipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">319</column>
+            <column name="district_id">41</column>
+            <column name="name">Kapasia</column>
+            <column name="bn_name">কাপাসিয়া</column>
+            <column name="url">kapasia.gazipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">320</column>
+            <column name="district_id">41</column>
+            <column name="name">Gazipur Sadar</column>
+            <column name="bn_name">গাজীপুর সদর</column>
+            <column name="url">sadar.gazipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">321</column>
+            <column name="district_id">41</column>
+            <column name="name">Sreepur</column>
+            <column name="bn_name">শ্রীপুর</column>
+            <column name="url">sreepur.gazipur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">322</column>
+            <column name="district_id">42</column>
+            <column name="name">Shariatpur Sadar</column>
+            <column name="bn_name">শরিয়তপুর সদর</column>
+            <column name="url">sadar.shariatpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">323</column>
+            <column name="district_id">42</column>
+            <column name="name">Naria</column>
+            <column name="bn_name">নড়িয়া</column>
+            <column name="url">naria.shariatpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">324</column>
+            <column name="district_id">42</column>
+            <column name="name">Zajira</column>
+            <column name="bn_name">জাজিরা</column>
+            <column name="url">zajira.shariatpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">325</column>
+            <column name="district_id">42</column>
+            <column name="name">Gosairhat</column>
+            <column name="bn_name">গোসাইরহাট</column>
+            <column name="url">gosairhat.shariatpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">326</column>
+            <column name="district_id">42</column>
+            <column name="name">Bhedarganj</column>
+            <column name="bn_name">ভেদরগঞ্জ</column>
+            <column name="url">bhedarganj.shariatpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">327</column>
+            <column name="district_id">42</column>
+            <column name="name">Damudya</column>
+            <column name="bn_name">ডামুড্যা</column>
+            <column name="url">damudya.shariatpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">328</column>
+            <column name="district_id">43</column>
+            <column name="name">Araihazar</column>
+            <column name="bn_name">আড়াইহাজার</column>
+            <column name="url">araihazar.narayanganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">329</column>
+            <column name="district_id">43</column>
+            <column name="name">Bandar</column>
+            <column name="bn_name">বন্দর</column>
+            <column name="url">bandar.narayanganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">330</column>
+            <column name="district_id">43</column>
+            <column name="name">Narayanganj Sadar</column>
+            <column name="bn_name">নারায়নগঞ্জ সদর</column>
+            <column name="url">narayanganjsadar.narayanganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">331</column>
+            <column name="district_id">43</column>
+            <column name="name">Rupganj</column>
+            <column name="bn_name">রূপগঞ্জ</column>
+            <column name="url">rupganj.narayanganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">332</column>
+            <column name="district_id">43</column>
+            <column name="name">Sonargaon</column>
+            <column name="bn_name">সোনারগাঁ</column>
+            <column name="url">sonargaon.narayanganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">333</column>
+            <column name="district_id">44</column>
+            <column name="name">Basail</column>
+            <column name="bn_name">বাসাইল</column>
+            <column name="url">basail.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">334</column>
+            <column name="district_id">44</column>
+            <column name="name">Bhuapur</column>
+            <column name="bn_name">ভুয়াপুর</column>
+            <column name="url">bhuapur.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">335</column>
+            <column name="district_id">44</column>
+            <column name="name">Delduar</column>
+            <column name="bn_name">দেলদুয়ার</column>
+            <column name="url">delduar.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">336</column>
+            <column name="district_id">44</column>
+            <column name="name">Ghatail</column>
+            <column name="bn_name">ঘাটাইল</column>
+            <column name="url">ghatail.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">337</column>
+            <column name="district_id">44</column>
+            <column name="name">Gopalpur</column>
+            <column name="bn_name">গোপালপুর</column>
+            <column name="url">gopalpur.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">338</column>
+            <column name="district_id">44</column>
+            <column name="name">Madhupur</column>
+            <column name="bn_name">মধুপুর</column>
+            <column name="url">madhupur.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">339</column>
+            <column name="district_id">44</column>
+            <column name="name">Mirzapur</column>
+            <column name="bn_name">মির্জাপুর</column>
+            <column name="url">mirzapur.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">340</column>
+            <column name="district_id">44</column>
+            <column name="name">Nagarpur</column>
+            <column name="bn_name">নাগরপুর</column>
+            <column name="url">nagarpur.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">341</column>
+            <column name="district_id">44</column>
+            <column name="name">Sakhipur</column>
+            <column name="bn_name">সখিপুর</column>
+            <column name="url">sakhipur.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">342</column>
+            <column name="district_id">44</column>
+            <column name="name">Tangail Sadar</column>
+            <column name="bn_name">টাঙ্গাইল সদর</column>
+            <column name="url">tangailsadar.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">343</column>
+            <column name="district_id">44</column>
+            <column name="name">Kalihati</column>
+            <column name="bn_name">কালিহাতী</column>
+            <column name="url">kalihati.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">344</column>
+            <column name="district_id">44</column>
+            <column name="name">Dhanbari</column>
+            <column name="bn_name">ধনবাড়ী</column>
+            <column name="url">dhanbari.tangail.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">345</column>
+            <column name="district_id">45</column>
+            <column name="name">Itna</column>
+            <column name="bn_name">ইটনা</column>
+            <column name="url">itna.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">346</column>
+            <column name="district_id">45</column>
+            <column name="name">Katiadi</column>
+            <column name="bn_name">কটিয়াদী</column>
+            <column name="url">katiadi.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">347</column>
+            <column name="district_id">45</column>
+            <column name="name">Bhairab</column>
+            <column name="bn_name">ভৈরব</column>
+            <column name="url">bhairab.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">348</column>
+            <column name="district_id">45</column>
+            <column name="name">Tarail</column>
+            <column name="bn_name">তাড়াইল</column>
+            <column name="url">tarail.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">349</column>
+            <column name="district_id">45</column>
+            <column name="name">Hossainpur</column>
+            <column name="bn_name">হোসেনপুর</column>
+            <column name="url">hossainpur.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">350</column>
+            <column name="district_id">45</column>
+            <column name="name">Pakundia</column>
+            <column name="bn_name">পাকুন্দিয়া</column>
+            <column name="url">pakundia.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">351</column>
+            <column name="district_id">45</column>
+            <column name="name">Kuliarchar</column>
+            <column name="bn_name">কুলিয়ারচর</column>
+            <column name="url">kuliarchar.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">352</column>
+            <column name="district_id">45</column>
+            <column name="name">Kishoreganj Sadar</column>
+            <column name="bn_name">কিশোরগঞ্জ সদর</column>
+            <column name="url">kishoreganjsadar.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">353</column>
+            <column name="district_id">45</column>
+            <column name="name">Karimgonj</column>
+            <column name="bn_name">করিমগঞ্জ</column>
+            <column name="url">karimgonj.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">354</column>
+            <column name="district_id">45</column>
+            <column name="name">Bajitpur</column>
+            <column name="bn_name">বাজিতপুর</column>
+            <column name="url">bajitpur.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">355</column>
+            <column name="district_id">45</column>
+            <column name="name">Austagram</column>
+            <column name="bn_name">অষ্টগ্রাম</column>
+            <column name="url">austagram.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">356</column>
+            <column name="district_id">45</column>
+            <column name="name">Mithamoin</column>
+            <column name="bn_name">মিঠামইন</column>
+            <column name="url">mithamoin.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">357</column>
+            <column name="district_id">45</column>
+            <column name="name">Nikli</column>
+            <column name="bn_name">নিকলী</column>
+            <column name="url">nikli.kishoreganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">358</column>
+            <column name="district_id">46</column>
+            <column name="name">Harirampur</column>
+            <column name="bn_name">হরিরামপুর</column>
+            <column name="url">harirampur.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">359</column>
+            <column name="district_id">46</column>
+            <column name="name">Saturia</column>
+            <column name="bn_name">সাটুরিয়া</column>
+            <column name="url">saturia.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">360</column>
+            <column name="district_id">46</column>
+            <column name="name">Manikganj Sadar</column>
+            <column name="bn_name">মানিকগঞ্জ সদর</column>
+            <column name="url">sadar.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">361</column>
+            <column name="district_id">46</column>
+            <column name="name">Gior</column>
+            <column name="bn_name">ঘিওর</column>
+            <column name="url">gior.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">362</column>
+            <column name="district_id">46</column>
+            <column name="name">Shibaloy</column>
+            <column name="bn_name">শিবালয়</column>
+            <column name="url">shibaloy.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">363</column>
+            <column name="district_id">46</column>
+            <column name="name">Doulatpur</column>
+            <column name="bn_name">দৌলতপুর</column>
+            <column name="url">doulatpur.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">364</column>
+            <column name="district_id">46</column>
+            <column name="name">Singiar</column>
+            <column name="bn_name">সিংগাইর</column>
+            <column name="url">singiar.manikganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">365</column>
+            <column name="district_id">47</column>
+            <column name="name">Savar</column>
+            <column name="bn_name">সাভার</column>
+            <column name="url">savar.dhaka.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">366</column>
+            <column name="district_id">47</column>
+            <column name="name">Dhamrai</column>
+            <column name="bn_name">ধামরাই</column>
+            <column name="url">dhamrai.dhaka.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">367</column>
+            <column name="district_id">47</column>
+            <column name="name">Keraniganj</column>
+            <column name="bn_name">কেরাণীগঞ্জ</column>
+            <column name="url">keraniganj.dhaka.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">368</column>
+            <column name="district_id">47</column>
+            <column name="name">Nawabganj</column>
+            <column name="bn_name">নবাবগঞ্জ</column>
+            <column name="url">nawabganj.dhaka.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">369</column>
+            <column name="district_id">47</column>
+            <column name="name">Dohar</column>
+            <column name="bn_name">দোহার</column>
+            <column name="url">dohar.dhaka.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">370</column>
+            <column name="district_id">48</column>
+            <column name="name">Munshiganj Sadar</column>
+            <column name="bn_name">মুন্সিগঞ্জ সদর</column>
+            <column name="url">sadar.munshiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">371</column>
+            <column name="district_id">48</column>
+            <column name="name">Sreenagar</column>
+            <column name="bn_name">শ্রীনগর</column>
+            <column name="url">sreenagar.munshiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">372</column>
+            <column name="district_id">48</column>
+            <column name="name">Sirajdikhan</column>
+            <column name="bn_name">সিরাজদিখান</column>
+            <column name="url">sirajdikhan.munshiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">373</column>
+            <column name="district_id">48</column>
+            <column name="name">Louhajanj</column>
+            <column name="bn_name">লৌহজং</column>
+            <column name="url">louhajanj.munshiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">374</column>
+            <column name="district_id">48</column>
+            <column name="name">Gajaria</column>
+            <column name="bn_name">গজারিয়া</column>
+            <column name="url">gajaria.munshiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">375</column>
+            <column name="district_id">48</column>
+            <column name="name">Tongibari</column>
+            <column name="bn_name">টংগীবাড়ি</column>
+            <column name="url">tongibari.munshiganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">376</column>
+            <column name="district_id">49</column>
+            <column name="name">Rajbari Sadar</column>
+            <column name="bn_name">রাজবাড়ী সদর</column>
+            <column name="url">sadar.rajbari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">377</column>
+            <column name="district_id">49</column>
+            <column name="name">Goalanda</column>
+            <column name="bn_name">গোয়ালন্দ</column>
+            <column name="url">goalanda.rajbari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">378</column>
+            <column name="district_id">49</column>
+            <column name="name">Pangsa</column>
+            <column name="bn_name">পাংশা</column>
+            <column name="url">pangsa.rajbari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">379</column>
+            <column name="district_id">49</column>
+            <column name="name">Baliakandi</column>
+            <column name="bn_name">বালিয়াকান্দি</column>
+            <column name="url">baliakandi.rajbari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">380</column>
+            <column name="district_id">49</column>
+            <column name="name">Kalukhali</column>
+            <column name="bn_name">কালুখালী</column>
+            <column name="url">kalukhali.rajbari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">381</column>
+            <column name="district_id">50</column>
+            <column name="name">Madaripur Sadar</column>
+            <column name="bn_name">মাদারীপুর সদর</column>
+            <column name="url">sadar.madaripur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">382</column>
+            <column name="district_id">50</column>
+            <column name="name">Shibchar</column>
+            <column name="bn_name">শিবচর</column>
+            <column name="url">shibchar.madaripur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">383</column>
+            <column name="district_id">50</column>
+            <column name="name">Kalkini</column>
+            <column name="bn_name">কালকিনি</column>
+            <column name="url">kalkini.madaripur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">384</column>
+            <column name="district_id">50</column>
+            <column name="name">Rajoir</column>
+            <column name="bn_name">রাজৈর</column>
+            <column name="url">rajoir.madaripur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">385</column>
+            <column name="district_id">51</column>
+            <column name="name">Gopalganj Sadar</column>
+            <column name="bn_name">গোপালগঞ্জ সদর</column>
+            <column name="url">sadar.gopalganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">386</column>
+            <column name="district_id">51</column>
+            <column name="name">Kashiani</column>
+            <column name="bn_name">কাশিয়ানী</column>
+            <column name="url">kashiani.gopalganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">387</column>
+            <column name="district_id">51</column>
+            <column name="name">Tungipara</column>
+            <column name="bn_name">টুংগীপাড়া</column>
+            <column name="url">tungipara.gopalganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">388</column>
+            <column name="district_id">51</column>
+            <column name="name">Kotalipara</column>
+            <column name="bn_name">কোটালীপাড়া</column>
+            <column name="url">kotalipara.gopalganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">389</column>
+            <column name="district_id">51</column>
+            <column name="name">Muksudpur</column>
+            <column name="bn_name">মুকসুদপুর</column>
+            <column name="url">muksudpur.gopalganj.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">390</column>
+            <column name="district_id">52</column>
+            <column name="name">Faridpur Sadar</column>
+            <column name="bn_name">ফরিদপুর সদর</column>
+            <column name="url">sadar.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">391</column>
+            <column name="district_id">52</column>
+            <column name="name">Alfadanga</column>
+            <column name="bn_name">আলফাডাঙ্গা</column>
+            <column name="url">alfadanga.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">392</column>
+            <column name="district_id">52</column>
+            <column name="name">Boalmari</column>
+            <column name="bn_name">বোয়ালমারী</column>
+            <column name="url">boalmari.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">393</column>
+            <column name="district_id">52</column>
+            <column name="name">Sadarpur</column>
+            <column name="bn_name">সদরপুর</column>
+            <column name="url">sadarpur.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">394</column>
+            <column name="district_id">52</column>
+            <column name="name">Nagarkanda</column>
+            <column name="bn_name">নগরকান্দা</column>
+            <column name="url">nagarkanda.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">395</column>
+            <column name="district_id">52</column>
+            <column name="name">Bhanga</column>
+            <column name="bn_name">ভাঙ্গা</column>
+            <column name="url">bhanga.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">396</column>
+            <column name="district_id">52</column>
+            <column name="name">Charbhadrasan</column>
+            <column name="bn_name">চরভদ্রাসন</column>
+            <column name="url">charbhadrasan.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">397</column>
+            <column name="district_id">52</column>
+            <column name="name">Madhukhali</column>
+            <column name="bn_name">মধুখালী</column>
+            <column name="url">madhukhali.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">398</column>
+            <column name="district_id">52</column>
+            <column name="name">Saltha</column>
+            <column name="bn_name">সালথা</column>
+            <column name="url">saltha.faridpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">399</column>
+            <column name="district_id">53</column>
+            <column name="name">Panchagarh Sadar</column>
+            <column name="bn_name">পঞ্চগড় সদর</column>
+            <column name="url">panchagarhsadar.panchagarh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">400</column>
+            <column name="district_id">53</column>
+            <column name="name">Debiganj</column>
+            <column name="bn_name">দেবীগঞ্জ</column>
+            <column name="url">debiganj.panchagarh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">401</column>
+            <column name="district_id">53</column>
+            <column name="name">Boda</column>
+            <column name="bn_name">বোদা</column>
+            <column name="url">boda.panchagarh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">402</column>
+            <column name="district_id">53</column>
+            <column name="name">Atwari</column>
+            <column name="bn_name">আটোয়ারী</column>
+            <column name="url">atwari.panchagarh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">403</column>
+            <column name="district_id">53</column>
+            <column name="name">Tetulia</column>
+            <column name="bn_name">তেতুলিয়া</column>
+            <column name="url">tetulia.panchagarh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">404</column>
+            <column name="district_id">54</column>
+            <column name="name">Nawabganj</column>
+            <column name="bn_name">নবাবগঞ্জ</column>
+            <column name="url">nawabganj.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">405</column>
+            <column name="district_id">54</column>
+            <column name="name">Birganj</column>
+            <column name="bn_name">বীরগঞ্জ</column>
+            <column name="url">birganj.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">406</column>
+            <column name="district_id">54</column>
+            <column name="name">Ghoraghat</column>
+            <column name="bn_name">ঘোড়াঘাট</column>
+            <column name="url">ghoraghat.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">407</column>
+            <column name="district_id">54</column>
+            <column name="name">Birampur</column>
+            <column name="bn_name">বিরামপুর</column>
+            <column name="url">birampur.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">408</column>
+            <column name="district_id">54</column>
+            <column name="name">Parbatipur</column>
+            <column name="bn_name">পার্বতীপুর</column>
+            <column name="url">parbatipur.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">409</column>
+            <column name="district_id">54</column>
+            <column name="name">Bochaganj</column>
+            <column name="bn_name">বোচাগঞ্জ</column>
+            <column name="url">bochaganj.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">410</column>
+            <column name="district_id">54</column>
+            <column name="name">Kaharol</column>
+            <column name="bn_name">কাহারোল</column>
+            <column name="url">kaharol.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">411</column>
+            <column name="district_id">54</column>
+            <column name="name">Fulbari</column>
+            <column name="bn_name">ফুলবাড়ী</column>
+            <column name="url">fulbari.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">412</column>
+            <column name="district_id">54</column>
+            <column name="name">Dinajpur Sadar</column>
+            <column name="bn_name">দিনাজপুর সদর</column>
+            <column name="url">dinajpursadar.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">413</column>
+            <column name="district_id">54</column>
+            <column name="name">Hakimpur</column>
+            <column name="bn_name">হাকিমপুর</column>
+            <column name="url">hakimpur.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">414</column>
+            <column name="district_id">54</column>
+            <column name="name">Khansama</column>
+            <column name="bn_name">খানসামা</column>
+            <column name="url">khansama.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">415</column>
+            <column name="district_id">54</column>
+            <column name="name">Birol</column>
+            <column name="bn_name">বিরল</column>
+            <column name="url">birol.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">416</column>
+            <column name="district_id">54</column>
+            <column name="name">Chirirbandar</column>
+            <column name="bn_name">চিরিরবন্দর</column>
+            <column name="url">chirirbandar.dinajpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">417</column>
+            <column name="district_id">55</column>
+            <column name="name">Lalmonirhat Sadar</column>
+            <column name="bn_name">লালমনিরহাট সদর</column>
+            <column name="url">sadar.lalmonirhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">418</column>
+            <column name="district_id">55</column>
+            <column name="name">Kaliganj</column>
+            <column name="bn_name">কালীগঞ্জ</column>
+            <column name="url">kaliganj.lalmonirhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">419</column>
+            <column name="district_id">55</column>
+            <column name="name">Hatibandha</column>
+            <column name="bn_name">হাতীবান্ধা</column>
+            <column name="url">hatibandha.lalmonirhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">420</column>
+            <column name="district_id">55</column>
+            <column name="name">Patgram</column>
+            <column name="bn_name">পাটগ্রাম</column>
+            <column name="url">patgram.lalmonirhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">421</column>
+            <column name="district_id">55</column>
+            <column name="name">Aditmari</column>
+            <column name="bn_name">আদিতমারী</column>
+            <column name="url">aditmari.lalmonirhat.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">422</column>
+            <column name="district_id">56</column>
+            <column name="name">Syedpur</column>
+            <column name="bn_name">সৈয়দপুর</column>
+            <column name="url">syedpur.nilphamari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">423</column>
+            <column name="district_id">56</column>
+            <column name="name">Domar</column>
+            <column name="bn_name">ডোমার</column>
+            <column name="url">domar.nilphamari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">424</column>
+            <column name="district_id">56</column>
+            <column name="name">Dimla</column>
+            <column name="bn_name">ডিমলা</column>
+            <column name="url">dimla.nilphamari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">425</column>
+            <column name="district_id">56</column>
+            <column name="name">Jaldhaka</column>
+            <column name="bn_name">জলঢাকা</column>
+            <column name="url">jaldhaka.nilphamari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">426</column>
+            <column name="district_id">56</column>
+            <column name="name">Kishorganj</column>
+            <column name="bn_name">কিশোরগঞ্জ</column>
+            <column name="url">kishorganj.nilphamari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">427</column>
+            <column name="district_id">56</column>
+            <column name="name">Nilphamari Sadar</column>
+            <column name="bn_name">নীলফামারী সদর</column>
+            <column name="url">nilphamarisadar.nilphamari.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">428</column>
+            <column name="district_id">57</column>
+            <column name="name">Sadullapur</column>
+            <column name="bn_name">সাদুল্লাপুর</column>
+            <column name="url">sadullapur.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">429</column>
+            <column name="district_id">57</column>
+            <column name="name">Gaibandha Sadar</column>
+            <column name="bn_name">গাইবান্ধা সদর</column>
+            <column name="url">gaibandhasadar.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">430</column>
+            <column name="district_id">57</column>
+            <column name="name">Palashbari</column>
+            <column name="bn_name">পলাশবাড়ী</column>
+            <column name="url">palashbari.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">431</column>
+            <column name="district_id">57</column>
+            <column name="name">Saghata</column>
+            <column name="bn_name">সাঘাটা</column>
+            <column name="url">saghata.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">432</column>
+            <column name="district_id">57</column>
+            <column name="name">Gobindaganj</column>
+            <column name="bn_name">গোবিন্দগঞ্জ</column>
+            <column name="url">gobindaganj.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">433</column>
+            <column name="district_id">57</column>
+            <column name="name">Sundarganj</column>
+            <column name="bn_name">সুন্দরগঞ্জ</column>
+            <column name="url">sundarganj.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">434</column>
+            <column name="district_id">57</column>
+            <column name="name">Phulchari</column>
+            <column name="bn_name">ফুলছড়ি</column>
+            <column name="url">phulchari.gaibandha.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">435</column>
+            <column name="district_id">58</column>
+            <column name="name">Thakurgaon Sadar</column>
+            <column name="bn_name">ঠাকুরগাঁও সদর</column>
+            <column name="url">thakurgaonsadar.thakurgaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">436</column>
+            <column name="district_id">58</column>
+            <column name="name">Pirganj</column>
+            <column name="bn_name">পীরগঞ্জ</column>
+            <column name="url">pirganj.thakurgaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">437</column>
+            <column name="district_id">58</column>
+            <column name="name">Ranisankail</column>
+            <column name="bn_name">রাণীশংকৈল</column>
+            <column name="url">ranisankail.thakurgaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">438</column>
+            <column name="district_id">58</column>
+            <column name="name">Haripur</column>
+            <column name="bn_name">হরিপুর</column>
+            <column name="url">haripur.thakurgaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">439</column>
+            <column name="district_id">58</column>
+            <column name="name">Baliadangi</column>
+            <column name="bn_name">বালিয়াডাঙ্গী</column>
+            <column name="url">baliadangi.thakurgaon.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">440</column>
+            <column name="district_id">59</column>
+            <column name="name">Rangpur Sadar</column>
+            <column name="bn_name">রংপুর সদর</column>
+            <column name="url">rangpursadar.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">441</column>
+            <column name="district_id">59</column>
+            <column name="name">Gangachara</column>
+            <column name="bn_name">গংগাচড়া</column>
+            <column name="url">gangachara.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">442</column>
+            <column name="district_id">59</column>
+            <column name="name">Taragonj</column>
+            <column name="bn_name">তারাগঞ্জ</column>
+            <column name="url">taragonj.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">443</column>
+            <column name="district_id">59</column>
+            <column name="name">Badargonj</column>
+            <column name="bn_name">বদরগঞ্জ</column>
+            <column name="url">badargonj.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">444</column>
+            <column name="district_id">59</column>
+            <column name="name">Mithapukur</column>
+            <column name="bn_name">মিঠাপুকুর</column>
+            <column name="url">mithapukur.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">445</column>
+            <column name="district_id">59</column>
+            <column name="name">Pirgonj</column>
+            <column name="bn_name">পীরগঞ্জ</column>
+            <column name="url">pirgonj.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">446</column>
+            <column name="district_id">59</column>
+            <column name="name">Kaunia</column>
+            <column name="bn_name">কাউনিয়া</column>
+            <column name="url">kaunia.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">447</column>
+            <column name="district_id">59</column>
+            <column name="name">Pirgacha</column>
+            <column name="bn_name">পীরগাছা</column>
+            <column name="url">pirgacha.rangpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">448</column>
+            <column name="district_id">60</column>
+            <column name="name">Kurigram Sadar</column>
+            <column name="bn_name">কুড়িগ্রাম সদর</column>
+            <column name="url">kurigramsadar.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">449</column>
+            <column name="district_id">60</column>
+            <column name="name">Nageshwari</column>
+            <column name="bn_name">নাগেশ্বরী</column>
+            <column name="url">nageshwari.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">450</column>
+            <column name="district_id">60</column>
+            <column name="name">Bhurungamari</column>
+            <column name="bn_name">ভুরুঙ্গামারী</column>
+            <column name="url">bhurungamari.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">451</column>
+            <column name="district_id">60</column>
+            <column name="name">Phulbari</column>
+            <column name="bn_name">ফুলবাড়ী</column>
+            <column name="url">phulbari.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">452</column>
+            <column name="district_id">60</column>
+            <column name="name">Rajarhat</column>
+            <column name="bn_name">রাজারহাট</column>
+            <column name="url">rajarhat.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">453</column>
+            <column name="district_id">60</column>
+            <column name="name">Ulipur</column>
+            <column name="bn_name">উলিপুর</column>
+            <column name="url">ulipur.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">454</column>
+            <column name="district_id">60</column>
+            <column name="name">Chilmari</column>
+            <column name="bn_name">চিলমারী</column>
+            <column name="url">chilmari.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">455</column>
+            <column name="district_id">60</column>
+            <column name="name">Rowmari</column>
+            <column name="bn_name">রৌমারী</column>
+            <column name="url">rowmari.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">456</column>
+            <column name="district_id">60</column>
+            <column name="name">Charrajibpur</column>
+            <column name="bn_name">চর রাজিবপুর</column>
+            <column name="url">charrajibpur.kurigram.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">457</column>
+            <column name="district_id">61</column>
+            <column name="name">Sherpur Sadar</column>
+            <column name="bn_name">শেরপুর সদর</column>
+            <column name="url">sherpursadar.sherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">458</column>
+            <column name="district_id">61</column>
+            <column name="name">Nalitabari</column>
+            <column name="bn_name">নালিতাবাড়ী</column>
+            <column name="url">nalitabari.sherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">459</column>
+            <column name="district_id">61</column>
+            <column name="name">Sreebordi</column>
+            <column name="bn_name">শ্রীবরদী</column>
+            <column name="url">sreebordi.sherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">460</column>
+            <column name="district_id">61</column>
+            <column name="name">Nokla</column>
+            <column name="bn_name">নকলা</column>
+            <column name="url">nokla.sherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">461</column>
+            <column name="district_id">61</column>
+            <column name="name">Jhenaigati</column>
+            <column name="bn_name">ঝিনাইগাতী</column>
+            <column name="url">jhenaigati.sherpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">462</column>
+            <column name="district_id">62</column>
+            <column name="name">Fulbaria</column>
+            <column name="bn_name">ফুলবাড়ীয়া</column>
+            <column name="url">fulbaria.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">463</column>
+            <column name="district_id">62</column>
+            <column name="name">Trishal</column>
+            <column name="bn_name">ত্রিশাল</column>
+            <column name="url">trishal.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">464</column>
+            <column name="district_id">62</column>
+            <column name="name">Bhaluka</column>
+            <column name="bn_name">ভালুকা</column>
+            <column name="url">bhaluka.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">465</column>
+            <column name="district_id">62</column>
+            <column name="name">Muktagacha</column>
+            <column name="bn_name">মুক্তাগাছা</column>
+            <column name="url">muktagacha.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">466</column>
+            <column name="district_id">62</column>
+            <column name="name">Mymensingh Sadar</column>
+            <column name="bn_name">ময়মনসিংহ সদর</column>
+            <column name="url">mymensinghsadar.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">467</column>
+            <column name="district_id">62</column>
+            <column name="name">Dhobaura</column>
+            <column name="bn_name">ধোবাউড়া</column>
+            <column name="url">dhobaura.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">468</column>
+            <column name="district_id">62</column>
+            <column name="name">Phulpur</column>
+            <column name="bn_name">ফুলপুর</column>
+            <column name="url">phulpur.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">469</column>
+            <column name="district_id">62</column>
+            <column name="name">Haluaghat</column>
+            <column name="bn_name">হালুয়াঘাট</column>
+            <column name="url">haluaghat.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">470</column>
+            <column name="district_id">62</column>
+            <column name="name">Gouripur</column>
+            <column name="bn_name">গৌরীপুর</column>
+            <column name="url">gouripur.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">471</column>
+            <column name="district_id">62</column>
+            <column name="name">Gafargaon</column>
+            <column name="bn_name">গফরগাঁও</column>
+            <column name="url">gafargaon.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">472</column>
+            <column name="district_id">62</column>
+            <column name="name">Iswarganj</column>
+            <column name="bn_name">ঈশ্বরগঞ্জ</column>
+            <column name="url">iswarganj.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">473</column>
+            <column name="district_id">62</column>
+            <column name="name">Nandail</column>
+            <column name="bn_name">নান্দাইল</column>
+            <column name="url">nandail.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">474</column>
+            <column name="district_id">62</column>
+            <column name="name">Tarakanda</column>
+            <column name="bn_name">তারাকান্দা</column>
+            <column name="url">tarakanda.mymensingh.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">475</column>
+            <column name="district_id">63</column>
+            <column name="name">Jamalpur Sadar</column>
+            <column name="bn_name">জামালপুর সদর</column>
+            <column name="url">jamalpursadar.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">476</column>
+            <column name="district_id">63</column>
+            <column name="name">Melandah</column>
+            <column name="bn_name">মেলান্দহ</column>
+            <column name="url">melandah.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">477</column>
+            <column name="district_id">63</column>
+            <column name="name">Islampur</column>
+            <column name="bn_name">ইসলামপুর</column>
+            <column name="url">islampur.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">478</column>
+            <column name="district_id">63</column>
+            <column name="name">Dewangonj</column>
+            <column name="bn_name">দেওয়ানগঞ্জ</column>
+            <column name="url">dewangonj.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">479</column>
+            <column name="district_id">63</column>
+            <column name="name">Sarishabari</column>
+            <column name="bn_name">সরিষাবাড়ী</column>
+            <column name="url">sarishabari.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">480</column>
+            <column name="district_id">63</column>
+            <column name="name">Madarganj</column>
+            <column name="bn_name">মাদারগঞ্জ</column>
+            <column name="url">madarganj.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">481</column>
+            <column name="district_id">63</column>
+            <column name="name">Bokshiganj</column>
+            <column name="bn_name">বকশীগঞ্জ</column>
+            <column name="url">bokshiganj.jamalpur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">482</column>
+            <column name="district_id">64</column>
+            <column name="name">Barhatta</column>
+            <column name="bn_name">বারহাট্টা</column>
+            <column name="url">barhatta.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">483</column>
+            <column name="district_id">64</column>
+            <column name="name">Durgapur</column>
+            <column name="bn_name">দুর্গাপুর</column>
+            <column name="url">durgapur.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">484</column>
+            <column name="district_id">64</column>
+            <column name="name">Kendua</column>
+            <column name="bn_name">কেন্দুয়া</column>
+            <column name="url">kendua.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">485</column>
+            <column name="district_id">64</column>
+            <column name="name">Atpara</column>
+            <column name="bn_name">আটপাড়া</column>
+            <column name="url">atpara.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">486</column>
+            <column name="district_id">64</column>
+            <column name="name">Madan</column>
+            <column name="bn_name">মদন</column>
+            <column name="url">madan.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">487</column>
+            <column name="district_id">64</column>
+            <column name="name">Khaliajuri</column>
+            <column name="bn_name">খালিয়াজুরী</column>
+            <column name="url">khaliajuri.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">488</column>
+            <column name="district_id">64</column>
+            <column name="name">Kalmakanda</column>
+            <column name="bn_name">কলমাকান্দা</column>
+            <column name="url">kalmakanda.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">489</column>
+            <column name="district_id">64</column>
+            <column name="name">Mohongonj</column>
+            <column name="bn_name">মোহনগঞ্জ</column>
+            <column name="url">mohongonj.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">490</column>
+            <column name="district_id">64</column>
+            <column name="name">Purbadhala</column>
+            <column name="bn_name">পূর্বধলা</column>
+            <column name="url">purbadhala.netrokona.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">491</column>
+            <column name="district_id">64</column>
+            <column name="name">Netrokona Sadar</column>
+            <column name="bn_name">নেত্রকোণা সদর</column>
+            <column name="url">netrokonasadar.netrokona.gov.bd</column>
+        </table>
+    </database>
+</pma_xml_export>
