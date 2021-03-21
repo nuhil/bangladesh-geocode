@@ -592,8 +592,8 @@
             <column name="division_id">8</column>
             <column name="name">Mymensingh</column>
             <column name="bn_name">ময়মনসিংহ</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">24.7465670</column>
+            <column name="lon">90.4072093</column>
             <column name="url">www.mymensingh.gov.bd</column>
         </table>
         <table name="districts">
