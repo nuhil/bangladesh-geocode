@@ -64,7 +64,7 @@
 {"id":"59","division_id":"7","name":"Rangpur","bn_name":"রংপুর","lat":"25.7558096","lon":"89.244462","url":"www.rangpur.gov.bd"},
 {"id":"60","division_id":"7","name":"Kurigram","bn_name":"কুড়িগ্রাম","lat":"25.805445","lon":"89.636174","url":"www.kurigram.gov.bd"},
 {"id":"61","division_id":"8","name":"Sherpur","bn_name":"শেরপুর","lat":"25.0204933","lon":"90.0152966","url":"www.sherpur.gov.bd"},
-{"id":"62","division_id":"8","name":"Mymensingh","bn_name":"ময়মনসিংহ","lat":null,"lon":null,"url":"www.mymensingh.gov.bd"},
+{"id":"62","division_id":"8","name":"Mymensingh","bn_name":"ময়মনসিংহ","lat":"24.7465670","lon":"90.4072093","url":"www.mymensingh.gov.bd"},
 {"id":"63","division_id":"8","name":"Jamalpur","bn_name":"জামালপুর","lat":"24.937533","lon":"89.937775","url":"www.jamalpur.gov.bd"},
 {"id":"64","division_id":"8","name":"Netrokona","bn_name":"নেত্রকোণা","lat":"24.870955","lon":"90.727887","url":"www.netrokona.gov.bd"}
 ]
