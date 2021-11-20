@@ -70,8 +70,8 @@
             <column name="division_id">1</column>
             <column name="name">Rangamati</column>
             <column name="bn_name">রাঙ্গামাটি</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">22.65561018</column>
+            <column name="lon">92.17541121</column>
             <column name="url">www.rangamati.gov.bd</column>
         </table>
         <table name="districts">
@@ -115,8 +115,8 @@
             <column name="division_id">1</column>
             <column name="name">Coxsbazar</column>
             <column name="bn_name">কক্সবাজার</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">21.44315751</column>
+            <column name="lon">91.97381741</column>
             <column name="url">www.coxsbazar.gov.bd</column>
         </table>
         <table name="districts">
@@ -169,8 +169,8 @@
             <column name="division_id">2</column>
             <column name="name">Rajshahi</column>
             <column name="bn_name">রাজশাহী</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">24.37230298</column>
+            <column name="lon">88.56307623</column>
             <column name="url">www.rajshahi.gov.bd</column>
         </table>
         <table name="districts">
@@ -187,8 +187,8 @@
             <column name="division_id">2</column>
             <column name="name">Joypurhat</column>
             <column name="bn_name">জয়পুরহাট</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">25.09636876</column>
+            <column name="lon">89.04004280</column>
             <column name="url">www.joypurhat.gov.bd</column>
         </table>
         <table name="districts">
@@ -205,8 +205,8 @@
             <column name="division_id">2</column>
             <column name="name">Naogaon</column>
             <column name="bn_name">নওগাঁ</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">24.83256191</column>
+            <column name="lon">88.92485205</column>
             <column name="url">www.naogaon.gov.bd</column>
         </table>
         <table name="districts">
