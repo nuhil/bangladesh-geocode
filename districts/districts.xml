@@ -430,8 +430,8 @@
             <column name="division_id">6</column>
             <column name="name">Tangail</column>
             <column name="bn_name">টাঙ্গাইল</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">24.26361358</column>
+            <column name="lon">89.91794786</column>
             <column name="url">www.tangail.gov.bd</column>
         </table>
         <table name="districts">
