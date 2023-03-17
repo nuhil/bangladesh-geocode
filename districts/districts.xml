@@ -223,8 +223,8 @@
             <column name="division_id">3</column>
             <column name="name">Satkhira</column>
             <column name="bn_name">সাতক্ষীরা</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">22.7180905</column>
+            <column name="lon">89.0687033</column>
             <column name="url">www.satkhira.gov.bd</column>
         </table>
         <table name="districts">
@@ -304,8 +304,8 @@
             <column name="division_id">4</column>
             <column name="name">Jhalakathi</column>
             <column name="bn_name">ঝালকাঠি</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">22.6422689</column>
+            <column name="lon">90.2003932</column>
             <column name="url">www.jhalakathi.gov.bd</column>
         </table>
         <table name="districts">
@@ -322,8 +322,8 @@
             <column name="division_id">4</column>
             <column name="name">Pirojpur</column>
             <column name="bn_name">পিরোজপুর</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">22.5781398</column>
+            <column name="lon">89.9983909</column>
             <column name="url">www.pirojpur.gov.bd</column>
         </table>
         <table name="districts">
@@ -331,8 +331,8 @@
             <column name="division_id">4</column>
             <column name="name">Barisal</column>
             <column name="bn_name">বরিশাল</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">22.7004179</column>
+            <column name="lon">90.3731568</column>
             <column name="url">www.barisal.gov.bd</column>
         </table>
         <table name="districts">
@@ -349,8 +349,8 @@
             <column name="division_id">4</column>
             <column name="name">Barguna</column>
             <column name="bn_name">বরগুনা</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">22.159182</column>
+            <column name="lon">90.125581</column>
             <column name="url">www.barguna.gov.bd</column>
         </table>
         <table name="districts">
@@ -412,8 +412,8 @@
             <column name="division_id">6</column>
             <column name="name">Shariatpur</column>
             <column name="bn_name">শরীয়তপুর</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">23.2060195</column>
+            <column name="lon">90.3477725</column>
             <column name="url">www.shariatpur.gov.bd</column>
         </table>
         <table name="districts">
@@ -448,8 +448,8 @@
             <column name="division_id">6</column>
             <column name="name">Manikganj</column>
             <column name="bn_name">মানিকগঞ্জ</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">23.8602262</column>
+            <column name="lon">90.0018293</column>
             <column name="url">www.manikganj.gov.bd</column>
         </table>
         <table name="districts">
@@ -466,8 +466,8 @@
             <column name="division_id">6</column>
             <column name="name">Munshiganj</column>
             <column name="bn_name">মুন্সিগঞ্জ</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">23.5435742</column>
+            <column name="lon">90.5354327</column>
             <column name="url">www.munshiganj.gov.bd</column>
         </table>
         <table name="districts">
@@ -529,8 +529,8 @@
             <column name="division_id">7</column>
             <column name="name">Lalmonirhat</column>
             <column name="bn_name">লালমনিরহাট</column>
-            <column name="lat">NULL</column>
-            <column name="lon">NULL</column>
+            <column name="lat">25.9165451</column>
+            <column name="lon">89.4532409</column>
             <column name="url">www.lalmonirhat.gov.bd</column>
         </table>
         <table name="districts">
