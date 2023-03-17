@@ -53,7 +53,7 @@ $districts = array(
   array('id' => '41','division_id' => '6','name' => 'Gazipur','bn_name' => 'গাজীপুর','lat' => '24.0022858','lon' => '90.4264283','url' => 'www.gazipur.gov.bd'),
   array('id' => '42','division_id' => '6','name' => 'Shariatpur','bn_name' => 'শরীয়তপুর','lat' => '23.2060195','lon' => '90.3477725','url' => 'www.shariatpur.gov.bd'),
   array('id' => '43','division_id' => '6','name' => 'Narayanganj','bn_name' => 'নারায়ণগঞ্জ','lat' => '23.63366','lon' => '90.496482','url' => 'www.narayanganj.gov.bd'),
-  array('id' => '44','division_id' => '6','name' => 'Tangail','bn_name' => 'টাঙ্গাইল','lat' => '24.26361358','lon' => '89.91794786','url' => 'www.tangail.gov.bd'),
+  array('id' => '44','division_id' => '6','name' => 'Tangail','bn_name' => 'টাঙ্গাইল','lat' => '24.264145','lon' => '89.918029','url' => 'www.tangail.gov.bd'),
   array('id' => '45','division_id' => '6','name' => 'Kishoreganj','bn_name' => 'কিশোরগঞ্জ','lat' => '24.444937','lon' => '90.776575','url' => 'www.kishoreganj.gov.bd'),
   array('id' => '46','division_id' => '6','name' => 'Manikganj','bn_name' => 'মানিকগঞ্জ','lat' => '23.8602262','lon' => "90.0018293",'url' => 'www.manikganj.gov.bd'),
   array('id' => '47','division_id' => '6','name' => 'Dhaka','bn_name' => 'ঢাকা','lat' => '23.7115253','lon' => '90.4111451','url' => 'www.dhaka.gov.bd'),
