@@ -1,0 +1,25 @@
+{
+  "hdx_cod_ab_bgd": {
+    "page": "https://data.humdata.org/dataset/cod-ab-bgd",
+    "xlsx_url": "https://data.humdata.org/dataset/401d3fae-4262-48c9-891f-461fd776d49b/resource/5f7e534d-9b06-442e-a706-083789bff2c9/download/bgd_admin_boundaries.xlsx",
+    "geojson_url": "https://data.humdata.org/dataset/401d3fae-4262-48c9-891f-461fd776d49b/resource/cec2abe3-d8b7-4025-9362-9f7e780f2a07/download/bgd_admin_boundaries.geojson.zip",
+    "xlsx_sha256": "a58bc267d548e68d55d9f6fca6fdb4212cef7142eb8d887057dff7e40be45207",
+    "geojson_used": true,
+    "retrieved_at": "2026-11-11T15:49:47+00:00",
+    "metadata": {
+      "title": "Bangladesh - Subnational Administrative Boundaries",
+      "dataset_date": "[2023-05-21T00:00:00 TO 2025-06-01T23:59:59]",
+      "metadata_modified": "2026-08-14T06:36:57.726015",
+      "source": "Bangladesh Bureau of Statistics (BBS)",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)"
+    }
+  },
+  "geonames_postcodes": {
+    "page": "https://download.geonames.org/export/zip/",
+    "url": "https://download.geonames.org/export/zip/BD.zip",
+    "license": "Creative Commons Attribution 4.0",
+    "sha256": "20de22a4318bed09eca30f124a5bd5c4027a992f001cfe092274f6f9f6235c94",
+    "geometry_linked": true,
+    "retrieved_at": "2026-11-11T15:49:47+00:00"
+  }
+}

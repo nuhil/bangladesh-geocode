@@ -1,0 +1,1363 @@
+table,key,id
+upazilas,BD60360087,495
+city_corporations,BD10065000,1
+city_corporations,BD20151600,2
+city_corporations,BD20195000,3
+city_corporations,BD30262000,4
+city_corporations,BD30262500,5
+city_corporations,BD30333300,6
+city_corporations,BD30674400,7
+city_corporations,BD40473300,8
+city_corporations,BD45614000,9
+city_corporations,BD50816600,10
+city_corporations,BD55857500,11
+city_corporations,BD60915000,12
+postcodes,1000|Dhaka GPO,1
+postcodes,1100|Dhaka Sadar HO,2
+postcodes,1203|Wari TSO,3
+postcodes,1204|Gendaria TSO,4
+postcodes,1205|New Market TSO,5
+postcodes,1206|Dhaka CantonmentTSO,6
+postcodes,1207|Mohammadpur Housing,7
+postcodes,1208|Dhaka Politechnic,8
+postcodes,1209|Jigatala TSO,9
+postcodes,1211|Posta TSO,10
+postcodes,1212|Gulshan Model Town,11
+postcodes,1213|Banani TSO,12
+postcodes,1214|Basabo TSO,13
+postcodes,1215|Tejgaon TSO,14
+postcodes,1216|Mirpur TSO,15
+postcodes,1217|Shantinagr TSO,16
+postcodes,1219|KhilgaonTSO,17
+postcodes,1222|BangabhabanTSO,18
+postcodes,1223|DilkushaTSO,19
+postcodes,1225|Sangsad BhabanTSO,20
+postcodes,1229|KhilkhetTSO,21
+postcodes,1230|Uttara Model TwonTSO,22
+postcodes,1232|Dhania TSO,23
+postcodes,1310|Keraniganj,24
+postcodes,1311|Dhaka Jute Mills,25
+postcodes,1312|Ati,26
+postcodes,1313|Kalatia,27
+postcodes,1320|Nawabganj,28
+postcodes,1321|Hasnabad,29
+postcodes,1322|Daudpur,30
+postcodes,1323|Agla,31
+postcodes,1324|Khalpar,32
+postcodes,1325|Churain,33
+postcodes,1330|Joypara,34
+postcodes,1331|Palamganj,35
+postcodes,1332|Narisha,36
+postcodes,1333|Haridia,37
+postcodes,1334|Gouragonj,38
+postcodes,1335|Madini Mandal,39
+postcodes,1340|Savar,40
+postcodes,1341|Dairy Farm,41
+postcodes,1342|Jahangirnagar Univer,42
+postcodes,1343|Saver P.A.T.C,43
+postcodes,1344|Savar Canttonment,44
+postcodes,1345|Shimulia,45
+postcodes,1346|Kashem Cotton Mills,46
+postcodes,1347|Rajphulbaria,47
+postcodes,1348|Amin Bazar,48
+postcodes,1349|EPZ,49
+postcodes,1350|Dhamrai,50
+postcodes,1351|Kamalpur,51
+postcodes,1360|Demra,52
+postcodes,1361|Sarulia,53
+postcodes,1362|Matuail,54
+postcodes,1400|Narayanganj Sadar,55
+postcodes,1410|Bandar,56
+postcodes,1411|D.C Mills,57
+postcodes,1412|Nabiganj,58
+postcodes,1413|BIDS,59
+postcodes,1414|Madanganj,60
+postcodes,1420|Fatullah,61
+postcodes,1421|Fatulla Bazar,62
+postcodes,1430|Siddirganj,63
+postcodes,1431|Adamjeenagar,64
+postcodes,1432|LN Mills,65
+postcodes,1440|Baidder Bazar,66
+postcodes,1441|Bara Nagar,67
+postcodes,1442|Barodi,68
+postcodes,1450|Araihazar,69
+postcodes,1451|Gopaldi,70
+postcodes,1460|Rupganj,71
+postcodes,1461|Kanchan,72
+postcodes,1462|Bhulta,73
+postcodes,1463|Nagri,74
+postcodes,1464|Murapara,75
+postcodes,1500|Munshiganj Sadar,76
+postcodes,1501|Rikabibazar,77
+postcodes,1502|Mirkadim,78
+postcodes,1503|Kathakhali,79
+postcodes,1510|Gajaria,80
+postcodes,1511|Hossendi,81
+postcodes,1512|Rasulpur,82
+postcodes,1520|Tangibari,83
+postcodes,1521|Betkahat,84
+postcodes,1522|Baligao,85
+postcodes,1523|Bajrajugini,86
+postcodes,1524|Hasail,87
+postcodes,1525|Dighirpar,88
+postcodes,1526|Pura EDSO,89
+postcodes,1527|Pura,90
+postcodes,1530|Lohajang,91
+postcodes,1531|Korhati,92
+postcodes,1532|Haldia SO,93
+postcodes,1533|Haridia DESO,94
+postcodes,1534|Gouragonj,95
+postcodes,1535|Medini Mandal EDSO,96
+postcodes,1540|Sirajdikhan,97
+postcodes,1541|Kola,98
+postcodes,1542|Ichapur,99
+postcodes,1543|Malkha Nagar,100
+postcodes,1544|Shekher Nagar,101
+postcodes,1550|Srinagar,102
+postcodes,1551|Barikhal,103
+postcodes,1552|Mazpara,104
+postcodes,1553|Hashara,105
+postcodes,1554|Kolapara,106
+postcodes,1555|Kumarbhog,107
+postcodes,1556|Vaggyakul SO,108
+postcodes,1557|Baghra,109
+postcodes,1558|Bhaggyakul,110
+postcodes,1600|Narshingdi Sadar,111
+postcodes,1601|UMC Jute Mills,112
+postcodes,1602|Narshingdi College,113
+postcodes,1603|Panchdona,114
+postcodes,1604|Madhabdi,115
+postcodes,1605|Karimpur,116
+postcodes,1610|Palash,117
+postcodes,1611|Ghorashal Urea Facto,118
+postcodes,1612|Char Sindhur,119
+postcodes,1613|Ghorashal,120
+postcodes,1620|Shibpur,121
+postcodes,1630|Raypura,122
+postcodes,1631|Bazar Hasnabad,123
+postcodes,1632|Radhaganj bazar,124
+postcodes,1640|Belabo,125
+postcodes,1650|Monohordi,126
+postcodes,1651|Hatirdia,127
+postcodes,1652|Katabaria,128
+postcodes,1700|Gazipur Sadar,129
+postcodes,1701|B.R.R,130
+postcodes,1702|Chandna,131
+postcodes,1703|B.O.F,132
+postcodes,1704|National University,133
+postcodes,1710|Monnunagar,134
+postcodes,1711|Nishat Nagar,135
+postcodes,1712|Ershad Nagar,136
+postcodes,1720|Kaliganj,137
+postcodes,1721|Pubail,138
+postcodes,1722|Santanpara,139
+postcodes,1723|Vaoal Jamalpur,140
+postcodes,1730|kapashia,141
+postcodes,1740|Sreepur,142
+postcodes,1741|Rajendrapur,143
+postcodes,1742|Rajendrapur Canttome,144
+postcodes,1743|Barmi,145
+postcodes,1744|Satkhamair,146
+postcodes,1745|Kawraid,147
+postcodes,1747|Bashamur,148
+postcodes,1748|Boubi,149
+postcodes,1750|Kaliakaar,150
+postcodes,1751|Safipur,151
+postcodes,1800|Manikganj Sadar,152
+postcodes,1801|Manikganj Bazar,153
+postcodes,1802|Gorpara,154
+postcodes,1803|Mahadebpur,155
+postcodes,1804|Barangail,156
+postcodes,1810|Saturia,157
+postcodes,1811|Baliati,158
+postcodes,1820|Singair,159
+postcodes,1821|Baira,160
+postcodes,1822|joymantop,161
+postcodes,1830|Lechhraganj,162
+postcodes,1831|Jhitka,163
+postcodes,1840|Gheor,164
+postcodes,1850|Shibaloy,165
+postcodes,1851|Aricha,166
+postcodes,1852|Tewta,167
+postcodes,1853|Uthli,168
+postcodes,1860|Doulatpur,169
+postcodes,1900|Tangail Sadar,170
+postcodes,1901|Kagmari,171
+postcodes,1902|Santosh,172
+postcodes,1903|Korotia,173
+postcodes,1904|Purabari,174
+postcodes,1910|Delduar,175
+postcodes,1911|Jangalia,176
+postcodes,1912|Patharail,177
+postcodes,1913|Elasin,178
+postcodes,1914|Hinga Nagar,179
+postcodes,1915|Lowhati,180
+postcodes,1920|Basail,181
+postcodes,1930|Kashkawlia,182
+postcodes,1936|Nagarpur,183
+postcodes,1937|Dhuburia,184
+postcodes,1938|Salimabad,185
+postcodes,1940|Mirzapur,186
+postcodes,1941|Gorai,187
+postcodes,1942|M.C. College,188
+postcodes,1943|Warri paikpara,189
+postcodes,1944|Jarmuki,190
+postcodes,1945|Mohera,191
+postcodes,1950|Sakhipur,192
+postcodes,1951|Kochua,193
+postcodes,1960|Bhuapur,194
+postcodes,1970|Kalihati,195
+postcodes,1971|Rajafair,196
+postcodes,1972|Nagbari,197
+postcodes,1973|Ballabazar,198
+postcodes,1974|Elinga,199
+postcodes,1975|Palisha,200
+postcodes,1976|Nagarbari SO,201
+postcodes,1977|Nagarbari,202
+postcodes,1980|Ghatial,203
+postcodes,1981|Zahidganj,204
+postcodes,1982|D. Pakutia,205
+postcodes,1983|Dhalapara,206
+postcodes,1984|Lohani,207
+postcodes,1990|Gopalpur,208
+postcodes,1991|Jhowail,209
+postcodes,1992|Hemnagar,210
+postcodes,1996|Madhupur,211
+postcodes,1997|Dhobari,212
+postcodes,2000|Jamalpur,213
+postcodes,2001|Nandina,214
+postcodes,2002|Narundi,215
+postcodes,2010|Malandah,216
+postcodes,2011|Jamalpur,217
+postcodes,2012|Malancha,218
+postcodes,2013|Mahmoodpur,219
+postcodes,2020|Islampur,220
+postcodes,2021|Durmoot,221
+postcodes,2022|Gilabari,222
+postcodes,2030|Dewangonj,223
+postcodes,2031|Dewangonj S. Mills,224
+postcodes,2040|Mathargonj,225
+postcodes,2041|Balijhuri,226
+postcodes,2050|Shorishabari,227
+postcodes,2051|Gunerbari,228
+postcodes,2052|Bausee,229
+postcodes,2053|Jagannath Ghat,230
+postcodes,2054|Pingna,231
+postcodes,2055|Jamuna Sar Karkhana,232
+postcodes,2100|Sherpur Shadar,233
+postcodes,2110|Nalitabari,234
+postcodes,2111|Hatibandha,235
+postcodes,2120|Jhinaigati,236
+postcodes,2130|Shribardi,237
+postcodes,2140|Bakshigonj,238
+postcodes,2150|Nakla,239
+postcodes,2151|Gonopaddi,240
+postcodes,2200|Mymensingh Sadar,241
+postcodes,2201|Kawatkhali,242
+postcodes,2202|Agriculture Universi,243
+postcodes,2203|Shombhuganj,244
+postcodes,2204|Biddyaganj,245
+postcodes,2205|Pearpur,246
+postcodes,2210|Muktagachha,247
+postcodes,2216|Fulbaria,248
+postcodes,2220|Trishal,249
+postcodes,2221|Ahmadbad,250
+postcodes,2222|Ram Amritaganj,251
+postcodes,2223|Dhala,252
+postcodes,2230|Gaforgaon,253
+postcodes,2231|Shibganj,254
+postcodes,2232|Usti,255
+postcodes,2233|Kandipara,256
+postcodes,2234|Duttarbazar,257
+postcodes,2240|Bhaluka,258
+postcodes,2250|Phulpur,259
+postcodes,2251|Beltia,260
+postcodes,2252|Tarakanda,261
+postcodes,2260|Haluaghat,262
+postcodes,2261|Dhara,263
+postcodes,2262|Munshirhat,264
+postcodes,2270|Gouripur,265
+postcodes,2271|Ramgopalpur,266
+postcodes,2280|Isshwargonj,267
+postcodes,2281|Sohagi,268
+postcodes,2282|Atharabari,269
+postcodes,2290|Nandail,270
+postcodes,2291|Gangail,271
+postcodes,2300|Kishoreganj Sadar,272
+postcodes,2301|Kishoreganj S.Mills,273
+postcodes,2302|Maizhati,274
+postcodes,2303|Nilganj,275
+postcodes,2310|Karimganj,276
+postcodes,2316|Tarial,277
+postcodes,2320|Hossenpur,278
+postcodes,2326|Pakundia,279
+postcodes,2330|Katiadi,280
+postcodes,2331|Gochhihata,281
+postcodes,2336|Bajitpur,282
+postcodes,2337|Sararchar,283
+postcodes,2338|Laksmipur,284
+postcodes,2340|Kuliarchar,285
+postcodes,2341|Chhoysuti,286
+postcodes,2350|Bhairab,287
+postcodes,2360|Nikli,288
+postcodes,2370|MIthamoin,289
+postcodes,2371|Abdullahpur,290
+postcodes,2380|Ostagram,291
+postcodes,2390|Itna,292
+postcodes,2400|Netrakona Sadar,293
+postcodes,2401|Baikherhati,294
+postcodes,2410|Purbadhola,295
+postcodes,2411|Shamgonj,296
+postcodes,2412|Jaria Jhanjhail,297
+postcodes,2416|Dhobaura,298
+postcodes,2417|Sakoai,299
+postcodes,2420|Susnng Durgapur,300
+postcodes,2430|Kalmakanda,301
+postcodes,2440|Barhatta,302
+postcodes,2446|Mohanganj,303
+postcodes,2450|Dharampasha,304
+postcodes,2456|Moddoynagar,305
+postcodes,2460|Khaliajhri,306
+postcodes,2462|Shaldigha,307
+postcodes,2470|Atpara,308
+postcodes,2480|Kendua,309
+postcodes,2490|Madan,310
+postcodes,3000|Sunamganj Sadar,311
+postcodes,3001|Pagla,312
+postcodes,3002|Patharia,313
+postcodes,3010|Bishamsapur,314
+postcodes,3020|Sachna,315
+postcodes,3030|Tahirpur,316
+postcodes,3040|Dhirai Chandpur,317
+postcodes,3041|Jagdal,318
+postcodes,3050|Ghungiar,319
+postcodes,3060|Jagnnathpur,320
+postcodes,3061|Syedpur,321
+postcodes,3062|Atuajan,322
+postcodes,3063|Hasan Fatemapur,323
+postcodes,3064|Rasulganj,324
+postcodes,3065|Shiramsi,325
+postcodes,3070|Duara bazar,326
+postcodes,3080|Chhatak,327
+postcodes,3081|Chhatak Cement Facto,328
+postcodes,3082|Chhatak Paper Mills,329
+postcodes,3083|Gabindaganj,330
+postcodes,3084|Gabindaganj Natun Ba,331
+postcodes,3085|Khurma,332
+postcodes,3086|Moinpur,333
+postcodes,3087|jahidpur,334
+postcodes,3088|Islamabad,335
+postcodes,3100|Sylhe Sadar,336
+postcodes,3101|Sylhet Cadet Col,337
+postcodes,3102|Sylhet Biman Bondar,338
+postcodes,3103|Khadimnagar,339
+postcodes,3104|Jalalabad Cantoment,340
+postcodes,3105|Silam,341
+postcodes,3106|Birahimpur,342
+postcodes,3107|Jalalabad,343
+postcodes,3108|Mogla,344
+postcodes,3109|Ranga Hajiganj,345
+postcodes,3111|Kadamtali,346
+postcodes,3112|Kamalbazer,347
+postcodes,3113|Lalbazar,348
+postcodes,3114|Shahajalal Science &,349
+postcodes,3116|Fenchuganj,350
+postcodes,3117|Fenchuganj SareKarkh,351
+postcodes,3120|Balaganj,352
+postcodes,3121|Karua,353
+postcodes,3122|Brahman Shashon,354
+postcodes,3123|Tajpur,355
+postcodes,3124|Goala Bazar,356
+postcodes,3125|Begumpur,357
+postcodes,3126|Omarpur,358
+postcodes,3127|Kathal Khair,359
+postcodes,3128|Gaharpur,360
+postcodes,3129|Natun Bazar,361
+postcodes,3130|Bishwanath,362
+postcodes,3131|Dashghar,363
+postcodes,3132|Doulathpur,364
+postcodes,3133|Deokalas,365
+postcodes,3134|Singer kanch,366
+postcodes,3140|Kompanyganj,367
+postcodes,3150|Goainhat,368
+postcodes,3151|Jaflong,369
+postcodes,3152|Chiknagul,370
+postcodes,3156|Jainthapur,371
+postcodes,3160|Gopalgannj,372
+postcodes,3161|Dhaka Dakkhin,373
+postcodes,3162|Dakkhin Bhadashore,374
+postcodes,3163|Ranaping,375
+postcodes,3164|banigram,376
+postcodes,3165|Chandanpur,377
+postcodes,3170|Bianibazar,378
+postcodes,3171|jaldup,379
+postcodes,3172|Mathiura,380
+postcodes,3173|Kurar bazar,381
+postcodes,3174|Salia bazar,382
+postcodes,3175|Churkai,383
+postcodes,3180|Kanaighat,384
+postcodes,3181|Chatulbazar,385
+postcodes,3182|Manikganj,386
+postcodes,3183|Gachbari,387
+postcodes,3190|Jakiganj,388
+postcodes,3191|Ichhamati,389
+postcodes,3200|Moulvibazar Sadar,390
+postcodes,3201|Barakapan,391
+postcodes,3202|Monumukh,392
+postcodes,3203|Afrozganj,393
+postcodes,3210|Srimangal,394
+postcodes,3211|Narain Chora,395
+postcodes,3212|Kalighat,396
+postcodes,3213|Khejurichhara,397
+postcodes,3214|Satgaon,398
+postcodes,3220|Kamalganj,399
+postcodes,3221|Keramatnaga,400
+postcodes,3222|Patrakhola,401
+postcodes,3223|Shamsher Nagar,402
+postcodes,3224|Munshibazar,403
+postcodes,3230|Kulaura,404
+postcodes,3231|Tillagaon,405
+postcodes,3232|Langla,406
+postcodes,3233|Prithimpasha,407
+postcodes,3234|Kajaldhara,408
+postcodes,3235|Karimpur,409
+postcodes,3237|Baramchal,410
+postcodes,3240|Rajnagar,411
+postcodes,3250|Baralekha,412
+postcodes,3251|Juri,413
+postcodes,3252|Dhakkhinbag,414
+postcodes,3253|Purbashahabajpur,415
+postcodes,3300|Hobiganj Sadar,416
+postcodes,3301|Shaestaganj,417
+postcodes,3302|Gopaya,418
+postcodes,3310|Bahubal,419
+postcodes,3320|Chunarughat,420
+postcodes,3321|Chandpurbagan,421
+postcodes,3322|Narapati,422
+postcodes,3330|Madhabpur,423
+postcodes,3331|Itakhola,424
+postcodes,3332|Shahajibazar,425
+postcodes,3333|Saihamnagar,426
+postcodes,3340|Kalauk,427
+postcodes,3341|Lakhai,428
+postcodes,3350|Baniachang,429
+postcodes,3351|Jatrapasha,430
+postcodes,3352|Kadirganj,431
+postcodes,3360|Azmireeganj,432
+postcodes,3370|Nabiganj,433
+postcodes,3371|Goplarbazar,434
+postcodes,3372|Golduba,435
+postcodes,3373|Digalbak,436
+postcodes,3374|Inathganj,437
+postcodes,3400|Brahamanbaria Sadar,438
+postcodes,3401|Talshahar,439
+postcodes,3402|Ashuganj,440
+postcodes,3403|Ashuganj Share,441
+postcodes,3404|Poun,442
+postcodes,3410|Nabinagar,443
+postcodes,3411|Laubfatehpur,444
+postcodes,3412|Rasullabad,445
+postcodes,3413|Shamgram,446
+postcodes,3414|Ratanpur,447
+postcodes,3415|Shahapur,448
+postcodes,3417|Kaitala,449
+postcodes,3418|Salimganj,450
+postcodes,3419|Jibanganj,451
+postcodes,3420|Banchharampur,452
+postcodes,3430|Sarial,453
+postcodes,3431|Shahbajpur,454
+postcodes,3432|Chandura,455
+postcodes,3440|Nasirnagar,456
+postcodes,3441|Fandauk,457
+postcodes,3450|Akhaura,458
+postcodes,3451|Azampur,459
+postcodes,3452|Gangasagar,460
+postcodes,3460|Kasba,461
+postcodes,3461|Kuti,462
+postcodes,3462|Chandidar,463
+postcodes,3463|Chargachh,464
+postcodes,3464|Gopinathpur,465
+postcodes,3500|Comilla Sadar,466
+postcodes,3501|Comilla Contoment,467
+postcodes,3502|Halimanagar,468
+postcodes,3503|Courtbari,469
+postcodes,3504|Suaganj,470
+postcodes,3510|Chandia,471
+postcodes,3511|Madhaiabazar,472
+postcodes,3516|Daudkandi,473
+postcodes,3517|Gouripur,474
+postcodes,3518|Dashpara,475
+postcodes,3519|Eliotganj,476
+postcodes,3520|Burichang,477
+postcodes,3521|Maynamoti bazar,478
+postcodes,3526|Brahmanpara,479
+postcodes,3530|Davidhar,480
+postcodes,3531|Gangamandal,481
+postcodes,3532|Barashalghar,482
+postcodes,3533|Dhamtee,483
+postcodes,3540|Muradnagar,484
+postcodes,3541|Ramchandarpur,485
+postcodes,3542|Companyganj,486
+postcodes,3543|Bangra,487
+postcodes,3544|Sonakanda,488
+postcodes,3545|Pantibazar,489
+postcodes,3546|Homna,490
+postcodes,3550|Chouddagram,491
+postcodes,3551|Batisa,492
+postcodes,3552|Chiora,493
+postcodes,3560|Barura,494
+postcodes,3561|Poyalgachha,495
+postcodes,3562|Murdafarganj,496
+postcodes,3570|Laksam,497
+postcodes,3571|Lakshamanpur,498
+postcodes,3572|Bipulasar,499
+postcodes,3580|Langalkot,500
+postcodes,3581|Dhalua,501
+postcodes,3582|Chhariabazar,502
+postcodes,3583|Gunabati,503
+postcodes,3600|Chandpur Sadar,504
+postcodes,3601|Puranbazar,505
+postcodes,3602|Baburhat,506
+postcodes,3603|Sahatali,507
+postcodes,3610|Hajiganj,508
+postcodes,3611|Bolakhal,509
+postcodes,3620|Shahrasti,510
+postcodes,3621|Khilabazar,511
+postcodes,3622|Pashchim Kherihar Al,512
+postcodes,3623|Chotoshi,513
+postcodes,3624|Islamia Madrasha,514
+postcodes,3630|Kachua,515
+postcodes,3631|Pak Shrirampur,516
+postcodes,3632|Rahima Nagar,517
+postcodes,3633|Shachar,518
+postcodes,3640|Matlobganj,519
+postcodes,3641|Mohanpur,520
+postcodes,3642|Kalipur,521
+postcodes,3650|Faridganj,522
+postcodes,3651|Chandra,523
+postcodes,3652|Rupsha,524
+postcodes,3653|Gridkaliandia,525
+postcodes,3654|Rampurbazar,526
+postcodes,3655|Islampur Shah Isain,527
+postcodes,3660|Hayemchar,528
+postcodes,3661|Gandamara,529
+postcodes,3700|Lakshimpur Sadar,530
+postcodes,3701|Dalal Bazar,531
+postcodes,3702|Bhabaniganj,532
+postcodes,3703|Mandari,533
+postcodes,3704|Keramatganj,534
+postcodes,3705|Rupchara,535
+postcodes,3706|Duttapara,536
+postcodes,3707|Choupalli,537
+postcodes,3708|Chandraganj,538
+postcodes,3709|Amani Lakshimpur,539
+postcodes,3710|Raypur,540
+postcodes,3711|Rakhallia,541
+postcodes,3712|Nagerdighirpar,542
+postcodes,3713|Haydarganj,543
+postcodes,3714|Bhuabari,544
+postcodes,3720|Ramganj,545
+postcodes,3721|Alipur,546
+postcodes,3722|Panpara,547
+postcodes,3723|Kanchanpur,548
+postcodes,3724|Naagmud,549
+postcodes,3725|Dolta,550
+postcodes,3730|Char Alexgander,551
+postcodes,3731|Hajirghat,552
+postcodes,3732|Ramgatirhat,553
+postcodes,3800|Noakhali Sadar,554
+postcodes,3801|Noakhali College,555
+postcodes,3802|Sonapur,556
+postcodes,3803|Din Monir Hat,557
+postcodes,3804|Pak Kishoreganj,558
+postcodes,3806|Mriddarhat,559
+postcodes,3807|Kabirhat,560
+postcodes,3808|Khalifar Hat,561
+postcodes,3809|Charam Tua,562
+postcodes,3811|Chaprashir Hat,563
+postcodes,3812|Char Jabbar,564
+postcodes,3820|Begumganj,565
+postcodes,3821|Choumohani,566
+postcodes,3822|Banglabazar,567
+postcodes,3823|Mir Owarishpur,568
+postcodes,3824|Bazra,569
+postcodes,3825|Jamidar Hat,570
+postcodes,3827|Sonaimuri,571
+postcodes,3828|Gopalpur,572
+postcodes,3829|Joynarayanpur,573
+postcodes,3831|Alaiarpur,574
+postcodes,3832|Tangirpar,575
+postcodes,3833|Khalafat Bazar,576
+postcodes,3834|Rajganj,577
+postcodes,3835|Oachhekpur,578
+postcodes,3837|Bhabani Jibanpur,579
+postcodes,3838|Maheshganj,580
+postcodes,3839|Nadona,581
+postcodes,3841|Nandiapara,582
+postcodes,3842|Khalishpur,583
+postcodes,3843|Dauti,584
+postcodes,3844|Joyag,585
+postcodes,3845|Thanar Hat,586
+postcodes,3847|Amisha Para,587
+postcodes,3848|Durgapur,588
+postcodes,3850|Basur Hat,589
+postcodes,3851|Charhajari,590
+postcodes,3860|Senbag,591
+postcodes,3861|Kallyandi,592
+postcodes,3862|Beezbag,593
+postcodes,3863|Kankirhat,594
+postcodes,3864|Chatarpaia,595
+postcodes,3865|T.P. Lamua,596
+postcodes,3870|Chatkhil,597
+postcodes,3871|Palla,598
+postcodes,3872|Khilpara,599
+postcodes,3873|Bodalcourt,600
+postcodes,3874|Rezzakpur,601
+postcodes,3875|Solla,602
+postcodes,3877|Karihati,603
+postcodes,3878|Dosh Gharia,604
+postcodes,3879|Bansa Bazar,605
+postcodes,3881|Sahapur,606
+postcodes,3882|Sampara,607
+postcodes,3883|Shingbahura,608
+postcodes,3890|Hatiya,609
+postcodes,3891|Afazia,610
+postcodes,3892|Tamoraddi,611
+postcodes,3893|Chourangi Bazar,612
+postcodes,3900|Feni Sadar,613
+postcodes,3901|Fazilpur,614
+postcodes,3902|Sharshadie,615
+postcodes,3903|Laskarhat,616
+postcodes,3910|Chhagalnaia,617
+postcodes,3911|Maharajganj,618
+postcodes,3912|Daraga Hat,619
+postcodes,3913|Puabashimulia,620
+postcodes,3920|Dagondhuia,621
+postcodes,3921|Dudmukha,622
+postcodes,3922|Chhilonia,623
+postcodes,3923|Rajapur,624
+postcodes,3930|Sonagazi,625
+postcodes,3931|Motiganj,626
+postcodes,3932|Ahmadpur,627
+postcodes,3933|Kazirhat,628
+postcodes,3940|Pashurampur,629
+postcodes,3941|Shuarbazar,630
+postcodes,3942|Fulgazi,631
+postcodes,3943|Munshirhat,632
+postcodes,4000|Chittagong GPO,633
+postcodes,4100|Chittagong Bandar,634
+postcodes,4202|Pahartoli,635
+postcodes,4203|Chawkbazar,636
+postcodes,4204|Patenga,637
+postcodes,4205|Chittagong Airport,638
+postcodes,4206|Jaldia Merine Accade,639
+postcodes,4207|Firozshah,640
+postcodes,4208|Mohard,641
+postcodes,4209|Chitt. Politechnic In,642
+postcodes,4210|Bayezid Bostami,643
+postcodes,4211|Amin Jute Mills,644
+postcodes,4212|Chandgaon,645
+postcodes,4213|Wazedia,646
+postcodes,4214|Jalalabad,647
+postcodes,4215|Anandabazar,648
+postcodes,4216|Halishahar,649
+postcodes,4217|North Katuli,650
+postcodes,4218|Chitt. Sailers Colon,651
+postcodes,4219|Chitt. Customs Acca,652
+postcodes,4220|Chitt. Cantonment,653
+postcodes,4221|Al- Amin Baria Madra,654
+postcodes,4222|Middle Patenga,655
+postcodes,4223|Export Processing,656
+postcodes,4224|Rampura TSO,657
+postcodes,4225|Halishshar,658
+postcodes,4226|North Halishahar,659
+postcodes,4300|Sandwip,660
+postcodes,4301|Shiberhat,661
+postcodes,4302|Urirchar,662
+postcodes,4310|Sitakunda,663
+postcodes,4311|Baroidhala,664
+postcodes,4312|Barabkunda,665
+postcodes,4313|Bawashbaria,666
+postcodes,4314|Kumira,667
+postcodes,4315|Bhatiari,668
+postcodes,4316|Fouzdarhat,669
+postcodes,4317|Jafrabad,670
+postcodes,4320|Mirsharai,671
+postcodes,4321|Abutorab,672
+postcodes,4322|Darrogahat,673
+postcodes,4323|Bharawazhat,674
+postcodes,4324|Joarganj,675
+postcodes,4325|Azampur,676
+postcodes,4327|Korerhat,677
+postcodes,4328|Mohazanhat,678
+postcodes,4330|Hathazari,679
+postcodes,4331|Chitt.University,680
+postcodes,4332|Gorduara,681
+postcodes,4333|Katirhat,682
+postcodes,4334|Mirzapur,683
+postcodes,4335|Fatahabad,684
+postcodes,4337|Nuralibari,685
+postcodes,4338|Yunus Nagar,686
+postcodes,4339|Madrasa,687
+postcodes,4340|Rouzan,688
+postcodes,4341|Beenajuri,689
+postcodes,4342|Kundeshwari,690
+postcodes,4343|Gahira,691
+postcodes,4344|jagannath Hat,692
+postcodes,4345|Fatepur,693
+postcodes,4346|Guzra Noapara,694
+postcodes,4347|Dewanpur,695
+postcodes,4348|Mohamuni,696
+postcodes,4349|B.I.T Post Office,697
+postcodes,4350|Fatikchhari,698
+postcodes,4351|Nanupur,699
+postcodes,4352|Bhandar Sharif,700
+postcodes,4353|Najirhat,701
+postcodes,4354|Harualchhari,702
+postcodes,4355|Narayanhat,703
+postcodes,4360|Rangunia,704
+postcodes,4361|Dhamair,705
+postcodes,4363|Kanungopara,706
+postcodes,4364|Saroatoli,707
+postcodes,4365|Iqbal Park,708
+postcodes,4366|Boalkhali,709
+postcodes,4367|Sakpura,710
+postcodes,4368|Kadurkhal,711
+postcodes,4369|Charandwip,712
+postcodes,4370|Patiya Head Office,713
+postcodes,4371|Budhpara,714
+postcodes,4376|Anowara,715
+postcodes,4377|Paroikora,716
+postcodes,4378|Battali,717
+postcodes,4380|East Joara,718
+postcodes,4381|Gachbaria,719
+postcodes,4382|Dohazari,720
+postcodes,4383|Barma,721
+postcodes,4386|Satkania,722
+postcodes,4387|Baitul Ijjat,723
+postcodes,4388|Bazalia,724
+postcodes,4390|Jaldi,725
+postcodes,4391|Khan Bahadur,726
+postcodes,4392|Gunagari,727
+postcodes,4393|Banigram,728
+postcodes,4396|Lohagara,729
+postcodes,4397|Padua,730
+postcodes,4398|Chunti,731
+postcodes,4400|Khagrachari Sadar,732
+postcodes,4410|Panchhari,733
+postcodes,4420|Diginala,734
+postcodes,4430|Mahalchhari,735
+postcodes,4440|Ramghar Head Office,736
+postcodes,4450|Matiranga,737
+postcodes,4460|Manikchhari,738
+postcodes,4470|Laxmichhari,739
+postcodes,4500|Rangamati Sadar,740
+postcodes,4510|Kalampati,741
+postcodes,4511|Betbunia,742
+postcodes,4520|Nanichhar,743
+postcodes,4530|Kaptai,744
+postcodes,4531|Chandraghona,745
+postcodes,4532|Kaptai Project,746
+postcodes,4533|Kaptai Nuton Bazar,747
+postcodes,4540|Rajsthali,748
+postcodes,4550|Bilaichhari,749
+postcodes,4560|Jarachhari,750
+postcodes,4570|Barakal,751
+postcodes,4580|Longachh,752
+postcodes,4590|Marishya,753
+postcodes,4600|Bandarban Sadar,754
+postcodes,4610|Roanchhari,755
+postcodes,4620|Ruma,756
+postcodes,4630|Thanchi,757
+postcodes,4641|Lama,758
+postcodes,4650|Alikadam,759
+postcodes,4660|Naikhong,760
+postcodes,4700|Coxs Bazar Sadar,761
+postcodes,4701|Zhilanja,762
+postcodes,4702|Eidga,763
+postcodes,4710|Gorakghat,764
+postcodes,4720|Kutubdia,765
+postcodes,4730|Ramu,766
+postcodes,4740|Chiringga,767
+postcodes,4741|Chiringga S.O,768
+postcodes,4742|Badarkali,769
+postcodes,4743|Malumghat,770
+postcodes,4750|Ukhia,771
+postcodes,4760|Teknaf,772
+postcodes,4761|Hnila,773
+postcodes,4762|St.Martin,774
+postcodes,5000|Panchagar Sadar,775
+postcodes,5010|Boda,776
+postcodes,5020|Dabiganj,777
+postcodes,5030|Tetulia,778
+postcodes,5040|Chotto Dab,779
+postcodes,5041|Mirjapur,780
+postcodes,5100|Thakurgaon Sadar,781
+postcodes,5101|Thakurgaon Road,782
+postcodes,5102|Shibganj,783
+postcodes,5103|Ruhia,784
+postcodes,5110|Pirganj,785
+postcodes,5120|Rani Sankail,786
+postcodes,5121|Nekmarad,787
+postcodes,5130|Jibanpur,788
+postcodes,5140|Baliadangi,789
+postcodes,5141|Lahiri,790
+postcodes,5200|Dinajpur Sadar,791
+postcodes,5201|Dinajpur Rajbari,792
+postcodes,5210|Biral,793
+postcodes,5216|Setabganj,794
+postcodes,5220|Birganj,795
+postcodes,5226|Maharajganj,796
+postcodes,5230|Khansama,797
+postcodes,5231|Pakarhat,798
+postcodes,5240|Chrirbandar,799
+postcodes,5241|Ranirbandar,800
+postcodes,5250|Parbatipur,801
+postcodes,5260|Phulbari,802
+postcodes,5266|Birampur,803
+postcodes,5270|Bangla Hili,804
+postcodes,5280|Nababganj,805
+postcodes,5281|Daudpur,806
+postcodes,5282|Gopalpur,807
+postcodes,5290|Osmanpur,808
+postcodes,5291|Ghoraghat,809
+postcodes,5300|Nilphamari Sadar,810
+postcodes,5301|Nilphamari Sugar Mil,811
+postcodes,5310|Syedpur,812
+postcodes,5311|Syedpur Upashahar,813
+postcodes,5320|Kishoriganj,814
+postcodes,5330|Jaldhaka,815
+postcodes,5340|Domar,816
+postcodes,5341|Chilahati,817
+postcodes,5350|Dimla,818
+postcodes,5351|Ghaga Kharibari,819
+postcodes,5400|Rangpur Sadar,820
+postcodes,5401|Rangpur Upa-Shahar,821
+postcodes,5402|Alamnagar,822
+postcodes,5403|Mahiganj,823
+postcodes,5404|Rangpur Cadet Colleg,824
+postcodes,5405|Rangpur Carmiecal Col,825
+postcodes,5410|Gangachara,826
+postcodes,5420|Taraganj,827
+postcodes,5430|Badarganj,828
+postcodes,5431|Shyampur,829
+postcodes,5440|Kaunia,830
+postcodes,5441|Haragachh,831
+postcodes,5450|Pirgachha,832
+postcodes,5460|Mithapukur,833
+postcodes,5470|Pirganj,834
+postcodes,5500|Lalmonirhat Sadar,835
+postcodes,5501|Moghalhat,836
+postcodes,5502|Kulaghat SO,837
+postcodes,5510|Aditmari,838
+postcodes,5520|Tushbhandar,839
+postcodes,5530|Hatibandha,840
+postcodes,5540|Patgram,841
+postcodes,5541|Baura,842
+postcodes,5542|Burimari,843
+postcodes,5600|Kurigram Sadar,844
+postcodes,5601|Pandul,845
+postcodes,5610|Rajarhat,846
+postcodes,5611|Nazimkhan,847
+postcodes,5620|Ulipur,848
+postcodes,5621|Bazarhat,849
+postcodes,5630|Chilmari,850
+postcodes,5631|Jorgachh,851
+postcodes,5640|Roumari,852
+postcodes,5650|Rajibpur,853
+postcodes,5660|Nageshwar,854
+postcodes,5670|Bhurungamari,855
+postcodes,5680|Phulbari,856
+postcodes,5700|Gaibandha Sadar,857
+postcodes,5710|Saadullapur,858
+postcodes,5711|Naldanga,859
+postcodes,5720|Sundarganj,860
+postcodes,5721|Bamandanga,861
+postcodes,5730|Palashbari,862
+postcodes,5740|Gobindhaganj,863
+postcodes,5741|Mahimaganj,864
+postcodes,5750|Bonarpara,865
+postcodes,5751|saghata,866
+postcodes,5760|Phulchhari,867
+postcodes,5761|Bharatkhali,868
+postcodes,5800|Bogra Sadar,869
+postcodes,5801|Bogra Canttonment,870
+postcodes,5810|Shibganj,871
+postcodes,5820|Gabtoli,872
+postcodes,5821|Sukhanpukur,873
+postcodes,5826|Sonatola,874
+postcodes,5830|Sariakandi,875
+postcodes,5831|Chandan Baisha,876
+postcodes,5840|Sherpur,877
+postcodes,5841|Chandaikona,878
+postcodes,5842|Palli Unnyan Accadem,879
+postcodes,5850|Dhunat,880
+postcodes,5851|Gosaibari,881
+postcodes,5860|Nandigram,882
+postcodes,5870|Kahalu,883
+postcodes,5880|Dupchachia,884
+postcodes,5881|Talora,885
+postcodes,5890|Adamdighi,886
+postcodes,5891|Santahar,887
+postcodes,5892|Nasharatpur,888
+postcodes,5900|Joypurhat Sadar,889
+postcodes,5910|Panchbibi,890
+postcodes,5920|Khetlal,891
+postcodes,5930|kalai,892
+postcodes,5940|Akklepur,893
+postcodes,5941|jamalganj,894
+postcodes,5942|Tilakpur,895
+postcodes,6000|Rajshahi Sadar,896
+postcodes,6100|Ghuramara,897
+postcodes,6201|Rajshahi Court,898
+postcodes,6202|Rajshahi Canttonment,899
+postcodes,6203|Sapura,900
+postcodes,6204|Kazla,901
+postcodes,6205|Rajshahi University,902
+postcodes,6206|Binodpur Bazar,903
+postcodes,6210|Lalitganj,904
+postcodes,6211|Rajshahi Sugar Mills,905
+postcodes,6212|Shyampur,906
+postcodes,6220|Khodmohanpur,907
+postcodes,6230|Tanor,908
+postcodes,6240|Durgapur,909
+postcodes,6250|Bhabaniganj,910
+postcodes,6251|Taharpur,911
+postcodes,6260|Putia,912
+postcodes,6270|Charghat,913
+postcodes,6271|Sarda,914
+postcodes,6280|Bagha,915
+postcodes,6281|Arani,916
+postcodes,6290|Godagari,917
+postcodes,6291|Premtoli,918
+postcodes,6300|Chapinawbganj Sadar,919
+postcodes,6301|Rajarampur,920
+postcodes,6302|Ramchandrapur,921
+postcodes,6303|Amnura,922
+postcodes,6310|Nachol,923
+postcodes,6311|Mandumala,924
+postcodes,6320|Rohanpur,925
+postcodes,6321|Gomashtapur,926
+postcodes,6330|Bholahat,927
+postcodes,6340|Shibganj U.P.O,928
+postcodes,6341|Kansart,929
+postcodes,6342|Manaksha,930
+postcodes,6400|Natore Sadar,931
+postcodes,6401|Digapatia,932
+postcodes,6402|Baiddyabal Gharia,933
+postcodes,6403|Madhnagar,934
+postcodes,6410|Laxman,935
+postcodes,6420|Gopalpur U.P.O,936
+postcodes,6421|Lalpur S.O,937
+postcodes,6422|Abdulpur,938
+postcodes,6430|Harua,939
+postcodes,6431|Dayarampur,940
+postcodes,6432|Baraigram,941
+postcodes,6440|Hatgurudaspur,942
+postcodes,6450|Singra,943
+postcodes,6500|Naogaon Sadar,944
+postcodes,6510|Prasadpur,945
+postcodes,6511|Manda,946
+postcodes,6512|Balihar,947
+postcodes,6520|Niamatpur,948
+postcodes,6530|Mahadebpur,949
+postcodes,6540|Patnitala,950
+postcodes,6550|Nitpur,951
+postcodes,6551|Porsa,952
+postcodes,6552|Panguria,953
+postcodes,6560|Sapahar,954
+postcodes,6561|Moduhil,955
+postcodes,6570|Badalgachhi,956
+postcodes,6580|Dhamuirhat,957
+postcodes,6590|Raninagar,958
+postcodes,6591|Kashimpur,959
+postcodes,6596|Ahsanganj,960
+postcodes,6597|Bandai,961
+postcodes,6600|Pabna Sadar,962
+postcodes,6601|Kaliko Cotton Mills,963
+postcodes,6602|Hamayetpur,964
+postcodes,6610|Debottar,965
+postcodes,6620|Ishwardi,966
+postcodes,6621|Dhapari,967
+postcodes,6622|Pakshi,968
+postcodes,6623|Rajapur,969
+postcodes,6630|Chatmohar,970
+postcodes,6640|Bhangura,971
+postcodes,6650|Banwarinagar,972
+postcodes,6660|Sujanagar,973
+postcodes,6661|Sagarkandi,974
+postcodes,6670|Sathia,975
+postcodes,6680|Bera,976
+postcodes,6681|Nakalia,977
+postcodes,6682|Kashinathpur,978
+postcodes,6683|Puran Bharenga,979
+postcodes,6700|Sirajganj Sadar,980
+postcodes,6701|Raipur,981
+postcodes,6702|Rashidabad,982
+postcodes,6710|Kazipur,983
+postcodes,6711|Shuvgachha,984
+postcodes,6712|Gandail,985
+postcodes,6720|Dhangora,986
+postcodes,6721|Malonga,987
+postcodes,6730|Baiddya Jam Toil,988
+postcodes,6740|Belkuchi,989
+postcodes,6741|Sohagpur,990
+postcodes,6742|Rajapur,991
+postcodes,6751|Enayetpur,992
+postcodes,6752|Sthal,993
+postcodes,6760|Ullapara,994
+postcodes,6761|Ullapara R.S,995
+postcodes,6762|Lahiri Mohanpur,996
+postcodes,6763|Salap,997
+postcodes,6770|Shahjadpur,998
+postcodes,6771|Porjana,999
+postcodes,6772|Jamirta,1000
+postcodes,6773|Kaijuri,1001
+postcodes,6780|Tarash,1002
+postcodes,7000|Kustia Sadar,1003
+postcodes,7001|Kushtia Mohini,1004
+postcodes,7002|Jagati,1005
+postcodes,7003|Islami University,1006
+postcodes,7010|Kumarkhali,1007
+postcodes,7011|Panti,1008
+postcodes,7020|Janipur,1009
+postcodes,7021|Khoksa,1010
+postcodes,7030|Mirpur,1011
+postcodes,7031|Poradaha,1012
+postcodes,7032|Amla Sadarpur,1013
+postcodes,7040|Bheramara,1014
+postcodes,7041|Ganges Bheramara,1015
+postcodes,7042|Allardarga,1016
+postcodes,7050|Rafayetpur,1017
+postcodes,7051|Taragunia,1018
+postcodes,7052|Khasmathurapur,1019
+postcodes,7100|Meherpur Sadar,1020
+postcodes,7101|Amjhupi,1021
+postcodes,7102|Mujib Nagar Complex,1022
+postcodes,7110|Gangni,1023
+postcodes,7152|Amjhupi,1024
+postcodes,7200|Chuadanga Sadar,1025
+postcodes,7201|Munshiganj,1026
+postcodes,7210|Alamdanga,1027
+postcodes,7211|Hardi,1028
+postcodes,7220|Damurhuda,1029
+postcodes,7221|Darshana,1030
+postcodes,7222|Andulbaria,1031
+postcodes,7230|Doulatganj,1032
+postcodes,7300|Jinaidaha Sadar,1033
+postcodes,7301|Jinaidaha Cadet College,1034
+postcodes,7310|Harinakundu,1035
+postcodes,7320|Shailakupa,1036
+postcodes,7321|Kumiradaha,1037
+postcodes,7330|Kotchandpur,1038
+postcodes,7340|Maheshpur,1039
+postcodes,7350|Naldanga,1040
+postcodes,7351|Hatbar Bazar,1041
+postcodes,7400|Jessore Sadar,1042
+postcodes,7401|Jessore Upa-Shahar,1043
+postcodes,7402|Chanchra,1044
+postcodes,7403|Jessore canttonment,1045
+postcodes,7404|Jessore Airbach,1046
+postcodes,7405|Rupdia,1047
+postcodes,7406|Basundia,1048
+postcodes,7407|Churamankathi,1049
+postcodes,7410|Chougachha,1050
+postcodes,7420|Jhikargachha,1051
+postcodes,7430|Sarsa,1052
+postcodes,7431|Benapole,1053
+postcodes,7432|Jadabpur,1054
+postcodes,7433|Bag Achra,1055
+postcodes,7440|Monirampur,1056
+postcodes,7450|Keshobpur,1057
+postcodes,7460|Noapara,1058
+postcodes,7461|Rajghat,1059
+postcodes,7462|Bhugilhat,1060
+postcodes,7470|Bagharpara,1061
+postcodes,7471|Gouranagar,1062
+postcodes,7500|Narail Sadar,1063
+postcodes,7501|Ratanganj,1064
+postcodes,7510|Laxmipasha,1065
+postcodes,7511|Lohagora,1066
+postcodes,7512|Itna,1067
+postcodes,7513|Naldi,1068
+postcodes,7514|Baradia,1069
+postcodes,7520|Kalia,1070
+postcodes,7521|Mohajan,1071
+postcodes,7600|Magura Sadar,1072
+postcodes,7610|Shripur,1073
+postcodes,7611|Langalbadh,1074
+postcodes,7612|Nachol,1075
+postcodes,7620|Arpara,1076
+postcodes,7630|Mohammadpur,1077
+postcodes,7631|Binodpur,1078
+postcodes,7632|Nahata,1079
+postcodes,7700|Rajbari Sadar,1080
+postcodes,7710|Goalanda,1081
+postcodes,7711|Khankhanapur,1082
+postcodes,7720|Pangsha,1083
+postcodes,7721|Ramkol,1084
+postcodes,7722|Ratandia,1085
+postcodes,7723|Mrigibazar,1086
+postcodes,7730|Baliakandi,1087
+postcodes,7731|Nalia,1088
+postcodes,7800|Faridpursadar,1089
+postcodes,7801|Kanaipur,1090
+postcodes,7802|Ambikapur,1091
+postcodes,7803|Baitulaman Politecni,1092
+postcodes,7804|Shriangan,1093
+postcodes,7810|Charbadrashan,1094
+postcodes,7820|Sadarpur,1095
+postcodes,7821|Hat Krishapur,1096
+postcodes,7822|Bishwa jaker Manjil,1097
+postcodes,7830|Bhanga,1098
+postcodes,7840|Nagarkanda,1099
+postcodes,7841|Talma,1100
+postcodes,7850|Madukhali,1101
+postcodes,7851|Kamarkali,1102
+postcodes,7860|Boalmari,1103
+postcodes,7861|Rupatpat,1104
+postcodes,7870|Alfadanga,1105
+postcodes,7900|Madaripur Sadar,1106
+postcodes,7901|Charmugria,1107
+postcodes,7902|Kulpaddi,1108
+postcodes,7903|Habiganj,1109
+postcodes,7904|Mustafapur,1110
+postcodes,7910|Rajoir,1111
+postcodes,7911|Khalia,1112
+postcodes,7920|Kalkini,1113
+postcodes,7921|Sahabrampur,1114
+postcodes,7930|Barhamganj,1115
+postcodes,7931|Nilaksmibandar,1116
+postcodes,7932|Bahadurpur,1117
+postcodes,7933|Umedpur,1118
+postcodes,8000|Shariatpur Sadar,1119
+postcodes,8001|Angaria,1120
+postcodes,8002|Chikandi,1121
+postcodes,8010|Jajira,1122
+postcodes,8013|Chandradighalia,1123
+postcodes,8020|Naria,1124
+postcodes,8021|Bhozeshwar,1125
+postcodes,8022|Gharisar,1126
+postcodes,8023|Upshi,1127
+postcodes,8024|Kartikpur,1128
+postcodes,8030|Bhedorganj,1129
+postcodes,8040|Damudhya,1130
+postcodes,8050|Gosairhat,1131
+postcodes,8100|Gopalganj Sadar,1132
+postcodes,8101|Ulpur,1133
+postcodes,8102|Barfa,1134
+postcodes,8110|Kotalipara,1135
+postcodes,8120|Tungipara,1136
+postcodes,8121|Patgati,1137
+postcodes,8130|Kashiani,1138
+postcodes,8131|Ramdia College,1139
+postcodes,8132|Ratoil,1140
+postcodes,8133|Jonapur,1141
+postcodes,8140|Maksudpur,1142
+postcodes,8141|Batkiamari,1143
+postcodes,8142|Khandarpara,1144
+postcodes,8200|Barishal Sadar,1145
+postcodes,8201|Bukhainagar,1146
+postcodes,8202|Saheberhat,1147
+postcodes,8203|Sugandia,1148
+postcodes,8204|Patang,1149
+postcodes,8205|Kashipur,1150
+postcodes,8206|Jaguarhat,1151
+postcodes,8210|Babuganj,1152
+postcodes,8211|Rahamatpur,1153
+postcodes,8212|Chandpasha,1154
+postcodes,8213|Madhabpasha,1155
+postcodes,8214|Thakur Mallik,1156
+postcodes,8215|Nizamuddin College,1157
+postcodes,8216|Barishal Cadet,1158
+postcodes,8220|Uzirpur,1159
+postcodes,8221|Dhamura,1160
+postcodes,8222|Jugirkanda,1161
+postcodes,8223|Dakuarhat,1162
+postcodes,8224|Shikarpur,1163
+postcodes,8230|Gouranadi,1164
+postcodes,8231|Tarki Bandar,1165
+postcodes,8232|Kashemabad,1166
+postcodes,8233|Batajor,1167
+postcodes,8240|Agailzhara,1168
+postcodes,8241|Gaila,1169
+postcodes,8242|Paisarhat,1170
+postcodes,8250|Muladi,1171
+postcodes,8251|Kazirchar,1172
+postcodes,8252|Charkalekhan,1173
+postcodes,8260|Barajalia,1174
+postcodes,8261|Osman Manjil,1175
+postcodes,8270|Mahendiganj,1176
+postcodes,8271|Laskarpur,1177
+postcodes,8272|Ulania,1178
+postcodes,8273|Nalgora,1179
+postcodes,8274|Langutia,1180
+postcodes,8280|Sahebganj,1181
+postcodes,8281|Charamandi,1182
+postcodes,8282|Padri Shibpur,1183
+postcodes,8283|Shialguni,1184
+postcodes,8284|kalaskati,1185
+postcodes,8300|Bhola Sadar,1186
+postcodes,8301|Joynagar,1187
+postcodes,8310|Doulatkhan,1188
+postcodes,8311|Hajipur,1189
+postcodes,8320|Borhanuddin UPO,1190
+postcodes,8321|Mirzakalu,1191
+postcodes,8330|Lalmohan UPO,1192
+postcodes,8331|Daurihat,1193
+postcodes,8332|Gazaria,1194
+postcodes,8340|Charfashion,1195
+postcodes,8341|Dularhat,1196
+postcodes,8342|Keramatganj,1197
+postcodes,8350|Hatshoshiganj,1198
+postcodes,8360|Hajirhat,1199
+postcodes,8400|Jhalokathi Sadar,1200
+postcodes,8401|Nabagram,1201
+postcodes,8402|Baukathi,1202
+postcodes,8403|Gabha,1203
+postcodes,8404|Shekherhat,1204
+postcodes,8410|Rajapur,1205
+postcodes,8420|Nalchhiti,1206
+postcodes,8421|Beerkathi,1207
+postcodes,8430|Kathalia,1208
+postcodes,8431|Amua,1209
+postcodes,8432|Niamatee,1210
+postcodes,8433|Shoulajalia,1211
+postcodes,8500|Pirojpur Sadar,1212
+postcodes,8501|Hularhat,1213
+postcodes,8502|Parerhat,1214
+postcodes,8510|Kaukhali,1215
+postcodes,8511|Keundia,1216
+postcodes,8512|Joykul,1217
+postcodes,8513|Jolagati,1218
+postcodes,8520|Swarupkathi,1219
+postcodes,8521|Darus Sunnat,1220
+postcodes,8522|Kaurikhara,1221
+postcodes,8523|Jalabari,1222
+postcodes,8530|Banaripara,1223
+postcodes,8531|Chakhar,1224
+postcodes,8540|Nazirpur,1225
+postcodes,8541|Sriramkathi,1226
+postcodes,8550|Bhandaria,1227
+postcodes,8551|Kanudashkathi,1228
+postcodes,8552|Dhaoa,1229
+postcodes,8560|Mathbaria,1230
+postcodes,8561|Tushkhali,1231
+postcodes,8562|Halta,1232
+postcodes,8563|Gulishakhali,1233
+postcodes,8564|Tiarkhali,1234
+postcodes,8565|Betmor Natun Hat,1235
+postcodes,8566|Shilarganj,1236
+postcodes,8600|Patuakhali Sadar,1237
+postcodes,8601|Moukaran,1238
+postcodes,8602|Dumkee,1239
+postcodes,8603|Rahimabad,1240
+postcodes,8610|Subidkhali,1241
+postcodes,8620|Bauphal,1242
+postcodes,8621|Bagabandar,1243
+postcodes,8622|Birpasha,1244
+postcodes,8623|Kalishari,1245
+postcodes,8624|Kalaia,1246
+postcodes,8630|Dashmina,1247
+postcodes,8640|Galachipa,1248
+postcodes,8641|Gazipur Bandar,1249
+postcodes,8650|Khepupara,1250
+postcodes,8651|Mahipur,1251
+postcodes,8700|Barguna Sadar,1252
+postcodes,8701|Nali Bandar,1253
+postcodes,8710|Amtali,1254
+postcodes,8720|Patharghata,1255
+postcodes,8721|Kakchira,1256
+postcodes,8730|Bamna,1257
+postcodes,8740|Betagi,1258
+postcodes,8741|Darul Ulam,1259
+postcodes,9000|Khulna G.P.O,1260
+postcodes,9100|Khula Sadar,1261
+postcodes,9201|Khulna Shipyard,1262
+postcodes,9202|Doulatpur,1263
+postcodes,9203|BIT Khulna,1264
+postcodes,9204|Siramani,1265
+postcodes,9205|Jahanabad Canttonmen,1266
+postcodes,9206|Sonali Jute Mills,1267
+postcodes,9207|Atra Shilpa Area,1268
+postcodes,9208|Khulna University,1269
+postcodes,9210|Phultala,1270
+postcodes,9220|Digalia,1271
+postcodes,9221|Chandni Mahal,1272
+postcodes,9222|Senhati,1273
+postcodes,9223|Ghoshghati,1274
+postcodes,9224|Gazirhat,1275
+postcodes,9230|Terakhada,1276
+postcodes,9231|Pak Barasat,1277
+postcodes,9240|Alaipur,1278
+postcodes,9241|Rupsha,1279
+postcodes,9242|Belphulia,1280
+postcodes,9250|Sajiara,1281
+postcodes,9251|Ghonabanda,1282
+postcodes,9252|Chuknagar,1283
+postcodes,9253|Shahapur,1284
+postcodes,9260|Batiaghat,1285
+postcodes,9261|Surkalee,1286
+postcodes,9270|Chalna Bazar,1287
+postcodes,9271|Dakup,1288
+postcodes,9272|Bajua,1289
+postcodes,9273|Nalian,1290
+postcodes,9280|Paikgachha,1291
+postcodes,9281|Godaipur,1292
+postcodes,9282|Kapilmoni,1293
+postcodes,9283|Katipara,1294
+postcodes,9284|Chandkhali,1295
+postcodes,9285|Garaikhali,1296
+postcodes,9290|Madinabad,1297
+postcodes,9291|Amadee,1298
+postcodes,9300|Bagerhat Sadar,1299
+postcodes,9301|P.C College,1300
+postcodes,9302|Rangdia,1301
+postcodes,9310|Kachua,1302
+postcodes,9311|Sonarkola,1303
+postcodes,9320|Morelganj,1304
+postcodes,9321|Sannasi Bazar,1305
+postcodes,9322|Telisatee,1306
+postcodes,9330|Rayenda,1307
+postcodes,9340|Rampal,1308
+postcodes,9341|Foylahat,1309
+postcodes,9342|Sonatunia,1310
+postcodes,9343|Gourambha,1311
+postcodes,9350|Chalna Ankorage,1312
+postcodes,9351|Mongla Port,1313
+postcodes,9360|Chitalmari,1314
+postcodes,9361|Barabaria,1315
+postcodes,9370|Fakirhat,1316
+postcodes,9371|Mansa,1317
+postcodes,9372|Bhanganpar Bazar,1318
+postcodes,9380|Mollahat,1319
+postcodes,9381|Kahalpur,1320
+postcodes,9382|Dariala,1321
+postcodes,9383|Charkulia,1322
+postcodes,9384|Nagarkandi,1323
+postcodes,9385|Pak Gangni,1324
+postcodes,9400|Satkhira Sadar,1325
+postcodes,9401|Satkhira Islamia Acc,1326
+postcodes,9402|Gunakar kati,1327
+postcodes,9403|Budhhat,1328
+postcodes,9410|kalaroa,1329
+postcodes,9411|Murarikati,1330
+postcodes,9412|Jhaudanga,1331
+postcodes,9413|Hamidpur,1332
+postcodes,9414|Khordo,1333
+postcodes,9415|Chandanpur,1334
+postcodes,9420|Taala,1335
+postcodes,9421|Patkelghata,1336
+postcodes,9430|Debbhata,1337
+postcodes,9431|Gurugram,1338
+postcodes,9440|Kaliganj UPO,1339
+postcodes,9441|Nalta Mubaroknagar,1340
+postcodes,9442|Ratanpur,1341
+postcodes,9450|Nakipur,1342
+postcodes,9451|Noornagar,1343
+postcodes,9452|Naobeki,1344
+postcodes,9453|Buri Goalini,1345
+postcodes,9454|Gabura,1346
+postcodes,9455|Habinagar,1347
+postcodes,9460|Ashashuni,1348
+postcodes,9461|Baradal,1349

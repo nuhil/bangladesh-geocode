@@ -1,0 +1,316 @@
+table,legacy_id,legacy_name,bbs_code,bbs_name,score,matched_by
+unions,124,Judda,BD20198760,Jodda,0.75,name_in_upazila
+unions,127,Boxgonj,BD20198734,Bakshaganj,0.75,name_in_upazila
+unions,302,Jinudpur,BD20128536,Junedpur,0.75,name_in_upazila
+unions,324,Ujanchar,BD20120477,Purba Ujan Char,0.75,name_in_upazila
+unions,1240,Vialuxmipur,BD50812531,Bhaya Lakshmipur,0.75,name_in_upazila
+unions,1445,Umar,BD50642884,Omar,0.75,name_in_upazila
+unions,1729,Baioshona,BD40652815,Bauisena,0.75,name_in_upazila
+unions,2268,Kaderpur,BD10060354,Kedarpur,0.75,name_in_upazila
+unions,2608,Barabhakoir Paschim,BD60367794,Paschim Bara Bhakhair,0.75,name_in_upazila
+unions,2762,Shalla Sadar,BD60908695,Sulla,0.75,name_in_upazila
+unions,3667,Chengthi Hazra Danga,BD55773453,Hazradanga,0.75,name_in_upazila
+unions,4204,Nonni,BD45897069,Nunni,0.75,name_in_upazila
+unions,4482,Shormushia,BD45720447,Sarmaisa,0.75,name_in_upazila
+unions,319,Bancharampur,BD20120494,Uttar Banchharampur,0.76,name_in_upazila
+unions,4208,Ramchondrokura,BD45897086,Ramchandrakura Mandalia,0.76,name_in_upazila
+unions,226,Ctholia,BD20305123,Chithalia,0.77,name_in_upazila
+unions,264,Goniauk,BD20129065,Guniak,0.77,name_in_upazila
+unions,801,Purbagujra,BD20157431,Purba Guzara,0.77,name_in_upazila
+unions,1464,Moinom,BD50644761,Mainani,0.77,name_in_upazila
+unions,3178,Homypur,BD30480669,Humaipur,0.77,name_in_upazila
+unions,3185,Kastul,BD30480271,Kastail,0.77,name_in_upazila
+unions,4107,Kurshaupk,BD55854240,Kursha,0.77,name_in_upazila
+unions,4203,Puraga,BD45897075,Poragaon,0.77,name_in_upazila
+unions,4362,Niguari,BD45612250,Nigair,0.77,name_in_upazila
+unions,1099,Ar-Ataikula,BD50767215,Ataikola,0.78,name_in_upazila
+unions,2287,Baishari,BD10061021,Baisari Para,0.78,name_in_upazila
+unions,2941,Charsensas,BD30861428,Char Census,0.78,name_in_upazila
+unions,4181,Dadevanga,BD55497923,Dantbhanga,0.78,name_in_upazila
+unions,4389,Laxirchar,BD45393641,Lakshmir Char,0.78,name_in_upazila
+unions,40,Bataghashi,BD20192787,Batakashi (purba Silpur),0.79,name_in_upazila
+unions,158,Jorkanonwest,BD20193380,Paschim Jorekaran,0.79,name_in_upazila
+unions,774,Dakkin Madrasha,BD20153723,Dakshin Madarsha,0.79,name_in_upazila
+unions,118,Paria,BD20198780,Peria,0.80,name_in_upazila
+unions,206,Chonua,BD20302982,Sanua,0.80,name_in_upazila
+unions,245,Bodhal,BD20121394,Budhal,0.80,name_in_upazila
+unions,270,Auraol,BD20129413,Aorail,0.80,name_in_upazila
+unions,333,Bishupor,BD20120796,Bishnupur,0.80,name_in_upazila
+unions,702,Silk,BD20150894,Silkup,0.80,name_in_upazila
+unions,894,Changi,BD20467719,Chengi,0.80,name_in_upazila
+unions,915,Gomti,BD20467047,Gumti,0.80,name_in_upazila
+unions,1008,Mesra,BD50887851,Mechhra,0.80,name_in_upazila
+unions,1626,Langaljhara,BD40874323,Nangalthara,0.80,name_in_upazila
+unions,1897,Aichgati,BD40477513,Aijganti,0.80,name_in_upazila
+unions,2056,Falsi,BD40441442,Palsi,0.80,name_in_upazila
+unions,2281,Gouthia,BD10069431,Guthia,0.80,name_in_upazila
+unions,2334,Shibpur,BD10091829,Char Shibpur,0.80,name_in_upazila
+unions,2367,Madua,BD10092957,Medua,0.80,name_in_upazila
+unions,2453,Dubag,BD60911734,Dobhag,0.80,name_in_upazila
+unions,2999,Deuli,BD30932335,Deoli,0.80,name_in_upazila
+unions,3056,Doptior,BD30937621,Duptiair,0.80,name_in_upazila
+unions,3059,Jaduppur,BD30938554,Jadabpur,0.80,name_in_upazila
+unions,3260,Buyra,BD30568219,Boyra,0.80,name_in_upazila
+unions,3350,Vaggakol,BD30598427,Bhagyakul,0.80,name_in_upazila
+unions,3691,Timaihat,BD55779094,Tirnaihat,0.80,name_in_upazila
+unions,4101,Pachgachi,BD55857663,Panchgachha,0.80,name_in_upazila
+unions,4483,Shunoi,BD45720471,Sonai,0.80,name_in_upazila
+unions,2363,Nazrulnagar,BD10092514,Adhakha Nazrul Nagar,0.81,name_in_upazila
+unions,3896,Chapra Sarnjami,BD55736411,Chapra Saramjani,0.81,name_in_upazila
+unions,30,Laxmipur,BD20190982,Lakshmipur,0.82,name_in_upazila
+unions,43,Madhaiya,BD20192771,Madhya (mechachal Union),0.82,name_in_upazila
+unions,181,Bakshimul,BD20191811,Baksimail,0.82,name_in_upazila
+unions,426,Tomoroddi,BD20753695,Tamaruddin,0.82,name_in_upazila
+unions,809,Nowajushpur,BD20157456,Noajispur,0.82,name_in_upazila
+unions,907,Jogyachola,BD20466742,Juggachhala,0.82,name_in_upazila
+unions,1409,Chatrajitpur,BD50708871,Satrujitpur,0.82,name_in_upazila
+unions,1727,Babrahasla,BD40652813,Babra Hachla,0.82,name_in_upazila
+unions,1798,Charsadipur,BD40507190,Sadipur,0.82,name_in_upazila
+unions,2462,Khajanchi,BD60912063,Khazanchigaon,0.82,name_in_upazila
+unions,2716,Jauwabazar,BD60902352,Jawar Bazar,0.82,name_in_upazila
+unions,2734,Laxmipur,BD60903361,Lakshmipur,0.82,name_in_upazila
+unions,2900,Moktererchar,BD30866569,Muktarer Char,0.82,name_in_upazila
+unions,3486,Laxmipur,BD30544069,Lakshmipur,0.82,name_in_upazila
+unions,3910,Laxmipur,BD55322473,Lakshmipur,0.82,name_in_upazila
+unions,4087,Chattracol,BD55857635,Chaitrakul,0.82,name_in_upazila
+unions,77,West Passgacia,BD20193686,Paschim Panchgachhia,0.83,name_in_upazila
+unions,103,Camalla,BD20198149,Kanalla,0.83,name_in_upazila
+unions,113,Darura,BD20198127,Darora,0.83,name_in_upazila
+unions,126,Doulkha,BD20198751,Daulkhar,0.83,name_in_upazila
+unions,250,Kharera,BD20126365,Kherera,0.83,name_in_upazila
+unions,571,Nourthjoypur,BD20514395,Uttar Joypur,0.83,name_in_upazila
+unions,844,Dakshi Dhurung,BD20224540,Dakshin Dhurung,0.83,name_in_upazila
+unions,911,Hafchari,BD20468038,Hapchhari,0.83,name_in_upazila
+unions,1001,Narina,BD50886758,Narnia,0.83,name_in_upazila
+unions,1066,Notun Varenga,BD50761663,Nutan Bharenga,0.83,name_in_upazila
+unions,1278,Mariaup,BD50811275,Maria,0.83,name_in_upazila
+unions,1707,Bisali,BD40657627,Bichhali,0.83,name_in_upazila
+unions,1732,Peroli,BD40652887,Peruli,0.83,name_in_upazila
+unions,1997,Khaulia,BD40016059,Khuolia,0.83,name_in_upazila
+unions,2010,Chadpai,BD40015823,Chandpi,0.83,name_in_upazila
+unions,2117,Baraia,BD10428413,Baruia,0.83,name_in_upazila
+unions,2232,Haltagulishakhali,BD10795851,Gulishakhali,0.83,name_in_upazila
+unions,2514,Hatkhula,BD60916232,Hatkhola,0.83,name_in_upazila
+unions,2577,Apar Kagabala,BD60587494,Upper Kagabala,0.83,name_in_upazila
+unions,2675,Choumohani,BD60367151,Chowmohani,0.83,name_in_upazila
+unions,2899,Nowpara,BD30866588,Noapara,0.83,name_in_upazila
+unions,2931,Saygaon,BD30861425,Chhaygaon,0.83,name_in_upazila
+unions,2955,Highjadi,BD30670247,Haizadi,0.83,name_in_upazila
+unions,3111,Acmita,BD30484513,Achmita,0.83,name_in_upazila
+unions,3232,Putile,BD30564694,Putail,0.83,name_in_upazila
+unions,3433,Janjal,BD30820766,Jangal,0.83,name_in_upazila
+unions,3447,Kandua,BD30545447,Kendua,0.83,name_in_upazila
+unions,3638,Nowpara,BD30295673,Noapara,0.83,name_in_upazila
+unions,3736,Shatail,BD55272127,Chhatail,0.83,name_in_upazila
+unions,3747,Kagihal,BD55273866,Kazihal,0.83,name_in_upazila
+unions,3764,Boalder,BD55274740,Boaldar,0.83,name_in_upazila
+unions,3934,Saghata,BD55328885,Sughatta,0.83,name_in_upazila
+unions,4044,Tampat,BD55854979,Tamphat,0.83,name_in_upazila
+unions,4131,Newyashi,BD55496169,Newashi,0.83,name_in_upazila
+unions,4357,Josora,BD45612231,Jessora,0.83,name_in_upazila
+unions,4402,Durmot,BD45396128,Durmut,0.83,name_in_upazila
+unions,112,Salikandi,BD20198131,Chhaliakandi,0.84,name_in_upazila
+unions,357,Sharoyatali,BD20840735,Sarboatali,0.84,name_in_upazila
+unions,590,Charlorench,BD20513379,Char Lawrence,0.84,name_in_upazila
+unions,790,Jafathagar,BD20153347,Jafarnagar,0.84,name_in_upazila
+unions,899,Laxmichhari,BD20466171,Lakshmichhari,0.84,name_in_upazila
+unions,1261,Asariadaha,BD50813425,Char Ashariadaha,0.84,name_in_upazila
+unions,1926,Vandarkot,BD40471247,Bhanderkote,0.84,name_in_upazila
+unions,1959,Shaitgomboj,BD40010894,Shat Gambuj,0.84,name_in_upazila
+unions,2009,Sonailtala,BD40015883,Suniltala,0.84,name_in_upazila
+unions,2690,Laxmansree,BD60908939,Lakshmansree,0.84,name_in_upazila
+unions,2844,Jamalpurnew,BD30333460,Jamalpur,0.84,name_in_upazila
+unions,4186,Rajibpur,BD55490819,Char Rajibpur,0.84,name_in_upazila
+unions,42,Borcarai,BD20192723,Bara Karai (uttar Bara Karai),0.85,name_in_upazila
+unions,64,Doulotpur,BD20193682,Daulatpur (Purba Panchgachh),0.85,name_in_upazila
+unions,548,Balithuba (East),BD20134513,Purba Baluthupa,0.85,name_in_upazila
+unions,2330,Westilisa,BD10091855,Paschim Illisha,0.85,name_in_upazila
+unions,56,Ghulpasha,BD20193138,Gholpasha,0.86,name_in_upazila
+unions,218,Nababpur,BD20309476,Nawabpur,0.86,name_in_upazila
+unions,258,Bhalakut,BD20129017,Bolakot,0.86,name_in_upazila
+unions,279,Ashuganj,BD20123314,Ashugang,0.86,name_in_upazila
+unions,313,Tazkhali,BD20120488,Tezkhali,0.86,name_in_upazila
+unions,370,Atarakchara,BD20845813,Adrarak Chara,0.86,name_in_upazila
+unions,374,Kengrachari,BD20842971,Kangara Chhari,0.86,name_in_upazila
+unions,448,Dumurua,BD20758038,Dumuria,0.86,name_in_upazila
+unions,454,Bejbagh,BD20758019,Bejoybagh,0.86,name_in_upazila
+unions,461,Noakhala,BD20751047,Nayakhola,0.86,name_in_upazila
+unions,501,Chitoshiwest,BD20139520,West Chitasi,0.86,name_in_upazila
+unions,530,Hatila (West),BD20134960,Pachim Hatila,0.86,name_in_upazila
+unions,547,Balithuba (West),BD20134511,Paschim Baluthupa,0.86,name_in_upazila
+unions,878,Subrang,BD20229047,Sabrang,0.86,name_in_upazila
+unions,914,Barnal,BD20467017,Baranala,0.86,name_in_upazila
+unions,916,Balchari,BD20467023,Belchhari,0.86,name_in_upazila
+unions,1005,Sheyalkol,BD50887877,Shialkul,0.86,name_in_upazila
+unions,1007,Songacha,BD50887894,Chhangachha,0.86,name_in_upazila
+unions,1037,Ahammadpur,BD50768317,Ahammedpur,0.86,name_in_upazila
+unions,1094,Karamja,BD50767251,Karanja,0.86,name_in_upazila
+unions,1293,Luxmipurkholabaria,BD50696365,Lakshmipur Kholabaria,0.86,name_in_upazila
+unions,1351,Boratara,BD50386119,Batara,0.86,name_in_upazila
+unions,1485,Borgoca,BD50648510,Bargachha,0.86,name_in_upazila
+unions,1722,Kotakol,BD40655239,Kotakul,0.86,name_in_upazila
+unions,1739,Alukdia,BD40182311,Alokdia,0.86,name_in_upazila
+unions,1787,Goswami Durgapur,BD40507931,Gosind Durgapur,0.86,name_in_upazila
+unions,1808,Chithalia,BD40509443,Chithulia,0.86,name_in_upazila
+unions,1903,Chagladoho,BD40479467,Sagladah,0.86,name_in_upazila
+unions,1954,Bamorta,BD40010825,Bemarta,0.86,name_in_upazila
+unions,2101,Patikhalghata,BD10424379,Patkelghata,0.86,name_in_upazila
+unions,2162,Dulaser,BD10786629,Dhulasar,0.86,name_in_upazila
+unions,2216,Nodmulla,BD10791471,Nudmulla,0.86,name_in_upazila
+unions,2338,Vheduria,BD10091887,Bhedaria,0.86,name_in_upazila
+unions,2421,Doutola,BD10041971,Dauatala,0.86,name_in_upazila
+unions,2457,Mullapur,BD60911714,Mollahpur,0.86,name_in_upazila
+unions,2473,Dakkin Ronikhai,BD60912747,Ranikhai Dakshin,0.86,name_in_upazila
+unions,2852,Dhaliora,BD30333238,Dhaljora,0.86,name_in_upazila
+unions,2864,Tokh,BD30333694,Toke,0.86,name_in_upazila
+unions,3054,Dhuburia,BD30937636,Dhubaria,0.86,name_in_upazila
+unions,3105,Raytoti,BD30483394,Raituti,0.86,name_in_upazila
+unions,3142,Burudia,BD30487915,Barudia,0.86,name_in_upazila
+unions,3220,Dighulia,BD30567047,Dighalia,0.86,name_in_upazila
+unions,3262,Singiar,BD30568286,Singair,0.86,name_in_upazila
+unions,3272,Birulia,BD30267233,Biralia,0.86,name_in_upazila
+unions,3308,Taghoria,BD30263886,Tegharia,0.86,name_in_upazila
+unions,3416,Uzancar,BD30822976,Ujan Char,0.86,name_in_upazila
+unions,3541,Dumaria,BD30359128,Dumuria,0.86,name_in_upazila
+unions,3605,Dhaukhali,BD30298457,Dheukhali,0.86,name_in_upazila
+unions,3622,Chumurdi,BD30291025,Chumordi,0.86,name_in_upazila
+unions,3652,Chaklahat,BD55777323,Chaklarhat,0.86,name_in_upazila
+unions,3983,Ahcha,BD55949414,Akcha,0.86,name_in_upazila
+unions,4069,Ramnathpurupb,BD55850388,Ramnathpur,0.86,name_in_upazila
+unions,4097,Mithipur,BD55857658,Mithapur,0.86,name_in_upazila
+unions,4211,Juganiya,BD45897034,Jogania,0.86,name_in_upazila
+unions,4241,Deukhola,BD45612035,Deokhola,0.86,name_in_upazila
+unions,4363,Tangabo,BD45612288,Tengaba,0.86,name_in_upazila
+unions,4370,Magtula,BD45613163,Magtala,0.86,name_in_upazila
+unions,4409,Fulkucha,BD45396138,Fulkocha,0.86,name_in_upazila
+unions,4412,Shuampur,BD45396197,Shaympur,0.86,name_in_upazila
+unions,4484,Lunesshor,BD45720435,Loneshwar,0.86,name_in_upazila
+unions,378,Banajogichara,BD20844719,Banjugi Chhara,0.87,name_in_upazila
+unions,1558,Gangananda,BD40412329,Ganganandapur,0.87,name_in_upazila
+unions,2360,Kukrimukri,BD10092570,Char Kukri Mukri,0.87,name_in_upazila
+unions,2905,Fategongpur,BD30866544,Fateh Jangapur,0.87,name_in_upazila
+unions,2940,South Tarabunia,BD30861432,Dhakhin Tarabunia,0.87,name_in_upazila
+unions,4292,Charnilaxmia,BD45615240,Char Nilakshmia,0.87,name_in_upazila
+unions,306,Shamogram,BD20128588,Shyamgram,0.88,name_in_upazila
+unions,362,Aimachara,BD20842115,Aiba Chhara,0.88,name_in_upazila
+unions,391,Aujbalia,BD20758750,Ewazbalia,0.88,name_in_upazila
+unions,396,Andarchar,BD20758721,Anderchar,0.88,name_in_upazila
+unions,410,Alyearpur,BD20750710,Alyerapur,0.88,name_in_upazila
+unions,430,Nijhumdwi,BD20753669,Nijum Dip,0.88,name_in_upazila
+unions,458,Badalkot,BD20751017,Badalkut,0.88,name_in_upazila
+unions,502,Bishnapur,BD20132231,Bishnupur,0.88,name_in_upazila
+unions,602,Charbadam,BD20517339,Char Bedam,0.88,name_in_upazila
+unions,768,Chipatali,BD20153711,Chhibatali,0.88,name_in_upazila
+unions,776,Budirchar,BD20153710,Burir Char,0.88,name_in_upazila
+unions,854,Shaplapur,BD20224983,Saflapur,0.88,name_in_upazila
+unions,855,Kutubjum,BD20224962,Kutubjom,0.88,name_in_upazila
+unions,886,Parachara,BD20464975,Perachhara,0.88,name_in_upazila
+unions,902,Mobachari,BD20466563,Mubachhari,0.88,name_in_upazila
+unions,1058,Ataikula,BD50765516,Ataikola,0.88,name_in_upazila
+unions,1072,Masumdia,BD50761652,Masundia,0.88,name_in_upazila
+unions,1098,Khetupara,BD50767269,Khatu Para,0.88,name_in_upazila
+unions,1131,Hatfulbari,BD50108131,Fulbari,0.88,name_in_upazila
+unions,1235,Yousufpur,BD50812547,Yusufpur,0.88,name_in_upazila
+unions,1472,Bisnopur,BD50644720,Bishnupur,0.88,name_in_upazila
+unions,1490,Kritipur,BD50646073,Kirtipur,0.88,name_in_upazila
+unions,1535,Subharara,BD40410484,Subha Para,0.88,name_in_upazila
+unions,1743,Begumpur,BD40182323,Begampur,0.88,name_in_upazila
+unions,1755,Kashkorara,BD40180779,Khaskara,0.88,name_in_upazila
+unions,1830,Pragpur,BD40503981,Prayagpur,0.88,name_in_upazila
+unions,1956,Bishnapur,BD40010834,Bishnupur,0.88,name_in_upazila
+unions,1981,Vospatia,BD40017317,Bhojpatia,0.88,name_in_upazila
+unions,2147,Labukhali,BD10785547,Lebukhali,0.88,name_in_upazila
+unions,2204,Shakhmatia,BD10797663,Sekhmatia,0.88,name_in_upazila
+unions,2383,Baro Molongchora,BD10099119,Bara Malancha,0.88,name_in_upazila
+unions,2519,Mugolgaon,BD60916255,Mogalgaon,0.88,name_in_upazila
+unions,2580,Chadnighat,BD60587421,Chandighat,0.88,name_in_upazila
+unions,2620,Paniumda,BD60367787,Paniunda,0.88,name_in_upazila
+unions,2678,Andiura,BD60367177,Andiurauk,0.88,name_in_upazila
+unions,2757,Fenerbak,BD60905054,Fenarbak,0.88,name_in_upazila
+unions,2791,Labutala,BD30685281,Lebutala,0.88,name_in_upazila
+unions,2892,Mahmudpur,BD30866962,Mohammadpur,0.88,name_in_upazila
+unions,2977,Pirojpur,BD30670469,Pirijpur,0.88,name_in_upazila
+unions,3115,Sadekpur,BD30481159,Sadakpur,0.88,name_in_upazila
+unions,3122,Taljanga,BD30489281,Talganga,0.88,name_in_upazila
+unions,3415,Debugram,BD30822957,Debagram,0.88,name_in_upazila
+unions,3620,Tujerpur,BD30291094,Tuzarpur,0.88,name_in_upazila
+unions,3666,Debiduba,BD55773438,Debidoba,0.88,name_in_upazila
+unions,3678,Mirgapur,BD55770454,Mirzapur,0.88,name_in_upazila
+unions,3819,Vhelaguri,BD55523319,Bhalaguri,0.88,name_in_upazila
+unions,4064,Bishnapur,BD55850318,Bishnupur,0.88,name_in_upazila
+unions,4076,Latibpur,BD55855867,Latifpur,0.88,name_in_upazila
+unions,4121,Panchgachi,BD55495285,Punchgachhi,0.88,name_in_upazila
+unions,4153,Bhangamor,BD55491827,Bhangamon,0.88,name_in_upazila
+unions,4167,Dhamsreni,BD55499439,Dhamserni,0.88,name_in_upazila
+unions,4168,Gunaigas,BD55499455,Gunaigachh,0.88,name_in_upazila
+unions,4182,Shoulemari,BD55497983,Saulmari,0.88,name_in_upazila
+unions,4213,Koloshpar,BD45897041,Kalaspur,0.88,name_in_upazila
+unions,4375,Batagoir,BD45617215,Betagair,0.88,name_in_upazila
+unions,4425,Dungdhara,BD45391551,Dangdhara,0.88,name_in_upazila
+unions,4453,Nilakhia,BD45390771,Nilakshmia,0.88,name_in_upazila
+unions,4471,Goraduba,BD45724733,Garadoba,0.88,name_in_upazila
+unions,149,Lokkhanpur,BD20197459,Lakshmanpur,0.89,name_in_upazila
+unions,154,Chuwara,BD20193339,Chouara,0.89,name_in_upazila
+unions,266,Dharnondol,BD20129036,Dhar Mandal,0.89,name_in_upazila
+unions,589,Torabgonj,BD20513391,Torabgang,0.89,name_in_upazila
+unions,600,Keora,BD20515859,Keroa,0.89,name_in_upazila
+unions,626,Sharafbhata,BD20157086,Sarapbhata,0.89,name_in_upazila
+unions,722,Barumchara,BD20150447,Burumchhara,0.89,name_in_upazila
+unions,786,Sunderpur,BD20153395,Sundarpur,0.89,name_in_upazila
+unions,913,Tabalchari,BD20467076,Tubalchhari,0.89,name_in_upazila
+unions,945,Ramakreprangsa,BD20039157,Remakri Pransa,0.89,name_in_upazila
+unions,948,Tind,BD20039576,Tindu,0.89,name_in_upazila
+unions,1031,Salo,BD50889480,Salap,0.89,name_in_upazila
+unions,1078,Laxshmipur,BD50760563,Lakshmipur,0.89,name_in_upazila
+unions,1361,Bamb,BD50384719,Bambu,0.89,name_in_upazila
+unions,1414,1nomohadevpur,BD50645066,Mahadebpur,0.89,name_in_upazila
+unions,1593,Ulshi,BD40419094,Ulashi,0.89,name_in_upazila
+unions,1765,Kurulgachhi,BD40183171,Kuralgachhi,0.89,name_in_upazila
+unions,1878,Goroikhali,BD40476439,Garuikhali,0.89,name_in_upazila
+unions,1957,Baruipara,BD40010817,Barai Para,0.89,name_in_upazila
+unions,2231,Baramasua,BD10795817,Bara Machhua,0.89,name_in_upazila
+unions,2246,Shyastabad,BD10065186,Shayestabad,0.89,name_in_upazila
+unions,2304,Charakkorea,BD10066247,Char Ekkaria,0.89,name_in_upazila
+unions,2306,Mehendigong,BD10066287,Mehendiganj,0.89,name_in_upazila
+unions,2351,Charmadraj,BD10092538,Char Madras,0.89,name_in_upazila
+unions,2371,Char Khalipa,BD10092919,Char Khalifa,0.89,name_in_upazila
+unions,2479,Golapganj,BD60913851,Golabganj,0.89,name_in_upazila
+unions,2673,Laskerpur,BD60364424,Laskarpur,0.89,name_in_upazila
+unions,2688,Gourarang,BD60908927,Gourararang,0.89,name_in_upazila
+unions,2700,Dargapasha,BD60902711,Durgapasha,0.89,name_in_district
+unions,2732,Pandargaon,BD60903378,Pandergaon,0.89,name_in_upazila
+unions,2913,Kundarchar,BD30869451,Kunder Char,0.89,name_in_upazila
+unions,2963,Kolagathia,BD30670647,Kalagachhia,0.89,name_in_upazila
+unions,2979,Mograpara,BD30670451,Mugra Para,0.89,name_in_upazila
+unions,3036,Warshi,BD30936694,Uarsi,0.89,name_in_upazila
+unions,3093,Bolibodrow,BD30932521,Balibhadra,0.89,name_in_upazila
+unions,3258,Klia,BD30561076,Kalia,0.89,name_in_upazila
+unions,3384,Tengarchar,BD30592484,Tenger Char,0.89,name_in_upazila
+unions,3454,Jhaoudi,BD30545435,Jhaudi,0.89,name_in_upazila
+unions,3507,Urfi,BD30353294,Urafi,0.89,name_in_upazila
+unions,3845,Bhogdaburi,BD55731519,Bhogdabari,0.89,name_in_upazila
+unions,3908,Kamarpara,BD55328277,Kumar Para,0.89,name_in_upazila
+unions,3939,Jumarbari,BD55328847,Jummerbari,0.89,name_in_upazila
+unions,4053,Lakkhitari,BD55852773,Lakshmitari,0.89,name_in_upazila
+unions,4120,Mogolbasa,BD55495276,Mogalbachha,0.89,name_in_upazila
+unions,4161,Umarmajid,BD55497784,Omar Majid,0.89,name_in_upazila
+unions,4390,Tolshirchar,BD45393695,Tulsir Char,0.89,name_in_upazila
+unions,4410,Ghuserpara,BD45396147,Ghosher Para,0.89,name_in_upazila
+unions,4534,Lokkhiganj,BD45727447,Lakshmiganj,0.89,name_in_upazila
+upazilas,283,Dakshinsurma,BD60910031,Dakkhin Surma,0.79,name
+upazilas,105,Chauhali,BD50880027,Chouhali,0.80,name
+upazilas,91,Laxmichhari,BD20460061,Lakkhichhari,0.82,name
+upazilas,49,Senbug,BD20750080,Senbag,0.83,name
+upazilas,114,Ishurdi,BD50760039,Ishwardi,0.83,name
+upazilas,177,Jessore Sadar,BD40410047,Jashore Sadar,0.83,name
+upazilas,373,Louhajanj,BD30590044,Louhajang,0.83,name
+upazilas,455,Rowmari,BD55490079,Roumari,0.83,name
+upazilas,252,Wazirpur,BD10060094,Ujirpur,0.86,name
+upazilas,364,Singiar,BD30560082,Singair,0.86,name
+upazilas,206,Paikgasa,BD40470064,Paikgachha,0.88,name
+upazilas,261,Charfesson,BD10090025,Charfasson,0.88,name
+upazilas,404,Nawabganj,BD55270069,Nababganj,0.88,name
+upazilas,51,Sonaimori,BD20750083,Sonaimuri,0.89,name
+upazilas,173,Bagherpara,BD40410009,Bagharpara,0.89,name
+upazilas,260,Borhan Sddin,BD10090021,Borhanuddin,0.89,name
+upazilas,456,Charrajibpur,BD55490008,Rajibpur,0.89,name
