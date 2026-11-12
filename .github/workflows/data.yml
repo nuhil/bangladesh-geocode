@@ -1,0 +1,61 @@
+name: data
+
+on:
+  # Every pull request: the published files must be exactly what the pipeline
+  # produces from pipeline/ (so manual edits in pipeline/manual are never lost).
+  pull_request:
+  push:
+    branches: [master]
+  # Monthly: re-download the upstream sources and open a PR if anything changed.
+  schedule:
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild from committed snapshots
+        run: python pipeline/build.py
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+      - name: Generated files must be up to date
+        run: |
+          paths="divisions districts upazilas unions city_corporations postcodes database pipeline/state pipeline/reports"
+          if [ -n "$(git status --porcelain -- $paths)" ]; then
+            echo "::error::Generated data is out of date. Run 'python pipeline/build.py' and commit the result. Do not edit the generated files by hand."
+            git status --short -- $paths
+            exit 1
+          fi
+
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+      - name: Fetch sources (falls back to the committed snapshot on failure)
+        run: python pipeline/fetch_sources.py --refresh
+      - name: Build
+        run: python pipeline/build.py
+      - name: Open pull request with the changes
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/refresh
+          commit-message: "data: refresh from upstream sources"
+          title: "data: refresh from upstream sources"
+          body: |
+            Automated monthly refresh (`pipeline/fetch_sources.py` + `pipeline/build.py`).
+            Review `pipeline/reports/build_report.md` and `pipeline/reports/low_confidence_matches.csv` before merging.

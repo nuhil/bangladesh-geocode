@@ -1,0 +1,20 @@
+id,division_id,district_id,upazila_id,city_corporation_id,thana,post_office,postcode,lat,lon,link_method
+35,6,47,,,Joypara,Palamganj,1331,23.5412,90.2538,district
+36,6,47,,,Joypara,Narisha,1332,23.5412,90.2538,district
+298,8,64,,,Dhobaura,Dhobaura,2416,25.0867,90.5119,district
+299,8,64,,,Dhobaura,Sakoai,2417,25.0867,90.5119,district
+779,7,53,,,Chotto Dab,Chotto Dab,5040,25.4978,88.9725,district
+780,7,53,,,Chotto Dab,Mirjapur,5041,25.4978,88.9725,district
+898,2,15,,,Rajshahi Sadar,Rajshahi Court,6201,24.7514,88.3819,district
+899,2,15,,,Rajshahi Sadar,Rajshahi Canttonment,6202,24.7514,88.3819,district
+900,2,15,,,Rajshahi Sadar,Sapura,6203,24.7514,88.3819,district
+901,2,15,,,Rajshahi Sadar,Kazla,6204,24.7514,88.3819,district
+902,2,15,,,Rajshahi Sadar,Rajshahi University,6205,24.7514,88.3819,district
+903,2,15,,,Rajshahi Sadar,Binodpur Bazar,6206,24.7514,88.3819,district
+904,2,15,,,Lalitganj,Lalitganj,6210,24.4067,89.1145,district
+905,2,15,,,Lalitganj,Rajshahi Sugar Mills,6211,24.4067,89.1145,district
+906,2,15,,,Lalitganj,Shyampur,6212,24.4067,89.1145,district
+1223,4,32,,,Banaripara,Banaripara,8530,22.7894,90.1722,district
+1224,4,32,,,Banaripara,Chakhar,8531,22.7894,90.1722,district
+1282,3,27,,,Sajiara,Ghonabanda,9251,22.7486,89.3095,district
+1284,3,27,,,Sajiara,Shahapur,9253,22.5833,89.2,district

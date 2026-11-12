@@ -1,0 +1,151 @@
+id,upazilla_id,name,bn_name,url
+6,1,Yousufpur,ইউসুফপুর,yousufpurup.comilla.gov.bd
+11,1,Dhampti,ধামতী,dhamptiup.comilla.gov.bd
+15,1,Sultanpur,সুলতানপুর,sultanpurup.comilla.gov.bd
+25,2,Shakpur,শাকপুর,shakpurup.comilla.gov.bd
+26,2,Bhaukshar,ভাউকসার,bhauksharup.comilla.gov.bd
+29,2,Payalgacha,পয়ালগাছা,payalgachaup.comilla.gov.bd
+41,4,Joag,জোয়াগ,joagup.comilla.gov.bd
+49,4,Etberpur,এতবারপুর,etberpurup.comilla.gov.bd
+65,6,Daudkandi,দাউদকান্দি,daudkandinorthup.comilla.gov.bd
+93,8,Laksam Purba,লাকসাম পুর্ব,laksampurbaup.comilla.gov.bd
+129,11,Kalirbazer,কালীর বাজার,kalirbazerup.comilla.gov.bd
+142,12,Vaorkhola,ভাওরখোলা,vaorkholaup.comilla.gov.bd
+151,13,Uttarhowla,উত্তর হাওলা,uttarhowlaup.comilla.gov.bd
+156,14,Jorkanoneast,জোড়কানন (পুর্ব),jorkanoneastup.comilla.gov.bd
+160,14,Bagmara (South),বাগমারা (দক্ষিন),bagmarasouthup.comilla.gov.bd
+164,14,Belgor (South),বেলঘর (দক্ষিন),belgorsouthup.comilla.gov.bd
+185,17,Bagmara (North),বাগমারা (উত্তর),bagmaranorthup.comilla.gov.bd
+186,17,Bagmara (South),বাগমারা (দক্ষিন),bagmarasouthup.comilla.gov.bd
+187,17,Bhuloin (North),ভূলইন (উত্তর),bhuloinnorthup.comilla.gov.bd
+188,17,Bhuloin (South),ভূলইন (দক্ষিন),bhuloinsouthup.comilla.gov.bd
+189,17,Belgor (North),বেলঘর (উত্তর),belgornorthup.comilla.gov.bd
+190,17,Belgor (South),বেলঘর (দক্ষিন),belgorsouthup.comilla.gov.bd
+191,17,Perul (North),পেরুল (উত্তর),perulnorthup.comilla.gov.bd
+192,17,Perul (South),পেরুল (দক্ষিন),perulsouthup.comilla.gov.bd
+227,22,Boxmahmmud,বক্সমাহমুদ,boxmahmmudup.feni.gov.bd
+241,24,Talsahar,তালশহর,talsahar.brahmanbaria.gov.bd
+242,24,Natai,নাটাই (দক্ষিন),natais.brahmanbaria.gov.bd
+244,24,Shuhilpur,সুহিলপুর,shuhilpur.brahmanbaria.gov.bd
+274,27,Panishor,পানিশ্বর,panishorup.brahmanbaria.gov.bd
+283,28,Talshaharw,তালশহর(পঃ),talshaharwup.brahmanbaria.gov.bd
+290,29,Akhauran,আখাউড়া (উঃ),akhauranup.brahmanbaria.gov.bd
+291,29,Akhauras,আখাউড়া (দঃ),akhaurasup.brahmanbaria.gov.bd
+317,31,Darikandi,দড়িকান্দি,darikandiup.brahmanbaria.gov.bd
+318,31,Saifullyakandi,ছয়ফুল্লাকান্দি,saifullyakandiup.brahmanbaria.gov.bd
+320,31,Ayabpur,আইয়ুবপুর,ayabpurup.brahmanbaria.gov.bd
+321,31,Fardabad,ফরদাবাদ,fardabadup.brahmanbaria.gov.bd
+325,31,Manikpur,মানিকপুর,manikpurup.brahmanbaria.gov.bd
+328,32,Ichapura,ইছাপুরা,ichapuraup.brahmanbaria.gov.bd
+332,32,Singerbil,সিংগারবিল,singerbilup.brahmanbaria.gov.bd
+476,52,Algidurgapur (South),আলগী দুর্গাপুর (দক্ষিণ),algidurgapursouth.chandpur.gov.bd
+492,54,Tamta (South),টামটা (দক্ষিণ),tamtasouthup.chandpur.gov.bd
+493,54,Tamta (North),টামটা (উত্তর),tamtanorthup.chandpur.gov.bd
+496,54,Suchipara (North),সুচিপাড়া (উত্তর),suchiparanorthup.chandpur.gov.bd
+497,54,Suchipara (South),সুচিপাড়া (দক্ষিণ),suchiparasouthup.chandpur.gov.bd
+510,55,Laxmipur Model,লক্ষীপুর মডেল,laxmipurmodelup.chandpur.gov.bd
+604,63,Alxendar,আলেকজান্ডার,alxendarup.lakshmipur.gov.bd
+621,65,Swanirbor Rangunia,স্বনির্ভর রাঙ্গুনিয়া,swanirborranguniaup.chittagong.gov.bd
+628,65,Chandraghona,চন্দ্রঘোনা,chandraghonaup.chittagong.gov.bd
+810,79,Char Patharghata,চর পাথরঘাটা,charpatharghataup.chittagong.gov.bd
+811,79,Char Lakshya,চর লক্ষ্যা,charlakshyaup.chittagong.gov.bd
+812,79,Juldha,জুলধা,juldhaup.chittagong.gov.bd
+813,79,Barauthan,বড় উঠান,barauthanup.chittagong.gov.bd
+814,79,Sikalbaha,শিকলবাহা,sikalbahaup.chittagong.gov.bd
+822,80,Pmkhali,পিএমখালী,pmkhaliup.coxsbazar.gov.bd
+882,87,Saintmartin,সেন্ট মার্টিন,saintmartinup.coxsbazar.gov.bd
+918,95,Guimara,গুইমারা,guimaraup.khagrachhari.gov.bd
+928,99,Gumdhum,ঘুমধুম,gumdhumup.bandarban.gov.bd
+930,99,Sonaychari,সোনাইছড়ি,sonaychariup.bandarban.gov.bd
+1033,113,Vaina,ভায়না,vainaup.pabna.gov.bd
+1049,114,Luxmikunda,লক্ষীকুন্ডা,luxmikundaup.pabna.gov.bd
+1107,122,Kalai,কালাই,kalaiup.bogra.gov.bd
+1224,135,Pananagar,পানানগর,pananagarup.rajshahi.gov.bd
+1322,147,Iswardi,ঈশ্বরদী,iswardiup.natore.gov.bd
+1329,147,Arjunpur,অর্জুনপুর বরমহাটী,arjunpurup.natore.gov.bd
+1349,152,Tulshiganga, তুলশীগংগা,tulshigangaup.joypurhat.gov.bd
+1466,165,Kosomba,কুসুম্বা,8nokosombaup.naogaon.gov.bd
+1481,167,Khatteshawr,খট্টেশ্বর রাণীনগর,1nokhatteshawrup.naogaon.gov.bd
+1592,177,Dearamodel,দেয়ারা মডেল,dearamodelup.jessore.gov.bd
+1730,191,Chacuri,চাচুড়ী,chacuriup.narail.gov.bd
+1738,191,Panchgram,পাঁচগ্রাম,panchgramup.narail.gov.bd
+1760,193,Ailhash,আইলহাঁস,ailhashup.chuadanga.gov.bd
+1764,194,Hawli,হাওলী,hawli.chuadanga.gov.bd
+1772,195,Raypur,রায়পুর,raypurup.chuadanga.gov.bd
+1773,195,Hasadah,হাসাদাহ,hasadahup.chuadanga.gov.bd
+1777,196,Bottail,বটতৈল,4nobottailup.kushtia.gov.bd
+1819,199,Dhubail,ধূবইল,dhubailup.kushtia.gov.bd
+1895,208,Jogipol,যোগীপোল,www.jogipolup.khulna.gov.bd
+1900,209,Tsb,টিএসবি,tsbup.khulna.gov.bd
+1934,213,Laudoba,লাউডোব,laudobaup.khulna.gov.bd
+1973,218,Southkhali,সাউথখালী,southkhaliup.bagerhat.gov.bd
+2075,229,Sbk,"এস, বি, কে",sbkup.jhenaidah.gov.bd
+2149,236,Sreerampur,শ্রীরামপুর,sreerampurup.patuakhali.gov.bd
+2164,238,Mahipur,মহিপুর,mahipurup.patuakhali.gov.bd
+2167,238,Champapur,চম্পাপুর,champapurup.patuakhali.gov.bd
+2185,240,Kalagachhia,কলাগাছিয়া,kalagachhiaup.patuakhali.gov.bd
+2200,243,Daulbari Dobra,দেউলবাড়ী দোবড়া,daulbaridobraup.pirojpur.gov.bd
+2202,243,Kolardoania,কলারদোয়ানিয়া,kolardoaniaup.pirojpur.gov.bd
+2210,244,Chirapara,চিরাপাড়া,chiraparaup.pirojpur.gov.bd
+2242,248,Shorupkathi,স্বরুপকাঠী,shorupkathiup.pirojpur.gov.bd
+2267,251,Jahangir Nagar,জাহাঙ্গীর নগর,jahangirnagorup.barisal.gov.bd
+2280,252,Shikerpur Wazirpur,শিকারপুর উজিরপুর,shikerpurwazirpurup.barisal.gov.bd
+2353,261,Awajpur,আওয়াজপুর,awajpurup.bhola.gov.bd
+2432,271,Chhotabagi,ছোটবগি,chhotabagiup.barguna.gov.bd
+2437,284,Umorpur,উমরপুর,umorpurup.sylhet.gov.bd
+2440,272,Boaljur,বোয়ালজুর,boaljurup.sylhet.gov.bd
+2441,284,Burungabazar,বুরুঙ্গাবাজার,burungabazarup.sylhet.gov.bd
+2444,284,Usmanpur,উসমানপুর,usmanpurup.sylhet.gov.bd
+2476,276,Uttar Kushiara,উত্তর কুশিয়ারা,uttarkushiaraup.sylhet.gov.bd
+2477,276,Uttar Fenchuganj,উত্তর ফেঞ্চুগঞ্জ,uttarfenchuganjup.sylhet.gov.bd
+2488,277,West Amura,পশ্চিম আমুরা,westamuraup.sylhet.gov.bd
+2497,278,Daubari,ডৌবাড়ী,daubariup.sylhet.gov.bd
+2506,280,Lakshiprashad Pashim,লক্ষীপ্রাসাদ পশ্চিম,lakshiprashadpashimup.sylhet.gov.bd
+2508,280,Satbakh,সাতবাক,satbakhup.sylhet.gov.bd
+2537,283,Kamalbazar,কামালবাজার,kamalbazarup.sylhet.gov.bd
+2546,285,Talimpur,তালিমপুর,talimpurup.moulvibazar.gov.bd
+2607,291,Eastjuri,পুর্ব জুড়ী,eastjuriup.moulvibazar.gov.bd
+2609,292,Barabhakoir Purba,বড় ভাকৈর (পূর্ব),barabhakoirpurbaup.habiganj.gov.bd
+2707,303,Islampur,ইসলামপুর,islampurup.sunamganj.gov.bd
+2711,303,Gobindganj-Syedergaon,গোবিন্দগঞ্জ-সৈদেরগাঁও,gobindganjsyedergaonup.sunamganj.gov.bd
+2723,304,Chilaura Holdipur,চিলাউড়া হলদিপুর,chilauraholdipurup.sunamganj.gov.bd
+2725,304,Syedpur Shaharpara,সৈয়দপুর শাহাড়পাড়া,syedpurshaharparaup.sunamganj.gov.bd
+2730,305,Dowarabazar,দোয়ারাবাজার,dowarabazarup.sunamganj.gov.bd
+2741,306,Badaghat,বাদাঘাট,badaghatup.sunamganj.gov.bd
+2753,307,Sukhair Rajapur South,সুখাইড় রাজাপুর দক্ষিণ,sukhairrajapursouthup.sunamganj.gov.bd
+2780,311,Diara,দেয়ারা মডেল,diaraup.narsingdi.gov.bd
+2790,312,Krisnopur,কৃষ্ণপুর,krisnopurup.narsingdi.gov.bd
+2918,324,Bknagar,বি. কে. নগর,bknagarup.shariatpur.gov.bd
+2922,325,Alaolpur,আলাওলপুর,alaolpurup.shariatpur.gov.bd
+2933,326,D.M Khali,ডি.এম খালি,dmkhaliup.shariatpur.gov.bd
+2937,326,North Tarabunia,উত্তর তারাবুনিয়া,northtarabuniaup.shariatpur.gov.bd
+2997,334,Aloa,আলোয়া,aloaup.tangail.gov.bd
+3053,340,Bekrah Atgram,বেকরা আটগ্রাম,bekrahatgramup.tangail.gov.bd
+3062,341,Dariapur,দরিয়াপুর,dariapurup.tangail.gov.bd
+3063,341,Kalmegha,কালমেঘা,kalmeghaup.tangail.gov.bd
+3071,342,Dyenna,দাইন্যা,dyennaup.tangail.gov.bd
+3096,344,Jadunathpur,যদুনাথপুর,jadunathpurup.tangail.gov.bd
+3099,345,Alonjori,এলংজুরী,alonjoriup.kishoreganj.gov.bd
+3215,358,Lacharagonj,লেছড়াগঞ্জ,lacharagonjup.manikganj.gov.bd
+3279,365,Bongaon,বনগাঁও,bongaonup.dhaka.gov.bd
+3392,375,Arial Baligaon,আড়িয়ল বালিগাঁও,arialbaligaonup.munshiganj.gov.bd
+3435,380,Kalukhali,কালুখালী,kalukhaliup.rajbari.gov.bd
+3592,392,Parameshwardi,পরমেশ্বরদী,parameshwardiup.faridpur.gov.bd
+3670,401,Banghari,বেংহারী,banghariup.panchagarh.gov.bd
+3686,403,Bhojoanpur,ভজনপুর,bhojoanpur.gazipur.gov.bd
+3688,403,Debnagar,দেবনগর,debnagarup.panchagarh.gov.bd
+3745,411,Aloary,এলুয়াড়ী,aloaryup.dinajpur.gov.bd
+3781,415,Rajarampur,রাজারামপুর,rajarampurup.dinajpur.gov.bd
+3909,428,Khodkomor,খোদকোমরপুর,khodkomorup.gaibandha.gov.bd
+4000,435,Ruhia Pashchim,রুহিয়া পশ্চিম,ruhiapashchimup.thakurgaon.gov.bd
+4001,435,Dholarhat,ঢোলারহাট,dholarhatup.thakurgaon.gov.bd
+4055,442,Kurshatara,কুর্শা,kurshataraup.rangpur.gov.bd
+4065,443,Kalupara,কালুপাড়া,kaluparaup.rangpur.gov.bd
+4103,446,Balapara,বালাপাড়া,balaparaup.rangpur.gov.bd
+4111,447,Saula,ছাওলা,saulaup.rangpur.gov.bd
+4197,457,Rouha,রৌহা,rouhaup.sherpur.gov.bd
+4229,460,Baneshwardi,বানেশ্বর্দী,baneshwardiup.sherpur.gov.bd
+4239,461,Hatibandha,হাতিবান্দা,hatibandhaup.sherpur.gov.bd
+4296,466,Char Ishwardia,চর ঈশ্বরদিয়া,charishwardiaup.mymensingh.gov.bd
+4479,484,Roailbari Amtala,রোয়াইলবাড়ী আমতলা,roailbariamtalaup.netrokona.gov.bd
+4538,491,Rouha,রৌহা,rouhaup.netrokona.gov.bd

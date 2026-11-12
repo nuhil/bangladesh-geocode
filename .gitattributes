@@ -1,0 +1,11 @@
+# Generated data and pipeline files always use LF so builds are identical on every OS
+divisions/* text eol=lf
+districts/* text eol=lf
+upazilas/* text eol=lf
+unions/* text eol=lf
+city_corporations/* text eol=lf
+postcodes/* text eol=lf
+database/* text eol=lf
+pipeline/** text eol=lf
+*.xlsx binary
+*.zip binary
